@@ -363,70 +363,27 @@ function Home() {
 
             <div className="founder-speech">
               {/*
+                GANTI BAGIAN INI DENGAN SPEECH ASLI FOUNDER.
+
+                Pisahkan setiap paragraf menjadi elemen <p>.
+                Contoh:
 
                 <p>
-                  Greetings from YouthFunded!
-                </p>
-
-                <p>
-                When I founded YouthFunded, I envisioned more than 
-                just an organization that teaches financial literacy. 
-                I wanted to create a community where young people are 
-                empowered to learn, lead, and turn their ideas into 
-                meaningful action. 
+                  Paragraf pertama speech founder.
                 </p>
 
                 <p>
-                I believe that financial literacy is not merely about 
-                understanding money, but about having the knowledge, 
-                confidence, and opportunities to shape our own futures. 
-                Unfortunately, access to financial education remains 
-                unequal, and I hope YouthFunded can play a part in 
-                bridging that gap by making financial knowledge more 
-                accessible, practical, and engaging for everyone.
+                  Paragraf kedua speech founder.
                 </p>
-
-                <p> Through YouthFunded, I hope to inspire young people
-                to go beyond simply acquiring knowledge. I encourage you 
-                to ask questions, challenge perspectives, take initiative,
-                and most importantly, use what you learn to empower others. 
-                Whether through education, entrepreneurship, volunteering,
-                or community projects, I believe that even the smallest 
-                contributions can create a lasting impact.
-                </p>
-
-                <p> 
-                My greatest hope is for YouthFunded to become a platform where 
-                passionate individuals come together, exchange ideas, and 
-                transform their aspirations into real change. I want everyone 
-                who becomes part of our journey to recognize that you do not 
-                have to wait until you are older to make a difference.
-                </p>
-
-                <p>
-                As we continue to grow, I invite you to learn with us, collaborate 
-                with us, and become part of a generation that is not only 
-                financially informed, but also socially responsible and driven 
-                to create a better future.
-                </p>
-
-                <p>
-                Because at YouthFunded, we believe that empowering one young mind 
-                today can inspire countless possibilities tomorrow.
-                </p>
-
-                <p>
-                With gratitude and hope,
-                </p>
-
-                <p>
-                Nadine Andini Wirawan
-               Founder, President (2025-2026), Advisor (2026-Present), YouthFunded
-               </p> 
-                
-                
               */}
 
+              <p className="founder-placeholder">
+                A message from our founder will be shared here.
+                This space is dedicated to the founder&apos;s
+                personal reflections, the story behind YouthFunded,
+                and the aspirations that continue to guide
+                the organization.
+              </p>
             </div>
 
             <div className="founder-signature">
@@ -664,7 +621,7 @@ function App() {
             <BrandLogo footer />
 
             <p>
-              For Indonesia Emas 2045
+              Small steps, big impact. Made for the next generation.
             </p>
 
             <div className="footer-bottom">
