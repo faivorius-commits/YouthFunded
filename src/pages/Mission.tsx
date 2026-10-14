@@ -660,8 +660,11 @@ export default function Mission() {
             <div className="yf-vision-quote-mark">✳</div>
 
             <p>
-              “Financial confidence begins with knowledge and grows
-              through action.”
+              Our vision is to create a young generation of 
+              Indonesia aware of the importance of financial 
+              skill and willing to create responsible financial 
+              choices, to become financially independent, and 
+              to contribute to society.
             </p>
           </div>
         </div>
@@ -686,25 +689,38 @@ export default function Mission() {
 
           <div className="yf-mission-grid">
             <MissionCard
-              icon="/images/mission-learning.png"
+              icon="/images/accessiblelearning.png"
               title="Accessible Learning"
-              description="Make financial knowledge easier to understand."
+              description="Make financial literacy easy to understand by 
+              turning complex ideas into engaging, practical 
+              lessons anyone can follow."
               color={colors.blue}
             />
 
             <MissionCard
-              icon="/images/mission-youth.png"
-              title="Youth Empowerment"
-              description="Encourage young people to share ideas and take initiative."
+              icon="/images/responsiblehabits.png"
+              title="Responsible Habits"
+              description="Build a healthy culture of smart money management
+              and responsible financial decisions from an early age."
               color={colors.lime}
             />
 
             <MissionCard
-              icon="/images/mission-growth.png"
-              title="Practical Growth"
-              description="Build responsible financial habits for the future."
+              icon="/images/inclusiveoutreach.png"
+              title="Inclusive Outreach"
+              description="Reach communities with fewer opportunities so 
+              everyone gets equal access to financial knowledge."
               color="#f1c96c"
             />
+
+            <MissionCard
+              icon="images/youthcollaboration.png"
+              title="Youth Collaboration"
+              description="Empower young people to learn, create, 
+              and grow together through community-led initiatives"
+              color="f2c6de"
+            />
+            
           </div>
         </div>
       </section>
