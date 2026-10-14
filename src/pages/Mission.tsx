@@ -709,11 +709,9 @@ export default function Mission() {
         </div>
       </section>
 
-      {/* BELIEF */}
-
       <section className="yf-section">
         <div className="yf-belief" style={container}>
-          <p style={eyebrow}>OUR BELIEF</p>
+          <p style={eyebrow}>QUOTE OF THE DAY</p>
 
           <h2 style={heading}>
             "Money is only a tool. It will take you wherever 
