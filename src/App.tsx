@@ -262,6 +262,7 @@ function Home() {
               <span className="purpose-number">
                 01 / THE FUTURE
               </span>
+
               <span className="purpose-icon" aria-hidden="true">
                 ✳
               </span>
@@ -287,6 +288,7 @@ function Home() {
               <span className="purpose-number">
                 02 / THE ACTION
               </span>
+
               <span className="purpose-icon" aria-hidden="true">
                 ↗
               </span>
@@ -308,9 +310,7 @@ function Home() {
         </div>
 
         <div className="purpose-footer">
-          <p>
-            Want to learn more about what drives us?
-          </p>
+          <p>Want to learn more about what drives us?</p>
 
           <a className="text-link" href="/mission">
             Explore Our Purpose <span>→</span>
@@ -318,135 +318,138 @@ function Home() {
         </div>
       </section>
 
-{/* FOUNDER'S MESSAGE */}
+      {/* FOUNDER'S MESSAGE */}
 
-<section
-  className="founder-section section-pad"
-  id="founder"
->
-  <div className="founder-heading">
-    <SectionLabel>03 — A MESSAGE FROM OUR FOUNDER</SectionLabel>
+      <section
+        className="founder-section section-pad"
+        id="founder"
+      >
+        <div className="founder-heading">
+          <SectionLabel>03 — A MESSAGE FROM OUR FOUNDER</SectionLabel>
 
-    <h2>
-      A letter from
-      <br />
-      <span>the heart.</span>
-    </h2>
+          <h2>
+            A letter from
+            <br />
+            <span>the heart.</span>
+          </h2>
 
-    <p>
-      The thoughts, hopes, and purpose behind the YouthFunded journey.
-    </p>
-  </div>
+          <p>
+            The thoughts, hopes, and purpose behind the YouthFunded journey.
+          </p>
+        </div>
 
-  <div className="founder-layout">
-    {/* FOUNDER PORTRAIT */}
+        <div className="founder-layout">
+          {/* FOUNDER PORTRAIT */}
 
-    <div className="founder-photo">
-      <img
-        src="/images/founder.jpg"
-        alt="Nadine Andini Wirawan, Founder of YouthFunded"
-        loading="lazy"
-      />
+          <div className="founder-photo">
+            <img
+              src="/images/founder.jpg"
+              alt="Nadine Andini Wirawan, Founder of YouthFunded"
+              loading="lazy"
+            />
 
-      <div className="founder-photo-caption">
-        <span>THE PERSON BEHIND THE PURPOSE</span>
-        <span>YOUTHFUNDED ✳</span>
-      </div>
-    </div>
+            <div className="founder-photo-caption">
+              <span>THE PERSON BEHIND THE PURPOSE</span>
+              <span>YOUTHFUNDED ✳</span>
+            </div>
+          </div>
 
-    {/* FOUNDER LETTER */}
+          {/* FOUNDER LETTER */}
 
-    <article className="founder-letter">
-      <div className="letter-topline">
-        <span>A PERSONAL LETTER</span>
-        <span>YF. / 001</span>
-      </div>
+          <article className="founder-letter">
+            <div className="letter-topline">
+              <span>A PERSONAL LETTER</span>
+              <span>YF. / 001</span>
+            </div>
 
-      <div className="letter-heading">
-        <span className="letter-ornament" aria-hidden="true">
-          ✳
-        </span>
+            <div className="letter-heading">
+              <span className="letter-ornament" aria-hidden="true">
+                ✳
+              </span>
 
-        <h3>A Note to Our Community</h3>
+              <h3>A Note to Our Community</h3>
 
-        <p>From the desk of our founder</p>
-      </div>
+              <p>From the desk of our founder</p>
+            </div>
 
-      <div className="founder-speech">
-        <p className="letter-greeting">
-          Greetings from YouthFunded!
-        </p>
+            <div className="founder-speech">
+              <p className="letter-greeting">
+                Greetings from YouthFunded!
+              </p>
 
-        <p>
-          When I founded YouthFunded, I envisioned more than
-          just an organization that teaches financial literacy.
-          I wanted to create a community where young people are
-          empowered to learn, lead, and turn their ideas into
-          meaningful action.
-        </p>
+              <p>
+                When I founded YouthFunded, I envisioned more than
+                just an organization that teaches financial literacy.
+                I wanted to create a community where young people are
+                empowered to learn, lead, and turn their ideas into
+                meaningful action.
+              </p>
 
-        <p>
-          I believe that financial literacy is not merely about
-          understanding money, but about having the knowledge,
-          confidence, and opportunities to shape our own futures.
-          Unfortunately, access to financial education remains
-          unequal, and I hope YouthFunded can play a part in
-          bridging that gap by making financial knowledge more
-          accessible, practical, and engaging for everyone.
-        </p>
+              <p>
+                I believe that financial literacy is not merely about
+                understanding money, but about having the knowledge,
+                confidence, and opportunities to shape our own futures.
+                Unfortunately, access to financial education remains
+                unequal, and I hope YouthFunded can play a part in
+                bridging that gap by making financial knowledge more
+                accessible, practical, and engaging for everyone.
+              </p>
 
-        <p>
-          Through YouthFunded, I hope to inspire young people
-          to go beyond simply acquiring knowledge. I encourage you
-          to ask questions, challenge perspectives, take initiative,
-          and most importantly, use what you learn to empower others.
-          Whether through education, entrepreneurship, volunteering,
-          or community projects, I believe that even the smallest
-          contributions can create a lasting impact.
-        </p>
+              <p>
+                Through YouthFunded, I hope to inspire young people
+                to go beyond simply acquiring knowledge. I encourage you
+                to ask questions, challenge perspectives, take initiative,
+                and most importantly, use what you learn to empower others.
+                Whether through education, entrepreneurship, volunteering,
+                or community projects, I believe that even the smallest
+                contributions can create a lasting impact.
+              </p>
 
-        <p>
-          My greatest hope is for YouthFunded to become a platform
-          where passionate individuals come together, exchange ideas,
-          and transform their aspirations into real change. I want
-          everyone who becomes part of our journey to recognize
-          that you do not have to wait until you are older to make
-          a difference.
-        </p>
+              <p>
+                My greatest hope is for YouthFunded to become a platform
+                where passionate individuals come together, exchange ideas,
+                and transform their aspirations into real change. I want
+                everyone who becomes part of our journey to recognize
+                that you do not have to wait until you are older to make
+                a difference.
+              </p>
 
-        <p>
-          As we continue to grow, I invite you to learn with us,
-          collaborate with us, and become part of a generation
-          that is not only financially informed, but also socially
-          responsible and driven to create a better future.
-        </p>
+              <p>
+                As we continue to grow, I invite you to learn with us,
+                collaborate with us, and become part of a generation
+                that is not only financially informed, but also socially
+                responsible and driven to create a better future.
+              </p>
 
-        <p className="letter-closing-thought">
-          Because at YouthFunded, we believe that empowering one
-          young mind today can inspire countless possibilities
-          tomorrow.
-        </p>
-      </div>
+              <p className="letter-closing-thought">
+                Because at YouthFunded, we believe that empowering one
+                young mind today can inspire countless possibilities
+                tomorrow.
+              </p>
+            </div>
 
-      <div className="letter-signoff">
-        <span>With gratitude and hope,</span>
+            <div className="letter-signoff">
+              <span>With gratitude and hope,</span>
 
-        <strong>Nadine Andini Wirawan</strong>
+              <strong>Nadine Andini Wirawan</strong>
 
-        <p>
-          Founder & President (2025–2026)
-          <br />
-          Advisor (2026–Present), YouthFunded
-        </p>
-      </div>
+              <p>
+                Founder &amp; President (2025–2026)
+                <br />
+                Advisor (2026–Present), YouthFunded
+              </p>
+            </div>
 
-      <span className="letter-bottom-mark" aria-hidden="true">
-        SMALL STEPS, BIG IMPACT.
-      </span>
-    </article>
-  </div>
-</section>
-       
+            <span className="letter-bottom-mark" aria-hidden="true">
+              SMALL STEPS, BIG IMPACT.
+            </span>
+          </article>
+        </div>
+      </section>
+    </main>
+  );
+}
+
 /* ========================================
    PLACEHOLDER PAGES
 ======================================== */
