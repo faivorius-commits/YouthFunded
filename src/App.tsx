@@ -328,14 +328,13 @@ function Home() {
           <SectionLabel>A WORDS FROM OUR FOUNDER</SectionLabel>
 
           <h2>
-            Nadine Andiri Wirawan
+            Nadine Andini Wirawan
             <br />
             <span>— the founder.</span>
           </h2>
 
           <p>
-            Every initiative begins with an idea. Get to know
-            the thoughts and aspirations behind YouthFunded.
+            Greetings from YouthFunded!
           </p>
         </div>
 
@@ -365,7 +364,11 @@ function Home() {
               {/*
 
                 <p>
-                  Paragraf pertama speech founder.
+                  When I founded YouthFunded, I envisioned more than 
+                  just an organization that teaches financial literacy.
+                  I wanted to create a community where young people 
+                  are empowered to learn, lead, and turn their ideas 
+                  into meaningful action.
                 </p>
 
                 <p>
