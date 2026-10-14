@@ -242,7 +242,7 @@ function Home() {
         id="vision-mission"
       >
         <div className="purpose-heading">
-          <SectionLabel>02 — OUR PURPOSE</SectionLabel>
+          <SectionLabel></SectionLabel>
 
           <h2>
             A vision for tomorrow,
@@ -325,12 +325,12 @@ function Home() {
         id="founder"
       >
         <div className="founder-heading">
-          <SectionLabel>03 — A MESSAGE FROM OUR FOUNDER</SectionLabel>
+          <SectionLabel>A WORDS FROM OUR FOUNDER</SectionLabel>
 
           <h2>
-            The heart behind
+            Nadine Andiri Wirawan
             <br />
-            <span>the mission.</span>
+            <span>— the founder.</span>
           </h2>
 
           <p>
