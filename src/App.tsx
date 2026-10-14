@@ -642,8 +642,6 @@ function Home() {
         </div>
       </section>
 
-Penting: kode di atas adalah pengganti dua section di dalam "Home()". Jangan hapus "</main>" dan "}" yang menutup fungsi "Home()" di bagian sesudahnya. Kalau kamu mengganti seluruh "App.tsx", penutup tersebut harus tetap ada sebelum deklarasi "PlaceholderPage".
-
 /* ========================================
    PLACEHOLDER PAGES
 ======================================== */
