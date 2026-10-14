@@ -318,85 +318,135 @@ function Home() {
         </div>
       </section>
 
-      {/* FOUNDER'S MESSAGE */}
+{/* FOUNDER'S MESSAGE */}
 
-      <section
-        className="founder-section section-pad"
-        id="founder"
-      >
-        <div className="founder-heading">
-          <SectionLabel>03 — A MESSAGE FROM OUR FOUNDER</SectionLabel>
+<section
+  className="founder-section section-pad"
+  id="founder"
+>
+  <div className="founder-heading">
+    <SectionLabel>03 — A MESSAGE FROM OUR FOUNDER</SectionLabel>
 
-          <h2>
-            The heart behind
-            <br />
-            <span>the mission.</span>
-          </h2>
+    <h2>
+      A letter from
+      <br />
+      <span>the heart.</span>
+    </h2>
 
-          <p>
-            Every initiative begins with an idea. Get to know
-            the thoughts and aspirations behind YouthFunded.
-          </p>
-        </div>
+    <p>
+      The thoughts, hopes, and purpose behind the YouthFunded journey.
+    </p>
+  </div>
 
-        <div className="founder-layout">
-          <div className="founder-photo">
-            <img
-              src="/images/founder.jpg"
-              alt="Founder of YouthFunded"
-              loading="lazy"
-            />
+  <div className="founder-layout">
+    {/* FOUNDER PORTRAIT */}
 
-            <div className="founder-photo-caption">
-              <span>THE PERSON BEHIND THE PURPOSE</span>
-              <span>YOUTHFUNDED ✳</span>
-            </div>
-          </div>
+    <div className="founder-photo">
+      <img
+        src="/images/founder.jpg"
+        alt="Nadine Andini Wirawan, Founder of YouthFunded"
+        loading="lazy"
+      />
 
-          <div className="founder-content">
-            <span
-              className="founder-quote-mark"
-              aria-hidden="true"
-            >
-              “
-            </span>
+      <div className="founder-photo-caption">
+        <span>THE PERSON BEHIND THE PURPOSE</span>
+        <span>YOUTHFUNDED ✳</span>
+      </div>
+    </div>
 
-            <div className="founder-speech">
-              {/*
-                GANTI BAGIAN INI DENGAN SPEECH ASLI FOUNDER.
+    {/* FOUNDER LETTER */}
 
-                Pisahkan setiap paragraf menjadi elemen <p>.
-                Contoh:
+    <article className="founder-letter">
+      <div className="letter-topline">
+        <span>A PERSONAL LETTER</span>
+        <span>YF. / 001</span>
+      </div>
 
-                <p>
-                  Paragraf pertama speech founder.
-                </p>
+      <div className="letter-heading">
+        <span className="letter-ornament" aria-hidden="true">
+          ✳
+        </span>
 
-                <p>
-                  Paragraf kedua speech founder.
-                </p>
-              */}
+        <h3>A Note to Our Community</h3>
 
-              <p className="founder-placeholder">
-                A message from our founder will be shared here.
-                This space is dedicated to the founder&apos;s
-                personal reflections, the story behind YouthFunded,
-                and the aspirations that continue to guide
-                the organization.
-              </p>
-            </div>
+        <p>From the desk of our founder</p>
+      </div>
 
-            <div className="founder-signature">
-              <span>With purpose,</span>
-              <strong>Founder of YouthFunded</strong>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-  );
-}
+      <div className="founder-speech">
+        <p className="letter-greeting">
+          Greetings from YouthFunded!
+        </p>
 
+        <p>
+          When I founded YouthFunded, I envisioned more than
+          just an organization that teaches financial literacy.
+          I wanted to create a community where young people are
+          empowered to learn, lead, and turn their ideas into
+          meaningful action.
+        </p>
+
+        <p>
+          I believe that financial literacy is not merely about
+          understanding money, but about having the knowledge,
+          confidence, and opportunities to shape our own futures.
+          Unfortunately, access to financial education remains
+          unequal, and I hope YouthFunded can play a part in
+          bridging that gap by making financial knowledge more
+          accessible, practical, and engaging for everyone.
+        </p>
+
+        <p>
+          Through YouthFunded, I hope to inspire young people
+          to go beyond simply acquiring knowledge. I encourage you
+          to ask questions, challenge perspectives, take initiative,
+          and most importantly, use what you learn to empower others.
+          Whether through education, entrepreneurship, volunteering,
+          or community projects, I believe that even the smallest
+          contributions can create a lasting impact.
+        </p>
+
+        <p>
+          My greatest hope is for YouthFunded to become a platform
+          where passionate individuals come together, exchange ideas,
+          and transform their aspirations into real change. I want
+          everyone who becomes part of our journey to recognize
+          that you do not have to wait until you are older to make
+          a difference.
+        </p>
+
+        <p>
+          As we continue to grow, I invite you to learn with us,
+          collaborate with us, and become part of a generation
+          that is not only financially informed, but also socially
+          responsible and driven to create a better future.
+        </p>
+
+        <p className="letter-closing-thought">
+          Because at YouthFunded, we believe that empowering one
+          young mind today can inspire countless possibilities
+          tomorrow.
+        </p>
+      </div>
+
+      <div className="letter-signoff">
+        <span>With gratitude and hope,</span>
+
+        <strong>Nadine Andini Wirawan</strong>
+
+        <p>
+          Founder & President (2025–2026)
+          <br />
+          Advisor (2026–Present), YouthFunded
+        </p>
+      </div>
+
+      <span className="letter-bottom-mark" aria-hidden="true">
+        SMALL STEPS, BIG IMPACT.
+      </span>
+    </article>
+  </div>
+</section>
+       
 /* ========================================
    PLACEHOLDER PAGES
 ======================================== */
