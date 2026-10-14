@@ -361,7 +361,6 @@ function Home() {
             </span>
 
             <div className="founder-speech">
-              {/*
 
                 <p>
                   When I founded YouthFunded, I envisioned more than 
@@ -374,7 +373,7 @@ function Home() {
                 <p>
                   Paragraf kedua speech founder.
                 </p>
-              */}
+            
 
               <p className="founder-placeholder">
                 A message from our founder will be shared here.
