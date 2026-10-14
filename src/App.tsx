@@ -235,220 +235,414 @@ function Home() {
         </div>
       </section>
 
-      {/* VISION AND MISSION */}
+{/* VISION AND MISSION */}
 
-      <section
-        className="purpose-preview section-pad"
-        id="vision-mission"
-      >
-        <div className="purpose-heading">
-          <SectionLabel>02 — OUR PURPOSE</SectionLabel>
+      <section className="purpose-section" id="vision-mission">
+        <div className="purpose-container">
+          <div className="purpose-heading">
+            <span className="section-label">
+              02 — OUR PURPOSE
+            </span>
 
-          <h2>
-            A vision for tomorrow,
-            <br />
-            <span>a mission for today.</span>
-          </h2>
-
-          <p>
-            Our vision guides the future we hope to create.
-            Our mission shapes the steps we take to get there.
-          </p>
-        </div>
-
-        <div className="purpose-grid">
-          <article className="purpose-card vision-card">
-            <div className="purpose-card-top">
-              <span className="purpose-number">
-                01 / THE FUTURE
-              </span>
-
-              <span className="purpose-icon" aria-hidden="true">
-                ✳
-              </span>
-            </div>
-
-            <h3>Our Vision</h3>
+            <h2>
+              Big dreams begin
+              <br />
+              <span>with small steps.</span>
+            </h2>
 
             <p>
-              To create a generation of Indonesian youth who
-              understand the importance of financial skills,
-              make responsible financial choices, become
-              financially independent, and actively contribute
-              to society.
+              Every meaningful change starts with a vision
+              and grows through the actions we take today.
             </p>
+          </div>
 
-            <span className="purpose-decoration" aria-hidden="true">
-              ✦
-            </span>
-          </article>
+          <div className="purpose-grid">
+            {/* VISION CARD */}
 
-          <article className="purpose-card mission-card">
-            <div className="purpose-card-top">
-              <span className="purpose-number">
-                02 / THE ACTION
+            <article className="purpose-card vision-card">
+              <div className="purpose-card-top">
+                <span className="purpose-number">
+                  OUR NORTH STAR · 01
+                </span>
+
+                <span className="purpose-icon vision-icon">
+                  ✳
+                </span>
+              </div>
+
+              <div className="purpose-card-content">
+                <span className="purpose-eyebrow">
+                  THE FUTURE WE IMAGINE
+                </span>
+
+                <h3>Our Vision</h3>
+
+                <p>
+                  To create a generation of Indonesian youth
+                  who understand the importance of financial
+                  skills, make responsible financial choices,
+                  become financially independent, and actively
+                  contribute to society.
+                </p>
+              </div>
+
+              <div
+                className="purpose-decoration vision-decoration"
+                aria-hidden="true"
+              >
+                <span className="decoration-star">✳</span>
+                <span className="decoration-circle" />
+                <span className="decoration-line" />
+              </div>
+
+              <span className="purpose-card-index">
+                V / 01
               </span>
+            </article>
 
-              <span className="purpose-icon" aria-hidden="true">
-                ↗
+            {/* MISSION CARD */}
+
+            <article className="purpose-card mission-card">
+              <div className="purpose-card-top">
+                <span className="purpose-number">
+                  OUR DAILY PROMISE · 02
+                </span>
+
+                <span className="purpose-icon mission-icon">
+                  ↗
+                </span>
+              </div>
+
+              <div className="purpose-card-content">
+                <span className="purpose-eyebrow">
+                  THE ACTION WE TAKE
+                </span>
+
+                <h3>Our Mission</h3>
+
+                <p>
+                  To make financial knowledge accessible to all,
+                  encourage healthy money habits, reach
+                  communities with fewer opportunities, and
+                  support young people in working together
+                  toward a better future.
+                </p>
+              </div>
+
+              <div
+                className="purpose-decoration mission-decoration"
+                aria-hidden="true"
+              >
+                <span className="mission-doodle">↗</span>
+                <span className="mission-doodle-circle" />
+              </div>
+
+              <span className="purpose-card-index">
+                M / 02
               </span>
-            </div>
+            </article>
+          </div>
 
-            <h3>Our Mission</h3>
-
-            <p>
-              To make financial knowledge accessible to all,
-              encourage healthy money habits, reach communities
-              with fewer opportunities, and support young people
-              in working together toward a better future.
-            </p>
-
-            <span className="purpose-decoration" aria-hidden="true">
-              ✳
+          <div className="purpose-bottom">
+            <span>
+              LEARN WITH PURPOSE. GROW WITH IMPACT.
             </span>
-          </article>
-        </div>
 
-        <div className="purpose-footer">
-          <p>Want to learn more about what drives us?</p>
-
-          <a className="text-link" href="/mission">
-            Explore Our Purpose <span>→</span>
-          </a>
+            <a href="/mission" className="purpose-link">
+              Discover our purpose <span>↗</span>
+            </a>
+          </div>
         </div>
       </section>
 
       {/* FOUNDER'S MESSAGE */}
 
-      <section
-        className="founder-section section-pad"
-        id="founder"
-      >
-        <div className="founder-heading">
-          <SectionLabel>03 — A MESSAGE FROM OUR FOUNDER</SectionLabel>
+      <section className="founder-section" id="founder">
+        <div className="founder-container">
+          {/* SECTION HEADING */}
 
-          <h2>
-            A letter from
-            <br />
-            <span>the heart.</span>
-          </h2>
+          <div className="founder-heading">
+            <span className="section-label">
+              03 — A MESSAGE FROM OUR FOUNDER
+            </span>
 
-          <p>
-            The thoughts, hopes, and purpose behind the YouthFunded journey.
-          </p>
-        </div>
+            <h2>
+              A little note,
+              <br />
+              <span>a bigger purpose.</span>
+            </h2>
 
-        <div className="founder-layout">
-          {/* FOUNDER PORTRAIT */}
-
-          <div className="founder-photo">
-            <img
-              src="/images/founder.jpg"
-              alt="Nadine Andini Wirawan, Founder of YouthFunded"
-              loading="lazy"
-            />
-
-            <div className="founder-photo-caption">
-              <span>THE PERSON BEHIND THE PURPOSE</span>
-              <span>YOUTHFUNDED ✳</span>
-            </div>
+            <p>
+              A personal letter about the dream, the people,
+              and the purpose behind YouthFunded.
+            </p>
           </div>
 
-          {/* FOUNDER LETTER */}
+          <div className="founder-layout">
+            {/* LEFT: FOUNDER SCRAPBOOK */}
 
-          <article className="founder-letter">
-            <div className="letter-topline">
-              <span>A PERSONAL LETTER</span>
-              <span>YF. / 001</span>
-            </div>
+            <aside className="founder-visual">
+              <div className="scrapbook-label">
+                <span>MEET THE FOUNDER</span>
+                <span>✳ 001</span>
+              </div>
 
-            <div className="letter-heading">
-              <span className="letter-ornament" aria-hidden="true">
-                ✳
-              </span>
+              <div className="scrapbook-board">
+                {/* Decorative doodles */}
 
-              <h3>A Note to Our Community</h3>
+                <span
+                  className="scrapbook-spark scrapbook-spark-one"
+                  aria-hidden="true"
+                >
+                  ✳
+                </span>
 
-              <p>From the desk of our founder</p>
-            </div>
+                <span
+                  className="scrapbook-spark scrapbook-spark-two"
+                  aria-hidden="true"
+                >
+                  ✦
+                </span>
 
-            <div className="founder-speech">
-              <p className="letter-greeting">
-                Greetings from YouthFunded!
-              </p>
+                {/* Founder photo */}
 
-              <p>
-                When I founded YouthFunded, I envisioned more than
-                just an organization that teaches financial literacy.
-                I wanted to create a community where young people are
-                empowered to learn, lead, and turn their ideas into
-                meaningful action.
-              </p>
+                <div className="founder-photo-frame">
+                  <span className="photo-tape" />
 
-              <p>
-                I believe that financial literacy is not merely about
-                understanding money, but about having the knowledge,
-                confidence, and opportunities to shape our own futures.
-                Unfortunately, access to financial education remains
-                unequal, and I hope YouthFunded can play a part in
-                bridging that gap by making financial knowledge more
-                accessible, practical, and engaging for everyone.
-              </p>
+                  <div className="founder-photo">
+                    <img
+                      src="/images/founder.jpg"
+                      alt="Nadine Andini Wirawan, Founder of YouthFunded"
+                      loading="lazy"
+                    />
+                  </div>
 
-              <p>
-                Through YouthFunded, I hope to inspire young people
-                to go beyond simply acquiring knowledge. I encourage you
-                to ask questions, challenge perspectives, take initiative,
-                and most importantly, use what you learn to empower others.
-                Whether through education, entrepreneurship, volunteering,
-                or community projects, I believe that even the smallest
-                contributions can create a lasting impact.
-              </p>
+                  <div className="photo-caption">
+                    <span>A DREAM IN PROGRESS</span>
+                    <span>♡</span>
+                  </div>
+                </div>
 
-              <p>
-                My greatest hope is for YouthFunded to become a platform
-                where passionate individuals come together, exchange ideas,
-                and transform their aspirations into real change. I want
-                everyone who becomes part of our journey to recognize
-                that you do not have to wait until you are older to make
-                a difference.
-              </p>
+                {/* Money illustration */}
 
-              <p>
-                As we continue to grow, I invite you to learn with us,
-                collaborate with us, and become part of a generation
-                that is not only financially informed, but also socially
-                responsible and driven to create a better future.
-              </p>
+                <div
+                  className="scrapbook-money"
+                  aria-hidden="true"
+                >
+                  <div className="money-note">
+                    <span className="money-symbol">$</span>
+                    <span className="money-lines" />
+                    <span className="money-caption">
+                      SAVE FOR TOMORROW
+                    </span>
+                  </div>
 
-              <p className="letter-closing-thought">
-                Because at YouthFunded, we believe that empowering one
-                young mind today can inspire countless possibilities
-                tomorrow.
-              </p>
-            </div>
+                  <div className="money-coin coin-one">
+                    $
+                  </div>
 
-            <div className="letter-signoff">
-              <span>With gratitude and hope,</span>
+                  <div className="money-coin coin-two">
+                    ¢
+                  </div>
+                </div>
 
-              <strong>Nadine Andini Wirawan</strong>
+                {/* Book illustration */}
 
-              <p>
-                Founder &amp; President (2025–2026)
-                <br />
-                Advisor (2026–Present), YouthFunded
-              </p>
-            </div>
+                <div
+                  className="scrapbook-book"
+                  aria-hidden="true"
+                >
+                  <div className="book-cover">
+                    <span className="book-sun">✳</span>
 
-            <span className="letter-bottom-mark" aria-hidden="true">
-              SMALL STEPS, BIG IMPACT.
-            </span>
-          </article>
+                    <span className="book-small-title">
+                      YOUR LITTLE GUIDE TO
+                    </span>
+
+                    <strong>
+                      SMART
+                      <br />
+                      MONEY
+                    </strong>
+
+                    <span className="book-cover-bottom">
+                      LEARN · GROW · SHARE
+                    </span>
+                  </div>
+
+                  <div className="book-pages" />
+                </div>
+
+                {/* Sticky note */}
+
+                <div className="founder-sticky-note">
+                  <span>REMEMBER</span>
+
+                  <p>
+                    Small steps
+                    <br />
+                    still move
+                    <br />
+                    you forward.
+                  </p>
+
+                  <span className="sticky-heart">♡</span>
+                </div>
+
+                <span
+                  className="scrapbook-doodle"
+                  aria-hidden="true"
+                >
+                  ↗
+                </span>
+              </div>
+
+              <div className="founder-identity">
+                <div>
+                  <span className="identity-label">
+                    THE PERSON BEHIND THE PURPOSE
+                  </span>
+
+                  <h3>Nadine Andini Wirawan</h3>
+
+                  <p>
+                    Founder · President (2025–2026)
+                    <br />
+                    Advisor (2026–Present)
+                  </p>
+                </div>
+
+                <span className="identity-star" aria-hidden="true">
+                  ✳
+                </span>
+              </div>
+            </aside>
+
+            {/* RIGHT: NOTEBOOK LETTER */}
+
+            <article className="founder-notebook">
+              {/* Notebook binding */}
+
+              <div className="notebook-binding" aria-hidden="true">
+                {Array.from({ length: 8 }, (_, index) => (
+                  <span key={index} />
+                ))}
+              </div>
+
+              <div className="notebook-paper">
+                <div className="notebook-topline">
+                  <span>
+                    FROM THE FOUNDER'S DESK
+                  </span>
+
+                  <span>
+                    YF. / 001
+                  </span>
+                </div>
+
+                <div className="notebook-title">
+                  <span
+                    className="notebook-title-star"
+                    aria-hidden="true"
+                  >
+                    ✳
+                  </span>
+
+                  <h3>A Note to Our Community</h3>
+
+                  <p>
+                    A letter filled with hope, gratitude, and possibility.
+                  </p>
+
+                  <div className="notebook-title-line" />
+                </div>
+
+                <div className="founder-speech">
+                  <p className="letter-greeting">
+                    Greetings from YouthFunded!
+                  </p>
+
+                  <p>
+                    When I founded YouthFunded, I envisioned
+                    more than just an organization that teaches
+                    financial literacy. I wanted to create a
+                    community where young people are empowered
+                    to learn, lead, and turn their ideas into
+                    meaningful action.
+                  </p>
+
+                  <p>
+                    I believe that financial literacy is not
+                    merely about understanding money, but about
+                    having the knowledge, confidence, and
+                    opportunities to shape our own futures.
+                    Unfortunately, access to financial education
+                    remains unequal, and I hope YouthFunded can
+                    play a part in bridging that gap by making
+                    financial knowledge more accessible, practical,
+                    and engaging for everyone.
+                  </p>
+
+                  <p>
+                    Through YouthFunded, I hope to inspire young
+                    people to go beyond simply acquiring knowledge.
+                    I encourage you to ask questions, challenge
+                    perspectives, take initiative, and most
+                    importantly, use what you learn to empower
+                    others. Whether through education,
+                    entrepreneurship, volunteering, or community
+                    projects, I believe that even the smallest
+                    contributions can create a lasting impact.
+                  </p>
+
+                  <p>
+                    My greatest hope is for YouthFunded to become
+                    a platform where passionate individuals come
+                    together, exchange ideas, and transform their
+                    aspirations into real change. I want everyone
+                    who becomes part of our journey to recognize
+                    that you do not have to wait until you are
+                    older to make a difference.
+                  </p>
+
+                  <p>
+                    As we continue to grow, I invite you to learn
+                    with us, collaborate with us, and become part
+                    of a generation that is not only financially
+                    informed, but also socially responsible and
+                    driven to create a better future.
+                  </p>
+
+                  <blockquote className="letter-closing-thought">
+                    “At YouthFunded, we believe that empowering
+                    one young mind today can inspire countless
+                    possibilities tomorrow.”
+                  </blockquote>
+                </div>
+
+                <div className="letter-signoff">
+                  <span>With gratitude and hope,</span>
+
+                  <strong>Nadine Andini Wirawan</strong>
+
+                  <p>
+                    Founder &amp; President (2025–2026)
+                    <br />
+                    Advisor (2026–Present), YouthFunded
+                  </p>
+                </div>
+
+                <div className="notebook-footer">
+                  <span>SMALL STEPS, BIG IMPACT.</span>
+                  <span>MADE WITH PURPOSE ♡</span>
+                </div>
+              </div>
+            </article>
+          </div>
         </div>
       </section>
-    </main>
-  );
-}
+
+Penting: kode di atas adalah pengganti dua section di dalam "Home()". Jangan hapus "</main>" dan "}" yang menutup fungsi "Home()" di bagian sesudahnya. Kalau kamu mengganti seluruh "App.tsx", penutup tersebut harus tetap ada sebelum deklarasi "PlaceholderPage".
 
 /* ========================================
    PLACEHOLDER PAGES
