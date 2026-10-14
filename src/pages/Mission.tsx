@@ -716,13 +716,12 @@ export default function Mission() {
           <p style={eyebrow}>OUR BELIEF</p>
 
           <h2 style={heading}>
-            Every young person deserves the chance to learn, choose,
-            and grow.
+            "Money is only a tool. It will take you wherever 
+            you wish, but it will not replace you as the driver."
           </h2>
 
           <p className="yf-section-description">
-            Accessible knowledge can open the door to greater
-            possibilities.
+            Ayn Rand
           </p>
 
           <div className="yf-belief-pill">
