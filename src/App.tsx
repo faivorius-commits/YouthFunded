@@ -64,7 +64,9 @@ function BrandLogo({ footer = false }: { footer?: boolean }) {
 
 function Home() {
   return (
-    <main>
+    <main className="home-page">
+      {/* HERO SECTION */}
+
       <section className="hero" id="home">
         <span className="decor decor-star">✳</span>
         <span className="decor decor-sparkle">✦</span>
@@ -100,13 +102,15 @@ function Home() {
           </div>
 
           <div className="hero-note">
-            <span>✳</span> Let's build a better future, starting now — for Indonesia Emas 2045!
+            <span>✳</span>
+            Let's build a better future, starting now — for Indonesia Emas 2045!
           </div>
         </div>
 
         <div
           className="hero-art"
-          aria-label="Financial literacy illustration"
+          role="img"
+          aria-label="Illustration representing financial literacy and saving money"
         >
           <div className="art-sun" />
 
@@ -155,16 +159,22 @@ function Home() {
         </a>
       </section>
 
+      {/* MOVING VALUES TICKER */}
+
       <div className="ticker" aria-label="Our values">
         <div className="ticker-track">
           {Array.from({ length: 2 }, (_, index) => (
             <span key={index}>
-              FINANCIAL LITERACY <b>✳</b> YOUTH EMPOWERMENT <b>✳</b>{" "}
-              SMART MONEY HABITS <b>✳</b> LEARN · GROW · SHARE <b>✳</b>
+              FINANCIAL LITERACY <b>✳</b>{" "}
+              YOUTH EMPOWERMENT <b>✳</b>{" "}
+              SMART MONEY HABITS <b>✳</b>{" "}
+              LEARN · GROW · SHARE <b>✳</b>
             </span>
           ))}
         </div>
       </div>
+
+      {/* ABOUT US */}
 
       <section className="about-section section-pad" id="about">
         <div className="about-visual">
@@ -198,98 +208,194 @@ function Home() {
           <span className="floating-heart">♡</span>
         </div>
 
-{/* 1. HERO */}
-<section className="hero" id="home">
-  {/* Pertahankan seluruh kode hero kamu yang sekarang */}
-</section>
+        <div className="about-copy">
+          <SectionLabel>01 — WHO WE ARE</SectionLabel>
 
-{/* TICKER */}
-<div className="ticker" aria-label="Our values">
-  {/* Pertahankan ticker yang sekarang */}
-</div>
+          <h2>
+            Meet <span>YouthFunded.</span>
+          </h2>
 
-{/* 2. ABOUT US */}
-<section className="about-section section-pad" id="about">
-  {/* Perkenalan singkat YouthFunded */}
-</section>
+          <p>
+            YouthFunded is dedicated to rethinking financial
+            education for Indonesia&apos;s youth. We go beyond
+            basic calculations to deliver lessons that are
+            relatable, creative, and useful in daily life.
+          </p>
 
-{/* 3. OUR VISION & MISSION */}
-<section className="purpose-preview section-pad" id="vision-mission">
-  <div className="purpose-heading">
-    <SectionLabel>02 — OUR PURPOSE</SectionLabel>
-    <h2>
-      A vision for tomorrow,
-      <br />
-      <span>a mission for today.</span>
-    </h2>
-    <p>
-      Discover the vision that guides us and the mission
-      that brings our purpose to life.
-    </p>
-  </div>
+          <p>
+            We believe financial literacy can empower young
+            people to understand their choices, develop
+            responsible habits, and approach their future
+            with greater confidence.
+          </p>
 
-  <div className="purpose-grid">
-    <article className="purpose-card vision-card">
-      <span className="purpose-number">01 / THE FUTURE</span>
-      <h3>Our Vision</h3>
-      <p>
-        To create a generation of Indonesian youth who understand
-        the importance of financial skills, make responsible
-        financial decisions, achieve financial independence,
-        and actively contribute to society.
-      </p>
-    </article>
+          <a className="text-link" href="/mission">
+            Get to know our purpose <span>→</span>
+          </a>
+        </div>
+      </section>
 
-    <article className="purpose-card mission-card">
-      <span className="purpose-number">02 / THE ACTION</span>
-      <h3>Our Mission</h3>
-      <p>
-        To make financial knowledge accessible, encourage healthy
-        money habits, reach communities with fewer opportunities,
-        and empower young people to work together toward a better future.
-      </p>
-    </article>
-  </div>
+      {/* VISION AND MISSION */}
 
-  <a className="text-link" href="/mission">
-    Explore our purpose in detail <span>→</span>
-  </a>
-</section>
+      <section
+        className="purpose-preview section-pad"
+        id="vision-mission"
+      >
+        <div className="purpose-heading">
+          <SectionLabel>02 — OUR PURPOSE</SectionLabel>
 
-{/* 4. FOUNDER'S MESSAGE */}
-<section className="founder-section section-pad" id="founder">
-  <div className="founder-layout">
-    <div className="founder-photo">
-      <img
-        src="/images/founder.jpg"
-        alt="Founder of YouthFunded"
-        loading="lazy"
-      />
-      <span className="founder-photo-caption">
-        THE PERSON BEHIND THE PURPOSE
-      </span>
-    </div>
+          <h2>
+            A vision for tomorrow,
+            <br />
+            <span>a mission for today.</span>
+          </h2>
 
-    <div className="founder-content">
-      <SectionLabel>03 — A MESSAGE FROM OUR FOUNDER</SectionLabel>
+          <p>
+            Our vision guides the future we hope to create.
+            Our mission shapes the steps we take to get there.
+          </p>
+        </div>
 
-      <h2>
-        A few words,
-        <br />
-        <span>from the heart.</span>
-      </h2>
+        <div className="purpose-grid">
+          <article className="purpose-card vision-card">
+            <div className="purpose-card-top">
+              <span className="purpose-number">
+                01 / THE FUTURE
+              </span>
+              <span className="purpose-icon" aria-hidden="true">
+                ✳
+              </span>
+            </div>
 
-      <div className="founder-speech">
-        {/* Speech lengkap founder akan dimasukkan di sini */}
-      </div>
+            <h3>Our Vision</h3>
 
-      <div className="founder-signature">
-        <span>With purpose,</span>
-        <strong>Founder of YouthFunded</strong>
-      </div>
-    </div>
-  </div>
-</section>
+            <p>
+              To create a generation of Indonesian youth who
+              understand the importance of financial skills,
+              make responsible financial choices, become
+              financially independent, and actively contribute
+              to society.
+            </p>
+
+            <span className="purpose-decoration" aria-hidden="true">
+              ✦
+            </span>
+          </article>
+
+          <article className="purpose-card mission-card">
+            <div className="purpose-card-top">
+              <span className="purpose-number">
+                02 / THE ACTION
+              </span>
+              <span className="purpose-icon" aria-hidden="true">
+                ↗
+              </span>
+            </div>
+
+            <h3>Our Mission</h3>
+
+            <p>
+              To make financial knowledge accessible to all,
+              encourage healthy money habits, reach communities
+              with fewer opportunities, and support young people
+              in working together toward a better future.
+            </p>
+
+            <span className="purpose-decoration" aria-hidden="true">
+              ✳
+            </span>
+          </article>
+        </div>
+
+        <div className="purpose-footer">
+          <p>
+            Want to learn more about what drives us?
+          </p>
+
+          <a className="text-link" href="/mission">
+            Explore Our Purpose <span>→</span>
+          </a>
+        </div>
+      </section>
+
+      {/* FOUNDER'S MESSAGE */}
+
+      <section
+        className="founder-section section-pad"
+        id="founder"
+      >
+        <div className="founder-heading">
+          <SectionLabel>03 — A MESSAGE FROM OUR FOUNDER</SectionLabel>
+
+          <h2>
+            The heart behind
+            <br />
+            <span>the mission.</span>
+          </h2>
+
+          <p>
+            Every initiative begins with an idea. Get to know
+            the thoughts and aspirations behind YouthFunded.
+          </p>
+        </div>
+
+        <div className="founder-layout">
+          <div className="founder-photo">
+            <img
+              src="/images/founder.jpg"
+              alt="Founder of YouthFunded"
+              loading="lazy"
+            />
+
+            <div className="founder-photo-caption">
+              <span>THE PERSON BEHIND THE PURPOSE</span>
+              <span>YOUTHFUNDED ✳</span>
+            </div>
+          </div>
+
+          <div className="founder-content">
+            <span
+              className="founder-quote-mark"
+              aria-hidden="true"
+            >
+              “
+            </span>
+
+            <div className="founder-speech">
+              {/*
+                GANTI BAGIAN INI DENGAN SPEECH ASLI FOUNDER.
+
+                Pisahkan setiap paragraf menjadi elemen <p>.
+                Contoh:
+
+                <p>
+                  Paragraf pertama speech founder.
+                </p>
+
+                <p>
+                  Paragraf kedua speech founder.
+                </p>
+              */}
+
+              <p className="founder-placeholder">
+                A message from our founder will be shared here.
+                This space is dedicated to the founder&apos;s
+                personal reflections, the story behind YouthFunded,
+                and the aspirations that continue to guide
+                the organization.
+              </p>
+            </div>
+
+            <div className="founder-signature">
+              <span>With purpose,</span>
+              <strong>Founder of YouthFunded</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
 
 /* ========================================
    PLACEHOLDER PAGES
@@ -326,7 +432,11 @@ function PlaceholderPage({
    INTRO VIDEO
 ======================================== */
 
-function IntroVideo({ onFinish }: { onFinish: () => void }) {
+function IntroVideo({
+  onFinish,
+}: {
+  onFinish: () => void;
+}) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const finishedRef = useRef(false);
 
@@ -370,6 +480,8 @@ function IntroVideo({ onFinish }: { onFinish: () => void }) {
           console.error(
             "Video intro tidak dapat dimuat. Periksa file public/intro-youthfunded.mp4."
           );
+
+          finishOnce();
         }}
       >
         <source
@@ -398,9 +510,12 @@ function App() {
 
   const finishIntro = () => {
     try {
-      sessionStorage.setItem("youthfunded-intro-played", "true");
+      sessionStorage.setItem(
+        "youthfunded-intro-played",
+        "true"
+      );
     } catch {
-      // Website tetap dapat digunakan jika sessionStorage tidak tersedia.
+      // Website tetap berfungsi jika sessionStorage tidak tersedia.
     }
 
     setShowIntro(false);
@@ -409,7 +524,7 @@ function App() {
   const path =
     window.location.pathname.replace(/\/+$/, "") || "/";
 
-  let page;
+  let page: React.ReactNode;
 
   switch (path) {
     case "/":
@@ -502,17 +617,17 @@ function App() {
 
           {page}
 
-          {/* FOOTER */}
           <footer className="site-footer">
             <BrandLogo footer />
 
             <p>
-              Small steps, big impact. Made for the next generation.
+              For Indonesia Emas 2045
             </p>
 
             <div className="footer-bottom">
               <span>
-                © {new Date().getFullYear()} YouthFunded. All rights reserved.
+                © {new Date().getFullYear()} YouthFunded.
+                All rights reserved.
               </span>
 
               <a href="/">Back to Home ↑</a>
