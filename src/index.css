@@ -1726,3 +1726,173 @@ footer.site-footer a {
   font-size: 20px;
   font-weight: 700;
 }
+/* ========================================
+   FOUNDER LETTER — EDITORIAL DESIGN
+======================================== */
+
+.founder-letter {
+  position: relative;
+  min-width: 0;
+  padding: clamp(24px, 4vw, 48px);
+  overflow: hidden;
+  border: 1px solid rgba(38, 54, 74, 0.12);
+  border-radius: 8px 24px 24px 8px;
+  background: #fffdf6;
+  box-shadow: 0 20px 55px rgba(38, 54, 74, 0.08);
+}
+
+.founder-letter::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 5px;
+  background: #c6d95b;
+  content: "";
+}
+
+.letter-topline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(38, 54, 74, 0.15);
+  color: #6c7880;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+}
+
+.letter-heading {
+  position: relative;
+  padding: 34px 0 28px;
+  border-bottom: 1px solid rgba(38, 54, 74, 0.12);
+}
+
+.letter-ornament {
+  display: inline-grid;
+  width: 42px;
+  height: 42px;
+  margin-bottom: 16px;
+  place-items: center;
+  border-radius: 50%;
+  background: #eaf1d5;
+  color: #617829;
+  font-size: 1.3rem;
+}
+
+.letter-heading h3 {
+  margin: 0;
+  color: #26364a;
+  font-family: "Fredoka", sans-serif;
+  font-size: clamp(1.65rem, 3vw, 2.3rem);
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.letter-heading > p {
+  margin: 10px 0 0;
+  color: #7b858c;
+  font-size: 0.88rem;
+  font-style: italic;
+}
+
+.founder-speech {
+  padding-top: 28px;
+  color: #4e5a65;
+  font-size: 0.96rem;
+  line-height: 1.95;
+  overflow-wrap: anywhere;
+}
+
+.founder-speech p {
+  margin: 0 0 22px;
+}
+
+.founder-speech .letter-greeting {
+  color: #26364a;
+  font-family: "Fredoka", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.founder-speech .letter-closing-thought {
+  margin-top: 30px;
+  padding: 22px 24px;
+  border-left: 3px solid #c6d95b;
+  border-radius: 0 12px 12px 0;
+  background: #f1f5e5;
+  color: #34432d;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+.letter-signoff {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px dashed rgba(38, 54, 74, 0.25);
+}
+
+.letter-signoff > span {
+  color: #6c7880;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.letter-signoff > strong {
+  color: #26364a;
+  font-family: "Fredoka", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.letter-signoff > p {
+  margin: 0;
+  color: #6c7880;
+  font-size: 0.82rem;
+  line-height: 1.8;
+}
+
+.letter-bottom-mark {
+  display: block;
+  margin-top: 32px;
+  color: #88946c;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: right;
+}
+
+/* RESPONSIVE FOUNDER LETTER */
+
+@media (max-width: 768px) {
+  .founder-letter {
+    padding: 26px 22px;
+    border-radius: 8px 18px 18px 8px;
+  }
+
+  .letter-heading {
+    padding: 28px 0 22px;
+  }
+
+  .founder-speech {
+    padding-top: 24px;
+    font-size: 0.92rem;
+    line-height: 1.85;
+  }
+
+  .founder-speech p {
+    margin-bottom: 18px;
+  }
+
+  .founder-speech .letter-closing-thought {
+    padding: 18px;
+  }
+}
