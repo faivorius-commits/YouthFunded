@@ -198,43 +198,98 @@ function Home() {
           <span className="floating-heart">♡</span>
         </div>
 
-        <div className="about-copy">
-          <SectionLabel>01 — WHO WE ARE</SectionLabel>
+{/* 1. HERO */}
+<section className="hero" id="home">
+  {/* Pertahankan seluruh kode hero kamu yang sekarang */}
+</section>
 
-          <h2>
-            Meet <span>YouthFunded.</span>
-          </h2>
+{/* TICKER */}
+<div className="ticker" aria-label="Our values">
+  {/* Pertahankan ticker yang sekarang */}
+</div>
 
-          <p>
-            YouthFunded is dedicated to rethinking financial
-            education for Indonesia&apos;s youth. We go beyond
-            basic calculations to deliver lessons that are
-            relatable, creative, and truly useful in daily life.
-          </p>
+{/* 2. ABOUT US */}
+<section className="about-section section-pad" id="about">
+  {/* Perkenalan singkat YouthFunded */}
+</section>
 
-          <p>
-            <span>Our vision</span> is to create a young generation
-            of Indonesia that understands the importance of financial
-            skills, is willing to make responsible financial choices,
-            becomes financially independent, and actively contributes
-            to society.
-          </p>
+{/* 3. OUR VISION & MISSION */}
+<section className="purpose-preview section-pad" id="vision-mission">
+  <div className="purpose-heading">
+    <SectionLabel>02 — OUR PURPOSE</SectionLabel>
+    <h2>
+      A vision for tomorrow,
+      <br />
+      <span>a mission for today.</span>
+    </h2>
+    <p>
+      Discover the vision that guides us and the mission
+      that brings our purpose to life.
+    </p>
+  </div>
 
-          <p>
-            <span>Our mission</span> is to make financial knowledge
-            accessible to all, encourage healthy money habits,
-            reach communities with fewer opportunities, and support
-            young people working together to build a better future.
-          </p>
+  <div className="purpose-grid">
+    <article className="purpose-card vision-card">
+      <span className="purpose-number">01 / THE FUTURE</span>
+      <h3>Our Vision</h3>
+      <p>
+        To create a generation of Indonesian youth who understand
+        the importance of financial skills, make responsible
+        financial decisions, achieve financial independence,
+        and actively contribute to society.
+      </p>
+    </article>
 
-          <a className="text-link" href="/mission">
-            Get to know our purpose <span>→</span>
-          </a>
-        </div>
-      </section>
-    </main>
-  );
-}
+    <article className="purpose-card mission-card">
+      <span className="purpose-number">02 / THE ACTION</span>
+      <h3>Our Mission</h3>
+      <p>
+        To make financial knowledge accessible, encourage healthy
+        money habits, reach communities with fewer opportunities,
+        and empower young people to work together toward a better future.
+      </p>
+    </article>
+  </div>
+
+  <a className="text-link" href="/mission">
+    Explore our purpose in detail <span>→</span>
+  </a>
+</section>
+
+{/* 4. FOUNDER'S MESSAGE */}
+<section className="founder-section section-pad" id="founder">
+  <div className="founder-layout">
+    <div className="founder-photo">
+      <img
+        src="/images/founder.jpg"
+        alt="Founder of YouthFunded"
+        loading="lazy"
+      />
+      <span className="founder-photo-caption">
+        THE PERSON BEHIND THE PURPOSE
+      </span>
+    </div>
+
+    <div className="founder-content">
+      <SectionLabel>03 — A MESSAGE FROM OUR FOUNDER</SectionLabel>
+
+      <h2>
+        A few words,
+        <br />
+        <span>from the heart.</span>
+      </h2>
+
+      <div className="founder-speech">
+        {/* Speech lengkap founder akan dimasukkan di sini */}
+      </div>
+
+      <div className="founder-signature">
+        <span>With purpose,</span>
+        <strong>Founder of YouthFunded</strong>
+      </div>
+    </div>
+  </div>
+</section>
 
 /* ========================================
    PLACEHOLDER PAGES
