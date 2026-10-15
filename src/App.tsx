@@ -414,6 +414,40 @@ function Home() {
                 bridging that gap by making financial knowledge more
                 accessible, practical, and engaging for everyone.
               </p>
+
+               <p>
+               Through YouthFunded, I hope to inspire young people to 
+                  go beyond simply acquiring knowledge. I encourage you to 
+                  ask questions, challenge perspectives, take initiative, 
+                  and most importantly, use what you learn to empower others.
+                  Whether through education, entrepreneurship, volunteering,
+                  or community projects, I believe that even the smallest
+                  contributions can create a lasting impact.
+               </p>
+
+               <p>
+                  My greatest hope is for YouthFunded to become a platform 
+                  where passionate individuals come together, exchange ideas, 
+                  and transform their aspirations into real change. I want
+                  everyone who becomes part of our journey to recognize that 
+                  you do not have to wait until you are older to make a
+                  <strong> difference. </strong> 
+               </p>
+
+               <p>
+                  As we continue to grow, I invite you to learn with us, 
+                  collaborate  with us, and become part of a generation 
+                  that is not only financially informed, but also socially 
+                  responsible and driven to create a better future.
+               </p>
+
+               <p>
+                  Because at YouthFunded, we believe that empowering one 
+                  young mind today can inspire countless possibilities tomorrow.
+               </p>
+               <p>
+                  With gratitude and hope,
+               </p>
             </div>
 
             {/* Signature */}
