@@ -262,6 +262,7 @@ function Home() {
               <span className="purpose-number">
                 01 / THE FUTURE
               </span>
+
               <span className="purpose-icon" aria-hidden="true">
                 ✳
               </span>
@@ -287,6 +288,7 @@ function Home() {
               <span className="purpose-number">
                 02 / THE ACTION
               </span>
+
               <span className="purpose-icon" aria-hidden="true">
                 ↗
               </span>
@@ -308,9 +310,7 @@ function Home() {
         </div>
 
         <div className="purpose-footer">
-          <p>
-            Want to learn more about what drives us?
-          </p>
+          <p>Want to learn more about what drives us?</p>
 
           <a className="text-link" href="/mission">
             Explore Our Purpose <span>→</span>
@@ -324,6 +324,31 @@ function Home() {
         className="founder-section section-pad"
         id="founder"
       >
+        {/* Decorative elements */}
+
+        <span
+          className="founder-decor founder-decor-star"
+          aria-hidden="true"
+        >
+          ✳
+        </span>
+
+        <span
+          className="founder-decor founder-decor-sparkle"
+          aria-hidden="true"
+        >
+          ✦
+        </span>
+
+        <span
+          className="founder-decor founder-decor-coin"
+          aria-hidden="true"
+        >
+          $
+        </span>
+
+        {/* Heading */}
+
         <div className="founder-heading">
           <SectionLabel>A WORDS FROM OUR FOUNDER</SectionLabel>
 
@@ -333,12 +358,14 @@ function Home() {
             <span>— the founder.</span>
           </h2>
 
-          <p>
-            Greetings from YouthFunded!
-          </p>
+          <p>Greetings from YouthFunded!</p>
         </div>
 
+        {/* Founder content */}
+
         <div className="founder-layout">
+          {/* Founder photo */}
+
           <div className="founder-photo">
             <img
               src="/images/founder.jpg"
@@ -352,7 +379,16 @@ function Home() {
             </div>
           </div>
 
+          {/* Founder message */}
+
           <div className="founder-content">
+            <span
+              className="founder-content-doodle"
+              aria-hidden="true"
+            >
+              ✦
+            </span>
+
             <span
               className="founder-quote-mark"
               aria-hidden="true"
@@ -361,40 +397,33 @@ function Home() {
             </span>
 
             <div className="founder-speech">
+              <p>
+                When I founded YouthFunded, I envisioned more than
+                just an organization that teaches financial literacy.
+                I wanted to create a community where young people
+                are empowered to learn, lead, and turn their ideas
+                into meaningful action.
+              </p>
 
-                <p>
-                  When I founded YouthFunded, I envisioned more than 
-                  just an organization that teaches financial literacy.
-                  I wanted to create a community where young people 
-                  are empowered to learn, lead, and turn their ideas 
-                  into meaningful action.
-                </p>
-
-                <p>
-                  I believe that financial literacy is not merely about 
-                   understanding money, but about having the knowledge, 
-                   confidence, and opportunities to shape our own futures. 
-                   Unfortunately, access to financial education remains
-                   unequal, and I hope YouthFunded can play a part in 
-                   bridging that gap by making financial knowledge more 
-                   accessible, practical, and engaging for everyone.
-
-                </p>
-            
-
-              <p className="founder-placeholder">
-                A message from our founder will be shared here.
-                This space is dedicated to the founder&apos;s
-                personal reflections, the story behind YouthFunded,
-                and the aspirations that continue to guide
-                the organization.
+              <p>
+                I believe that financial literacy is not merely about
+                understanding money, but about having the knowledge,
+                confidence, and opportunities to shape our own futures.
+                Unfortunately, access to financial education remains
+                unequal, and I hope YouthFunded can play a part in
+                bridging that gap by making financial knowledge more
+                accessible, practical, and engaging for everyone.
               </p>
             </div>
 
+            {/* Signature */}
+
             <div className="founder-signature">
-              <span>Nadine Andini Wirawan
-                 ,</span>
-              <strong>Founder, President (2025-2026), Advisor (2026-Present), YouthFunded</strong>
+              <span>Nadine Andini Wirawan</span>
+
+              <strong>
+                Founder, President (2025-2026), Advisor (2026-Present), YouthFunded
+              </strong>
             </div>
           </div>
         </div>
@@ -626,9 +655,7 @@ function App() {
           <footer className="site-footer">
             <BrandLogo footer />
 
-            <p>
-              For Indonesia Emas 2045
-            </p>
+            <p>For Indonesia Emas 2045</p>
 
             <div className="footer-bottom">
               <span>
