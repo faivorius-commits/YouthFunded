@@ -223,7 +223,7 @@ p {
       rgba(255, 255, 255, 0.45),
       transparent 30%
     ),
-    var(--blue);
+    var(--pink);
 }
 
 .hero-copy {
