@@ -20,6 +20,7 @@
   --yellow: #ffe39a;
   --coral: #f5a18d;
   --green: #c6d95b;
+  --olive: #d7d773;
   --muted: #657383;
   --line: rgba(38, 54, 74, 0.17);
 }
@@ -170,7 +171,7 @@ p {
   padding: 12px 17px;
   border: 1px solid var(--ink);
   border-radius: 100px;
-  background: var(--green);
+  background: var(--olive);
   color: var(--ink);
   font-size: 0.78rem;
   font-weight: 700;
