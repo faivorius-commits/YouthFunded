@@ -22,6 +22,7 @@
   --green: #c6d95b;
   --olive: #d7d773;
   --muted: #657383;
+  --tosca: #e5f2cf;
   --line: rgba(38, 54, 74, 0.17);
 }
 
@@ -113,7 +114,7 @@ p {
   gap: 24px;
   padding: 13px 6%;
   background: rgba(255, 250, 240, 0.97);
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid var(--tosca);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
 }
@@ -171,7 +172,7 @@ p {
   padding: 12px 17px;
   border: 1px solid var(--ink);
   border-radius: 100px;
-  background: var(--olive);
+  background: var(--tosca);
   color: var(--ink);
   font-size: 0.78rem;
   font-weight: 700;
@@ -672,7 +673,7 @@ p {
 ======================================== */
 
 .vision-section {
-  background: #f6e9da;
+  background: #ffe2ed;
 }
 
 .section-heading {
