@@ -611,7 +611,7 @@ function App() {
           number="02"
           label="THE MONEY NOTEBOOK"
           title="Articles & Insights"
-          description="Explore accessible financial literacy resources and ideas for young people. Article content will be added here."
+          description="Coming soon! —faii and avenessha."
         />
       );
       break;
@@ -622,7 +622,7 @@ function App() {
           number="03"
           label="SAVE THE DATE"
           title="Events & Activities"
-          description="Discover upcoming learning sessions, community activities, and opportunities to grow together."
+          description="Coming soon! —faii and avenessha."
         />
       );
       break;
@@ -633,7 +633,7 @@ function App() {
           number="04"
           label="THE PEOPLE BEHIND THE PURPOSE"
           title="Meet Our Team"
-          description="Meet the young people behind YouthFunded. Team profiles and introductions will be added here."
+          description="Coming soon! —faii and avenessha"
         />
       );
       break;
@@ -683,7 +683,7 @@ function App() {
           <footer className="site-footer">
             <BrandLogo footer />
 
-            <p>For Indonesia Emas 2045</p>
+            <p>For Indonesia Emas 2045 (still on the process —faii and avenessha)</p>
 
             <div className="footer-bottom">
               <span>
