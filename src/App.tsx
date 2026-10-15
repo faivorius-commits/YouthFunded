@@ -683,7 +683,7 @@ function App() {
           <footer className="site-footer">
             <BrandLogo footer />
 
-            <p>For Indonesia Emas 2045 (still on the process —faii and avenessha)</p>
+            <p>For Indonesia Emas 2045 (still in progress —faii and avenessha)</p>
 
             <div className="footer-bottom">
               <span>
