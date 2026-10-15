@@ -3970,4 +3970,8 @@ video {
     width: 175px;
   }
 }
+body .founder-section {
+  background: #ffc8e4 !important;
+  background-image: none !important;
+}
 
