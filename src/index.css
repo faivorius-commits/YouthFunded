@@ -399,103 +399,6 @@ p {
   font-size: 1.25rem;
 }
 
-.piggy {
-  position: absolute;
-  z-index: 4;
-  right: 23px;
-  bottom: 91px;
-  width: 175px;
-  height: 133px;
-  border: 3px solid var(--ink);
-  border-radius: 52% 50% 45% 48%;
-  background: #f49caa;
-  box-shadow: inset -10px -9px 0 rgba(198, 94, 121, 0.13);
-  transform: rotate(7deg);
-}
-
-.piggy::before {
-  content: '';
-  position: absolute;
-  top: -12px;
-  left: 35px;
-  width: 42px;
-  height: 28px;
-  border: 3px solid var(--ink);
-  border-radius: 50% 50% 0 0;
-  background: #f49caa;
-  transform: rotate(-20deg);
-}
-
-.pig-ear {
-  position: absolute;
-  top: -10px;
-  right: 29px;
-  width: 32px;
-  height: 34px;
-  border: 3px solid var(--ink);
-  border-radius: 70% 10% 70% 10%;
-  background: #f49caa;
-  transform: rotate(20deg);
-}
-
-.pig-eye {
-  position: absolute;
-  top: 39px;
-  right: 44px;
-  width: 7px;
-  height: 12px;
-  border-radius: 50%;
-  background: var(--ink);
-}
-
-.pig-snout {
-  position: absolute;
-  top: 52px;
-  right: -8px;
-  display: flex;
-  width: 38px;
-  height: 28px;
-  align-items: center;
-  justify-content: center;
-  gap: 7px;
-  border: 2px solid var(--ink);
-  border-radius: 50%;
-  background: #f8c2c8;
-}
-
-.pig-snout i {
-  width: 4px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--ink);
-}
-
-.pig-leg {
-  position: absolute;
-  bottom: -10px;
-  width: 26px;
-  height: 25px;
-  border: 3px solid var(--ink);
-  border-radius: 0 0 9px 9px;
-  background: #f49caa;
-}
-
-.leg-left {
-  left: 35px;
-}
-
-.leg-right {
-  right: 37px;
-}
-
-.pig-tail {
-  position: absolute;
-  top: 49px;
-  left: -18px;
-  color: var(--ink);
-  font-size: 2rem;
-}
-
 .art-coin {
   position: absolute;
   z-index: 5;
@@ -1492,12 +1395,6 @@ footer.site-footer a {
     left: 18px;
     width: 55%;
     padding: 15px;
-  }
-
-  .piggy {
-    right: 12px;
-    width: 145px;
-    height: 115px;
   }
 
   .section-pad {
