@@ -172,7 +172,7 @@ p {
   padding: 12px 17px;
   border: 1px solid var(--ink);
   border-radius: 100px;
-  background: var(--tosca);
+  background: var(e5f2cf);
   color: var(--ink);
   font-size: 0.78rem;
   font-weight: 700;
@@ -180,7 +180,7 @@ p {
 }
 
 .nav-cta:hover {
-  background: #f4ffc7;
+  background: #f7d3e1;
   transform: translateY(-2px);
 }
 
