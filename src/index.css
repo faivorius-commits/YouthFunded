@@ -1445,7 +1445,7 @@ footer.site-footer a {
 
 /* NAVIGATION */
 .site-header {
-  background: var(--olive);
+  background: var(e5f2cf);
   border-bottom: 1px solid rgba(38, 54, 74, 0.2);
 }
 
@@ -2344,7 +2344,7 @@ footer.site-footer a {
 
 .book-sun {
   margin-bottom: 5px;
-  color: #c6d95b;
+  color: #ffd5e3;
   font-size: 19px;
 }
 
