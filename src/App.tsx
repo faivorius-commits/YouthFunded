@@ -371,7 +371,14 @@ function Home() {
                 </p>
 
                 <p>
-                  Paragraf kedua speech founder.
+                  I believe that financial literacy is not merely about 
+                   understanding money, but about having the knowledge, 
+                   confidence, and opportunities to shape our own futures. 
+                   Unfortunately, access to financial education remains
+                   unequal, and I hope YouthFunded can play a part in 
+                   bridging that gap by making financial knowledge more 
+                   accessible, practical, and engaging for everyone.
+
                 </p>
             
 
@@ -385,8 +392,9 @@ function Home() {
             </div>
 
             <div className="founder-signature">
-              <span>With purpose,</span>
-              <strong>Founder of YouthFunded</strong>
+              <span>Nadine Andini Wirawan
+                 ,</span>
+              <strong>Founder, President (2025-2026), Advisor (2026-Present), YouthFunded</strong>
             </div>
           </div>
         </div>
