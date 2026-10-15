@@ -340,7 +340,7 @@ export default function Mission() {
         /* SDG */
 
         .yf-sdg-section {
-          background: #f4f1e5;
+          background: #ffe3f1;
         }
 
         .yf-sdg-grid {
