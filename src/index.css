@@ -4050,3 +4050,25 @@ video {
   }
 }
 
+/* Owl mascot replacing the piggy bank */
+.owl-mascot {
+  position: absolute;
+  z-index: 4;
+  right: 8px;
+  bottom: 38px;
+  width: 190px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  transform: rotate(3deg);
+  filter: drop-shadow(3px 5px 0 rgba(38, 54, 74, 0.12));
+}
+
+@media (max-width: 768px) {
+  .owl-mascot {
+    right: 8px;
+    bottom: 38px;
+    width: 175px;
+  }
+}
+
