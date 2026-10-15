@@ -639,15 +639,8 @@ function App() {
       break;
 
     case "/media":
-      page = (
-        <PlaceholderPage
-          number="05"
-          label="KEEP IN TOUCH"
-          title="Our Media"
-          description="Follow our journey, explore our activities, and connect with the YouthFunded community."
-        />
-      );
-      break;
+  page = <Media />;
+  break;
 
     default:
       page = (
