@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import "./index.css";
 import Mission from "./pages/Mission";
+import Media from "./pages/Media";
 
 /* ========================================
    SECTION LABEL
