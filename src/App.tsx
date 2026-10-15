@@ -135,19 +135,15 @@ function Home() {
           <div className="art-coin coin-b">$</div>
           <div className="art-coin coin-c">¢</div>
 
-          <div className="piggy">
-            <div className="pig-ear" />
-            <div className="pig-eye" />
+          
 
-            <div className="pig-snout">
-              <i />
-              <i />
-            </div>
+           <img
+              className="owl-mascot"
+              src="/owl-mascot.png"
+              alt="YouthFunded owl mascot"
+           />
 
-            <div className="pig-leg leg-left" />
-            <div className="pig-leg leg-right" />
-            <div className="pig-tail">〰</div>
-          </div>
+
 
           <div className="art-caption">
             <span>01 / YOUR FINANCIAL JOURNEY</span>
