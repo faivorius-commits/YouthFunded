@@ -3457,3 +3457,595 @@ video {
     transition-duration: 0.01ms !important;
   }
 }
+/* ========================================
+   FOUNDER SECTION — COMPLETE STYLE FIX
+======================================== */
+
+.founder-section {
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  padding: 100px 7%;
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 10% 15%,
+      rgba(198, 217, 91, 0.22),
+      transparent 27%
+    ),
+    radial-gradient(
+      circle at 90% 85%,
+      rgba(184, 227, 245, 0.45),
+      transparent 30%
+    ),
+    #fffaf0;
+
+  color: #26364a;
+}
+
+/* Decorative elements */
+
+.founder-decor {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  pointer-events: none;
+  user-select: none;
+}
+
+.founder-decor-star {
+  top: 80px;
+  left: 4%;
+
+  color: #c6d95b;
+  font-size: 58px;
+
+  animation: founder-float 4s ease-in-out infinite;
+}
+
+.founder-decor-sparkle {
+  top: 180px;
+  right: 5%;
+
+  color: #e8a65b;
+  font-size: 45px;
+
+  animation: founder-spin 12s linear infinite;
+}
+
+.founder-decor-coin {
+  right: 7%;
+  bottom: 70px;
+
+  display: grid;
+  width: 58px;
+  height: 58px;
+  place-items: center;
+
+  border: 2px solid #26364a;
+  border-radius: 50%;
+
+  background: #ffe39a;
+
+  font-family: "Fredoka", sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+
+  box-shadow: 4px 4px 0 rgba(38, 54, 74, 0.12);
+
+  transform: rotate(12deg);
+}
+
+/* Heading */
+
+.founder-heading {
+  position: relative;
+  z-index: 1;
+
+  width: 100%;
+  max-width: 760px;
+
+  margin: 0 auto 60px;
+
+  text-align: center;
+}
+
+.founder-heading .section-label {
+  display: inline-block;
+
+  margin-bottom: 18px;
+
+  color: #718091;
+
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 1.8;
+}
+
+.founder-heading h2 {
+  margin: 0;
+
+  color: #26364a;
+
+  font-family: "Fredoka", sans-serif;
+  font-size: clamp(35px, 5vw, 62px);
+  font-weight: 600;
+  line-height: 1.15;
+
+  letter-spacing: -1.5px;
+  overflow-wrap: break-word;
+}
+
+.founder-heading h2 span {
+  color: #829c2e;
+}
+
+.founder-heading > p {
+  margin: 20px auto 0;
+
+  color: #697887;
+
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* Main layout */
+
+.founder-layout {
+  position: relative;
+  z-index: 1;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 0.85fr)
+    minmax(0, 1.15fr);
+
+  align-items: center;
+
+  gap: clamp(25px, 4vw, 55px);
+
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+
+/* Founder photo card */
+
+.founder-photo {
+  position: relative;
+
+  width: 100%;
+  height: auto;
+  min-width: 0;
+
+  padding: 14px 14px 0;
+
+  overflow: visible;
+
+  border: 1px solid rgba(38, 54, 74, 0.1);
+
+  background: #fffaf0;
+
+  box-shadow:
+    0 12px 30px rgba(38, 54, 74, 0.1),
+    6px 6px 0 rgba(198, 217, 91, 0.65);
+
+  transform: rotate(-3deg);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.founder-photo:hover {
+  transform: rotate(0deg) translateY(-4px);
+
+  box-shadow:
+    0 18px 35px rgba(38, 54, 74, 0.13),
+    6px 6px 0 rgba(198, 217, 91, 0.65);
+}
+
+.founder-photo::before {
+  content: "";
+
+  position: absolute;
+  z-index: 2;
+
+  top: -11px;
+  left: 50%;
+
+  width: 85px;
+  height: 24px;
+
+  background: rgba(198, 217, 91, 0.85);
+
+  transform: translateX(-50%) rotate(-3deg);
+}
+
+.founder-photo img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  min-height: 250px;
+  max-height: 430px;
+
+  object-fit: cover;
+  object-position: center;
+
+  background: #dcebf0;
+}
+
+/* Caption below the photo */
+
+.founder-photo-caption {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  gap: 8px;
+
+  width: 100%;
+
+  padding: 17px 3px 18px;
+
+  color: #526478;
+
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+.founder-photo-caption span:last-child {
+  color: #829c2e;
+
+  font-size: 10px;
+  font-weight: 800;
+}
+
+/* Founder letter */
+
+.founder-content {
+  position: relative;
+
+  width: 100%;
+  min-width: 0;
+
+  padding: clamp(30px, 4vw, 48px);
+
+  border: 1.5px solid rgba(38, 54, 74, 0.16);
+  border-radius: 4px 22px 4px 22px;
+
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 35px,
+      rgba(94, 135, 157, 0.09) 36px
+    ),
+    #ffffff;
+
+  box-shadow: 7px 7px 0 rgba(38, 54, 74, 0.08);
+}
+
+/* Decorative quotation mark */
+
+.founder-quote-mark {
+  display: block;
+
+  height: 65px;
+
+  margin-bottom: 5px;
+
+  color: #c6d95b;
+
+  font-family: Georgia, serif;
+  font-size: 100px;
+  font-weight: 700;
+
+  line-height: 1;
+}
+
+/* Small decorative sparkle */
+
+.founder-content-doodle {
+  position: absolute;
+
+  top: 24px;
+  right: 25px;
+
+  color: #e5a24d;
+
+  font-size: 35px;
+
+  animation: founder-float 4s ease-in-out infinite;
+}
+
+/* Founder message text */
+
+.founder-speech {
+  position: relative;
+
+  width: 100%;
+  min-width: 0;
+
+  color: #526174;
+
+  font-size: 14px;
+  line-height: 2;
+  overflow-wrap: break-word;
+}
+
+.founder-speech p {
+  margin: 0 0 20px;
+
+  color: #526174;
+
+  font-size: 14px;
+  line-height: 2;
+
+  overflow-wrap: break-word;
+}
+
+.founder-speech p:last-child {
+  margin-bottom: 0;
+}
+
+/* Founder signature */
+
+.founder-signature {
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 7px;
+
+  margin-top: 28px;
+  padding-top: 22px;
+
+  border-top: 1px dashed rgba(38, 54, 74, 0.25);
+}
+
+.founder-signature span {
+  color: #26364a;
+
+  font-family: "Fredoka", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+
+  line-height: 1.3;
+}
+
+.founder-signature strong {
+  color: #829c2e;
+
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+
+  overflow-wrap: anywhere;
+}
+
+/* Animations */
+
+@keyframes founder-float {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+
+  50% {
+    translate: 0 -9px;
+  }
+}
+
+@keyframes founder-spin {
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 360deg;
+  }
+}
+
+/* ========================================
+   FOUNDER — TABLET
+======================================== */
+
+@media (max-width: 900px) {
+  .founder-section {
+    padding: 80px 5%;
+  }
+
+  .founder-layout {
+    grid-template-columns:
+      minmax(0, 0.9fr)
+      minmax(0, 1.1fr);
+
+    gap: 28px;
+  }
+
+  .founder-content {
+    padding: 28px;
+  }
+
+  .founder-speech,
+  .founder-speech p {
+    font-size: 13px;
+    line-height: 1.9;
+  }
+
+  .founder-photo img {
+    min-height: 220px;
+  }
+
+  .founder-decor-star {
+    left: 2%;
+    font-size: 42px;
+  }
+
+  .founder-decor-sparkle {
+    right: 2%;
+    font-size: 35px;
+  }
+}
+
+/* ========================================
+   FOUNDER — MOBILE
+======================================== */
+
+@media (max-width: 640px) {
+  .founder-section {
+    padding: 65px 22px;
+  }
+
+  .founder-heading {
+    margin-bottom: 45px;
+  }
+
+  .founder-heading h2 {
+    font-size: clamp(32px, 9vw, 45px);
+    letter-spacing: -1px;
+  }
+
+  .founder-heading .section-label {
+    font-size: 9px;
+    letter-spacing: 1.5px;
+  }
+
+  .founder-layout {
+    grid-template-columns: minmax(0, 1fr);
+
+    gap: 40px;
+
+    max-width: 480px;
+  }
+
+  .founder-photo {
+    width: calc(100% - 12px);
+    max-width: 380px;
+
+    margin: 0 auto;
+  }
+
+  .founder-photo img {
+    width: 100%;
+
+    height: 300px;
+    min-height: 0;
+    max-height: none;
+
+    object-fit: cover;
+  }
+
+  .founder-photo-caption {
+    font-size: 8px;
+  }
+
+  .founder-content {
+    padding: 30px 24px;
+  }
+
+  .founder-quote-mark {
+    height: 55px;
+    font-size: 85px;
+  }
+
+  .founder-content-doodle {
+    top: 20px;
+    right: 20px;
+    font-size: 28px;
+  }
+
+  .founder-speech,
+  .founder-speech p {
+    font-size: 13px;
+    line-height: 1.95;
+  }
+
+  .founder-signature span {
+    font-size: 23px;
+  }
+
+  .founder-signature strong {
+    font-size: 9px;
+  }
+
+  .founder-decor-star {
+    top: 30px;
+    left: 10px;
+    font-size: 32px;
+  }
+
+  .founder-decor-sparkle {
+    top: 220px;
+    right: 10px;
+    font-size: 27px;
+  }
+
+  .founder-decor-coin {
+    right: 12px;
+    bottom: 25px;
+
+    width: 42px;
+    height: 42px;
+
+    font-size: 20px;
+  }
+}
+
+/* ========================================
+   FOUNDER — SMALL MOBILE
+======================================== */
+
+@media (max-width: 380px) {
+  .founder-section {
+    padding: 55px 17px;
+  }
+
+  .founder-heading h2 {
+    font-size: 31px;
+  }
+
+  .founder-content {
+    padding: 25px 19px;
+  }
+
+  .founder-photo img {
+    height: 250px;
+  }
+
+  .founder-speech,
+  .founder-speech p {
+    font-size: 12px;
+  }
+
+  .founder-signature span {
+    font-size: 21px;
+  }
+}
+
+/* Respect reduced motion preferences */
+
+@media (prefers-reduced-motion: reduce) {
+  .founder-decor-star,
+  .founder-decor-sparkle,
+  .founder-content-doodle {
+    animation: none !important;
+  }
+
+  .founder-photo {
+    transition: none !important;
+  }
+}
