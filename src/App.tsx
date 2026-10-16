@@ -605,14 +605,7 @@ function App() {
       break;
 
     case "/events":
-      page = (
-        <PlaceholderPage
-          number="03"
-          label="SAVE THE DATE"
-          title="Events & Activities"
-          description="Coming soon! —faii and avenessha."
-        />
-      );
+      page = <Events />;
       break;
 
     case "/team":
