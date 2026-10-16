@@ -12,7 +12,7 @@ return (
       </h2>
 
       <p>
-        Follow our journey, explore our initiatives, and connect
+        Click to follow our journey, explore our initiatives, and connect
         with YouthFunded through our official platforms.
       </p>
     </div>
@@ -30,7 +30,7 @@ return (
         </div>
 
         <span className="media-platform">INSTAGRAM</span>
-        <h3>Follow Our Journey</h3>
+        <h3>@youthfunded</h3>
         
 
         <span className="media-arrow" aria-hidden="true">↗</span>
@@ -48,7 +48,7 @@ return (
         </div>
 
         <span className="media-platform">LINKEDIN</span>
-        <h3>Grow With Us</h3>
+        <h3>Youthfunded</h3>
 
         <span className="media-arrow" aria-hidden="true">↗</span>
       </a>
@@ -63,7 +63,7 @@ return (
         </div>
 
         <span className="media-platform">EMAIL</span>
-        <h3>Let's Connect</h3>
+        <h3>youthfunded@gmail.com</h3>
 
         <span className="media-arrow" aria-hidden="true">↗</span>
       </a>
