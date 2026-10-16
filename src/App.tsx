@@ -259,9 +259,8 @@ function Home() {
               <span className="purpose-icon" aria-hidden="true">
                 ✳
               </span>
+              <h3>Our Vision</h3>
             </div>
-
-            <h3>Our Vision</h3>
 
             <p>
               To create a generation of Indonesian youth who
@@ -281,9 +280,10 @@ function Home() {
               <span className="purpose-icon" aria-hidden="true">
                 ↗
               </span>
+             <h3>Our Mission</h3>
             </div>
 
-            <h3>Our Mission</h3>
+            
 
             <p>
               To make financial knowledge accessible to all,
