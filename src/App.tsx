@@ -256,10 +256,6 @@ function Home() {
         <div className="purpose-grid">
           <article className="purpose-card vision-card">
             <div className="purpose-card-top">
-              <span className="purpose-number">
-                01 / THE FUTURE
-              </span>
-
               <span className="purpose-icon" aria-hidden="true">
                 ✳
               </span>
@@ -282,10 +278,6 @@ function Home() {
 
           <article className="purpose-card mission-card">
             <div className="purpose-card-top">
-              <span className="purpose-number">
-                02 / THE ACTION
-              </span>
-
               <span className="purpose-icon" aria-hidden="true">
                 ↗
               </span>
