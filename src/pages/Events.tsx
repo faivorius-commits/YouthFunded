@@ -14,7 +14,7 @@ function Events() {
         toward elephant conservation in Indonesia. So grateful 
         for the team and everyone who backed this cause!
       </p>
-      <div className="event-meta"
+      <div className="event-meta">
         <p>
         <strong> Date: </strong>
          August 2026 — October 2026
@@ -23,6 +23,7 @@ function Events() {
         <strong> Place: </strong>
          Taman Nasional Way Kambas & WWF Jakarta Office
         </p>
+        </div>
     </div>
   </article>
 
