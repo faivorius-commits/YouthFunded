@@ -226,8 +226,8 @@ function Home() {
             with greater confidence.
           </p>
 
-          <a className="text-link" href="/mission">
-            Get to know our purpose <span>→</span>
+          <a className="text-link" href="/media">
+            Contact us! <span>→</span>
           </a>
         </div>
       </section>
@@ -297,13 +297,14 @@ function Home() {
             </span>
           </article>
         </div>
-
+         <br>
         <div className="purpose-footer">
           <p>Want to learn more about what drives us?</p>
 
           <a className="text-link" href="/mission">
             Explore Our Purpose <span>→</span>
           </a>
+           </br>
         </div>
       </section>
 
