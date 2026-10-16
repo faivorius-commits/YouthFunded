@@ -593,7 +593,7 @@ export default function Mission() {
             </p>
 
             <div className="yf-hero-pill">
-              Financial literacy for every young mind <span>↗</span>
+              Financial literacy for every young mind <span>$</span>
             </div>
           </div>
 
