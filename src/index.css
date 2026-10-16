@@ -4018,7 +4018,7 @@ text-align: center;
 .media-eyebrow {
 display: inline-block;
 margin-bottom: 18px;
-color: #687d2d;
+color: #d65e87;
 font-family: "DM Sans", sans-serif;
 font-size: 0.75rem;
 font-weight: 800;
@@ -4184,7 +4184,7 @@ background 0.3s ease;
 
 .media-card:hover .media-arrow {
 transform: translate(3px, -3px);
-background: #c6d95b;
+background: #fedbef;
 }
 
 /* BOTTOM MESSAGE */
