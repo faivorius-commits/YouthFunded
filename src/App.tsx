@@ -297,14 +297,12 @@ function Home() {
             </span>
           </article>
         </div>
-         <br>
         <div className="purpose-footer">
-          <p>Want to learn more about what drives us?</p>
+          <p><br>Want to learn more about what drives us?</br></p>
 
           <a className="text-link" href="/mission">
             Explore Our Purpose <span>→</span>
           </a>
-           </br>
         </div>
       </section>
 
