@@ -26,6 +26,11 @@ function Events() {
         </div>
     </div>
   </article>
+  </div>
+  );
+}
+
+export default Events;
 
 
 
