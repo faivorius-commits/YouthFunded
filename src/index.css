@@ -4035,7 +4035,7 @@ line-height: 1.15;
 }
 
 .media-heading h2 span {
-color: #758b31;
+color: #d65e87;
 }
 
 .media-heading > p {
@@ -4108,7 +4108,7 @@ box-shadow: 0 20px 40px rgba(38, 54, 74, 0.1);
 }
 
 .media-card:focus-visible {
-outline: 3px solid #81952e;
+outline: 3px solid #d65e87;
 outline-offset: 4px;
 }
 
@@ -4136,7 +4136,7 @@ font-weight: 700;
 .media-platform {
 display: block;
 margin-bottom: 10px;
-color: #71872e;
+color: #a34264;
 font-family: "DM Sans", sans-serif;
 font-size: 0.7rem;
 font-weight: 800;
