@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Fredoka:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
+
 
 /* ========================================
    1. ROOT & GLOBAL
@@ -4297,7 +4297,10 @@ transform: none;
 }
 }
 
-/* EVENTS HEADLINE */
+
+/* ==============================
+   EVENTS HEADLINE
+============================== */
 
 .events-hero {
   text-align: center;
@@ -4316,9 +4319,9 @@ transform: none;
 
 .events-hero h1 {
   font-family: "Fredoka", sans-serif;
-  font-size: clamp(64px, 10vw, 110px);
+  font-size: clamp(48px, 10vw, 110px);
   font-weight: 500;
-  line-height: 0.95;
+  line-height: 1.05;
   letter-spacing: -3px;
   color: #263e32;
   margin: 0 0 30px;
@@ -4326,7 +4329,7 @@ transform: none;
 
 .events-hero h1 span {
   color: #c78391;
-  font-style: Fredoka;
+  font-style: normal;
 }
 
 .events-description {
@@ -4337,39 +4340,37 @@ transform: none;
   line-height: 1.8;
 }
 
-.events-subdescription {
-  max-width: 580px;
-  margin: 0 auto;
-  color: #7c8178;
-  font-size: 14px;
-  line-height: 1.8;
-}
-
-/* MOBILE */
+/* RESPONSIVE — MOBILE */
 
 @media (max-width: 600px) {
   .events-hero {
-    padding: 65px 20px 45px;
-  }
-
-  .events-hero h1 {
-    font-size: clamp(56px, 14vw, 78px);
-    letter-spacing: -2px;
+    padding: 64px 20px 44px;
   }
 
   .events-eyebrow {
     font-size: 10px;
     letter-spacing: 2px;
+    margin-bottom: 18px;
+  }
+
+  .events-hero h1 {
+    font-size: clamp(42px, 12vw, 64px);
+    letter-spacing: -1.5px;
+    line-height: 1.1;
+    margin-bottom: 22px;
   }
 
   .events-description {
     font-size: 15px;
+    line-height: 1.7;
   }
 
   .events-subdescription {
     font-size: 13px;
+    line-height: 1.7;
   }
 }
+
 
 /* ===== EVENTS SECTION ===== */
 
