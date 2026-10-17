@@ -677,12 +677,11 @@ function App() {
 
             <div className="footer-bottom">
               <span>
-                © {new Date().getFullYear()} YouthFunded.
-                <br>All rights reserved.</br>
+               © {new Date().getFullYear()} YouthFunded. All rights reserved.
                  <p>YouthFunded IT Team</p>
               </span>
 
-              <a href="/">Back to Home ↑</a>
+              <a href="/"> Back to Home ↑</a>
             </div>
           </footer>
         </>
