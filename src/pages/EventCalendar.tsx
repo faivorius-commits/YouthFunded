@@ -18,14 +18,14 @@ const events: CalendarEvent[] = [
   description:
     "A fundraising initiative supporting elephant conservation in Indonesia.",
   status: "Past Event",
-}
+},
     {
   startDate: "2026-12-08",
   title: "WWF Donation Day",
   description:
     "Official donation of the funds raised to WWF to support elephant conservation in Indonesia.",
   status: "Past Event",
-}
+},
 ];
 
 const monthNames = [
