@@ -580,10 +580,12 @@ function App() {
     setShowIntro(false);
   };
 
+    
   const path =
-  window.location.pathname.replace(/\/+$/, "") || "/";
+    window.location.pathname.replace(/\/+$/, "") || "/";
 
-  
+  let page: React.ReactNode;
+
   if (path.startsWith("/events/")) {
     const slug = path.slice("/events/".length);
     page = <EventDetail slug={slug} />;
@@ -638,6 +640,7 @@ function App() {
         );
     }
   }
+
 
 
   return (
