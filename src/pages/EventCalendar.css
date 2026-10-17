@@ -150,7 +150,7 @@
 
 .calendar-day:not(.empty):hover {
   border-color: #ded3f2;
-  background: #d65e87;
+  background: ##f7aac4;
 }
 
 .calendar-day.selected {
