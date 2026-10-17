@@ -7,12 +7,13 @@ function Events() {
     <img src="/event1-doc1.jpg" alt="Event 1" />
     <div className="event-content">
       <h3>WWF X YouthFunded X Chicco Jericho</h3>
-      <p>A quick throw-back to our fundraiser collaboration 
-         with @tusk_force and WWF! 🐘 Thanks to everyone who 
-        supported us by grabbing drinks and custom tees, we 
-        were able to raise and donate Rp 10,000,000 directly 
-        toward elephant conservation in Indonesia. So grateful 
-        for the team and everyone who backed this cause!
+      <p>Collaborated with TUSK Force and WWF on a 
+        fundraising initiative to support elephant 
+        conservation in Indonesia. The campaign has
+        raised and donated Rp 10,000,000 through 
+        beverage sales and custom merchandise, with 
+        the proceeds contributing directly to 
+        elephant conservation efforts.
       </p>
       <div className="event-meta">
         <p>
