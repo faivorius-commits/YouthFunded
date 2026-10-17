@@ -20,13 +20,6 @@ const events: CalendarEvent[] = [
       "Collaborated with TUSK Force and WWF, raising and donating Rp 10,000,000 to support elephant conservation in Indonesia.",
     status: "past",
   },
-  {
-    startDate: "2026-10-17",
-    title: "YouthFunded Single-Day Event",
-    description: "Description of the event goes here.",
-    status: "upcoming",
-    time: "09:00 AM",
-  },
 ];
 
 const monthNames = [
