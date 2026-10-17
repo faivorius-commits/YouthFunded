@@ -23,7 +23,7 @@
 
 .event-calendar-heading h2 {
   margin: 0 0 12px;
-  color: #c8929e;
+  color: #b3ab6f;
   font-family: "Fredoka", sans-serif;
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 600;
@@ -50,9 +50,9 @@
 .selected-events-card {
   min-width: 0;
   padding: 28px;
-  border: 1px solid #D3E8CC ;
+  border: 1px solid #dde77c ;
   border-radius: 24px;
-  background: #EAF6E7 ;
+  background: #dde780 ;
   box-shadow: 0 12px 40px rgba(54, 40, 84, 0.06);
 }
 
@@ -79,7 +79,7 @@
 }
 
 .calendar-month-title span {
-  color: #c8929e;
+  color: #a34264;
   font-size: 0.95rem;
 }
 
@@ -122,7 +122,7 @@
 
 .calendar-weekdays div {
   padding: 8px 0;
-  color: #9a91aa;
+  color: #a34264;
   font-size: 0.75rem;
   font-weight: 600;
   text-align: center;
@@ -185,7 +185,7 @@
 }
 
 .calendar-day.selected .calendar-event-dot {
-  background: #ffc9eb;
+  background: #d75b88;
 }
 
 .calendar-legend {
