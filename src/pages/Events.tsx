@@ -5,6 +5,8 @@ import EventCalendar from "./EventCalendar";
 function Events() {
   return (
     <>
+      <EventCalendar />
+      
       <section className="events-carousel">
         <article className="event-card">
           <img
