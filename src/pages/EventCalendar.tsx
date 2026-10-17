@@ -95,10 +95,10 @@ function EventCalendar() {
   return (
     <section className="event-calendar-section">
       <div className="event-calendar-heading">
-        <span className="event-calendar-eyebrow">OUR ACTIVITIES</span>
-        <h2>Events Calendar</h2>
+        <span className="event-calendar-eyebrow">ACTIVITY CALENDAR</span>
+        <h2>OUR EVENTS</h2>
         <p>
-          Explore our activities, collaborations, and upcoming initiatives.
+          Join our upcoming fundraising initiatives!
         </p>
       </div>
 
