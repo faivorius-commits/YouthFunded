@@ -3,7 +3,8 @@ import { useState } from "react";
 import "./EventCalendar.css";
 
 type CalendarEvent = {
-  date: string; // Format: YYYY-MM-DD
+  startDate: string;
+  endDate?: string;
   title: string;
   description: string;
   status: "upcoming" | "past";
@@ -11,13 +12,21 @@ type CalendarEvent = {
 };
 
 const events: CalendarEvent[] = [
-{
-  startDate: "2026-08-01",
-  endDate: "2026-10-31",
-  title: "WWF X YouthFunded X Chicco jericho",
-  description: "Collaborated with TUSK Force and WWF, raising and donating Rp 10,000,000 to support elephant conservation in Indonesia.",
-  status: "Past Event",
-}
+  {
+    startDate: "2026-08-01",
+    endDate: "2026-10-31",
+    title: "WWF X YouthFunded X Chicco Jericho",
+    description:
+      "Collaborated with TUSK Force and WWF, raising and donating Rp 10,000,000 to support elephant conservation in Indonesia.",
+    status: "past",
+  },
+  {
+    startDate: "2026-10-17",
+    title: "YouthFunded Single-Day Event",
+    description: "Description of the event goes here.",
+    status: "upcoming",
+    time: "09:00 AM",
+  },
 ];
 
 const monthNames = [
