@@ -24,7 +24,7 @@ function Events() {
 
             <div className="event-meta">
               <p>
-                <strong>Date:</strong> August 2026 — October 2026
+                <strong>Date:</strong> November 2025 — December 2025
               </p>
 
               <p>
