@@ -20,12 +20,6 @@ function Events() {
           contributions into lasting impact.
         </p>
 
-        <p className="events-subdescription">
-          From learning experiences to community initiatives, every
-          event is a step toward a more financially informed and
-          empowered youth community.
-        </p>
-      </section>
 
       <div className="events-carousel">
         <article className="event-card">
