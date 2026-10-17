@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import "./index.css";
 import Mission from "./pages/Mission";
 import Events from "./pages/Events";
+import EventDetail from "./pages/EventDetail";
 import Media from "./pages/Media";
 
 /* ========================================
@@ -584,6 +585,17 @@ function App() {
 
   let page: React.ReactNode;
 
+  const eventPrefix = "/events/";
+
+if (path.startsWith(eventPrefix) && path !== "/events") {
+  const slug = path.slice(eventPrefix.length);
+
+  page = <EventDetail slug={slug} />;
+} else {
+  switch (path) {
+    // Pindahkan isi switch (path) yang lama ke sini.
+  }
+}
   switch (path) {
     case "/":
       page = <Home />;
@@ -599,7 +611,7 @@ function App() {
           number="02"
           label="THE MONEY NOTEBOOK"
           title="Articles & Insights"
-          description="Coming soon! —faii and avenessha."
+          description="Coming soon"
         />
       );
       break;
@@ -614,7 +626,7 @@ function App() {
           number="04"
           label="THE PEOPLE BEHIND THE PURPOSE"
           title="Meet Our Team"
-          description="Coming soon! —faii and avenessha"
+          description="Coming soon"
         />
       );
       break;
