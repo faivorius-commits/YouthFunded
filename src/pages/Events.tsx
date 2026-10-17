@@ -9,11 +9,7 @@ function Events() {
       <h3>WWF X YouthFunded X Chicco Jericho</h3>
       <p>Collaborated with TUSK Force and WWF on a 
         fundraising initiative to support elephant 
-        conservation in Indonesia. The campaign has
-        raised and donated Rp 10,000,000 through 
-        beverage sales and custom merchandise, with 
-        the proceeds contributing directly to 
-        elephant conservation efforts.
+        conservation in Indonesia. 
       </p>
       <div className="event-meta">
         <p>
@@ -25,6 +21,10 @@ function Events() {
          Taman Nasional Way Kambas & WWF Jakarta Office
         </p>
         </div>
+        <a href="/events/wwf-youthfunded" className="event-read-more">
+       Read More <span aria-hidden="true">↗</span>
+       </a>
+      
     </div>
   </article>
   </div>
