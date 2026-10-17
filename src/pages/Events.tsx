@@ -1,6 +1,27 @@
 import React from "react";
 function Events() {
-  return (    
+  return ( 
+  <section className="events-hero">
+  <p className="events-eyebrow">EXPLORE OUR PAST & UPCOMING EVENTS!</p>
+
+  <h1>
+    OUR
+    <br />
+    <span>EVENTS</span>
+  </h1>
+
+  <p className="events-description">
+    Join our upcoming fundraising initiatives to support 
+    meaningful causes, empower communities, and turn small 
+    contributions into lasting impact.
+  </p>
+
+  <p className="events-subdescription">
+    From learning experiences to community initiatives, every
+    event is a step toward a more financially informed and
+    empowered youth community.
+  </p>
+</section>
 <div className="events-carousel">
   
   <article className="event-card">
