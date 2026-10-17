@@ -673,12 +673,13 @@ function App() {
           <footer className="site-footer">
             <BrandLogo footer />
 
-            <p>For Indonesia Emas 2045 (still in progress —faii and avenessha)</p>
+            <p>For Indonesia Emas 2045</p>
 
             <div className="footer-bottom">
               <span>
                 © {new Date().getFullYear()} YouthFunded.
-                All rights reserved.
+                <br>All rights reserved.</br>
+                 <p>YouthFunded IT Team</p>
               </span>
 
               <a href="/">Back to Home ↑</a>
