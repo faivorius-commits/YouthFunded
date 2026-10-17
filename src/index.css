@@ -4441,3 +4441,63 @@ transform: none;
   font-size: 0.8rem;
   line-height: 1;
 }
+
+.event-detail-page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.event-detail-content {
+  max-width: 760px;
+  margin: 32px auto 0;
+}
+
+.event-detail-image {
+  display: block;
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 18px;
+  margin-bottom: 28px;
+}
+
+.event-detail-content h1 {
+  margin: 12px 0 20px;
+  color: var(--ink);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1.15;
+}
+
+.event-detail-meta {
+  display: grid;
+  gap: 8px;
+  padding: 18px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.event-detail-meta p {
+  margin: 0;
+  color: var(--ink);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.event-detail-description,
+.event-detail-story p {
+  color: #5f6d6a;
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
+.event-detail-description {
+  margin-top: 24px;
+}
+
+.event-detail-story {
+  margin-top: 20px;
+}
+
+.event-detail-story p {
+  margin-bottom: 18px;
+}
