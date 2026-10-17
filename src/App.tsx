@@ -583,64 +583,62 @@ function App() {
   const path =
   window.location.pathname.replace(/\/+$/, "") || "/";
 
-let page: React.ReactNode;
+  
+  if (path.startsWith("/events/")) {
+    const slug = path.slice("/events/".length);
+    page = <EventDetail slug={slug} />;
+  } else {
+    switch (path) {
+      case "/":
+        page = <Home />;
+        break;
 
-if (path.startsWith("/events/")) {
-  const slug = path.slice("/events/".length);
-  page = <EventDetail slug={slug} />;
-} else {
-  switch (path) {
-    
-}
-  switch (path) {
-    case "/":
-      page = <Home />;
-      break;
+      case "/mission":
+        page = <Mission />;
+        break;
 
-    case "/mission":
-      page = <Mission />;
-      break;
+      case "/articles":
+        page = (
+          <PlaceholderPage
+            number="02"
+            label="THE MONEY NOTEBOOK"
+            title="Articles & Insights"
+            description="Coming soon"
+          />
+        );
+        break;
 
-    case "/articles":
-      page = (
-        <PlaceholderPage
-          number="02"
-          label="THE MONEY NOTEBOOK"
-          title="Articles & Insights"
-          description="Coming soon"
-        />
-      );
-      break;
+      case "/events":
+        page = <Events />;
+        break;
 
-    case "/events":
-      page = <Events />;
-      break;
+      case "/team":
+        page = (
+          <PlaceholderPage
+            number="04"
+            label="THE PEOPLE BEHIND THE PURPOSE"
+            title="Meet Our Team"
+            description="Coming soon"
+          />
+        );
+        break;
 
-    case "/team":
-      page = (
-        <PlaceholderPage
-          number="04"
-          label="THE PEOPLE BEHIND THE PURPOSE"
-          title="Meet Our Team"
-          description="Coming soon"
-        />
-      );
-      break;
+      case "/media":
+        page = <Media />;
+        break;
 
-    case "/media":
-  page = <Media />;
-  break;
-
-    default:
-      page = (
-        <PlaceholderPage
-          number="404"
-          label="PAGE NOT FOUND"
-          title="Looks like you took a little detour."
-          description="The page you are looking for may not exist yet."
-        />
-      );
+      default:
+        page = (
+          <PlaceholderPage
+            number="404"
+            label="PAGE NOT FOUND"
+            title="Looks like you took a little detour."
+            description="The page you are looking for may not exist yet."
+          />
+        );
+    }
   }
+
 
   return (
     <>
