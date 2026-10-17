@@ -4314,7 +4314,7 @@ transform: none;
 }
 
 .events-hero h1 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: DM SANS, "Fredoka", serif;
   font-size: clamp(64px, 10vw, 110px);
   font-weight: 500;
   line-height: 0.95;
@@ -4325,13 +4325,13 @@ transform: none;
 
 .events-hero h1 span {
   color: #c78391;
-  font-style: italic;
+  font-style: Fredoka;
 }
 
 .events-description {
   max-width: 650px;
   margin: 0 auto 16px;
-  color: #435447;
+  color: #7c8178;
   font-size: 17px;
   line-height: 1.8;
 }
