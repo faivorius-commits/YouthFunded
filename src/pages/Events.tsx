@@ -56,7 +56,7 @@ function Events() {
               href="/events/wwf-youthfunded"
             >
               Read More <span aria-hidden="true">↗</span>
-            </a>
+            </a>    
           </div>
         </article>
       </section>
@@ -65,3 +65,4 @@ function Events() {
 }
 
 export default Events;
+
