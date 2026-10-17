@@ -13,13 +13,19 @@ type CalendarEvent = {
 
 const events: CalendarEvent[] = [
   {
-    startDate: "2026-08-01",
-    endDate: "2026-10-31",
-    title: "WWF X YouthFunded X Chicco Jericho",
-    description:
-      "Collaborated with TUSK Force and WWF, raising and donating Rp 10,000,000 to support elephant conservation in Indonesia.",
-    status: "past",
-  },
+  startDate: "2026-11-10",
+  title: "Fundraising Collaboration with WWF",
+  description:
+    "A fundraising initiative supporting elephant conservation in Indonesia.",
+  status: "Past Event",
+}
+    {
+  startDate: "2026-12-08",
+  title: "WWF Donation Day",
+  description:
+    "Official donation of the funds raised to WWF to support elephant conservation in Indonesia.",
+  status: "Past Event",
+}
 ];
 
 const monthNames = [
