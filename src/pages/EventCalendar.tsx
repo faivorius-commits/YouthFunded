@@ -13,22 +13,16 @@ type CalendarEvent = {
 
 const events: CalendarEvent[] = [
   {
-    startDate: "2026-08-01",
-    endDate: "2026-10-31",
-    title: "WWF X YouthFunded X Chicco Jerikho",
-    description:
-      "A collaboration campaign between WWF, YouthFunded, and Chicco Jerikho to support environmental awareness and conservation.",
-    status: "upcoming",
-  },
-  {
-    startDate: "2026-11-10",
+    startDate: "2025-11-10",
+    endDate: "2025-11-10",
     title: "Fundraising Collaboration with WWF",
     description:
       "A fundraising collaboration with WWF to support environmental conservation initiatives.",
-    status: "upcoming",
+    status: "past",
   },
   {
-    startDate: "2026-12-08",
+    startDate: "2025-12-08",
+    endDate: "2025-12-08",
     title: "WWF Donation Day",
     description:
       "A donation initiative to support WWF's environmental and wildlife conservation efforts.",
