@@ -28,24 +28,20 @@ const events: CalendarEvent[] = [
       "A donation initiative to support WWF's environmental and wildlife conservation efforts.",
     status: "past",
   },
-  
-{
-  startDate: "2026-10-24",
-  endDate: "2026-10-24",
-  title: "Orphanage Visit 1",
-  description:
-    "An educational visit dedicated to introducing financial literacy to children through fun and interactive learning activities. Participants will learn the basics of money management, saving, and making wise financial decisions to build healthy financial habits from an early age.",
-  status: "upcoming",
-},
+  {
+    startDate: "2026-10-24",
+    endDate: "2026-10-24",
+    title: "Orphanage Visit 1",
+    description:
+      "An educational visit dedicated to introducing financial literacy to children through fun and interactive learning activities. Participants will learn the basics of money management, saving, and making wise financial decisions to build healthy financial habits from an early age.",
+    status: "upcoming",
+  },
   {
     startDate: "2026-11-01",
     endDate: "2026-11-01",
     title: "Orphanage Visit 2",
     description:
-      "An educational visit dedicated to introducing financial literacy to children through 
-      fun and interactive learning activities. Participants will learn the basics of money 
-  management, saving, and making wise financial decisions to build healthy financial habits
-    from an early age.",
+      "An educational visit dedicated to introducing financial literacy to children through fun and interactive learning activities. Participants will learn the basics of money management, saving, and making wise financial decisions to build healthy financial habits from an early age.",
     status: "upcoming",
   },
   {
@@ -53,11 +49,7 @@ const events: CalendarEvent[] = [
     endDate: "2026-11-08",
     title: "Orphanage Visit 3",
     description:
-      "An educational visit combining financial literacy learning with an environmental 
-      awareness seminar in collaboration with WWF Indonesia. Through interactive teaching 
-      sessions, children will learn the fundamentals of money management, saving, and wise 
-      financial decisions while exploring the importance of environmental conservation, 
-      biodiversity, and sustainable living.",
+      "An educational visit combining financial literacy learning with an environmental awareness seminar in collaboration with WWF Indonesia. Through interactive teaching sessions, children will learn the fundamentals of money management, saving, and wise financial decisions while exploring the importance of environmental conservation, biodiversity, and sustainable living.",
     status: "upcoming",
   },
 ];
@@ -90,7 +82,10 @@ function formatDate(dateString: string) {
 }
 
 function EventCalendar() {
-  const [currentMonth, setCurrentMonth] = useState(new Date(2026, 9, 1));
+  const [currentMonth, setCurrentMonth] = useState(
+    new Date(2026, 9, 1)
+  );
+
   const [selectedDate, setSelectedDate] = useState("2026-10-17");
 
   const year = currentMonth.getFullYear();
@@ -127,11 +122,13 @@ function EventCalendar() {
   return (
     <section className="event-calendar-section">
       <div className="event-calendar-heading">
-        <span className="event-calendar-eyebrow">ACTIVITY CALENDAR</span>
+        <span className="event-calendar-eyebrow">
+          ACTIVITY CALENDAR
+        </span>
+
         <h2>OUR EVENTS</h2>
-        <p>
-          Join our upcoming fundraising initiatives!
-        </p>
+
+        <p>Join our upcoming fundraising initiatives!</p>
       </div>
 
       <div className="event-calendar-layout">
@@ -194,7 +191,9 @@ function EventCalendar() {
                     dayEvents.length > 0 ? ", has events" : ""
                   }`}
                 >
-                  <span className="calendar-day-number">{day}</span>
+                  <span className="calendar-day-number">
+                    {day}
+                  </span>
 
                   {dayEvents.length > 0 && (
                     <span className="calendar-event-dot" />
@@ -211,7 +210,10 @@ function EventCalendar() {
         </div>
 
         <aside className="selected-events-card">
-          <span className="event-calendar-eyebrow">SELECTED DATE</span>
+          <span className="event-calendar-eyebrow">
+            SELECTED DATE
+          </span>
+
           <h3>{formatDate(selectedDate)}</h3>
 
           {selectedEvents.length > 0 ? (
@@ -223,7 +225,9 @@ function EventCalendar() {
                 >
                   <span
                     className={`event-status ${
-                      event.status === "upcoming" ? "upcoming" : "past"
+                      event.status === "upcoming"
+                        ? "upcoming"
+                        : "past"
                     }`}
                   >
                     {event.status === "upcoming"
@@ -244,15 +248,21 @@ function EventCalendar() {
                     <p className="event-time">{event.time}</p>
                   )}
 
-                  <p className="event-description">{event.description}</p>
+                  <p className="event-description">
+                    {event.description}
+                  </p>
                 </article>
               ))}
             </div>
           ) : (
             <div className="calendar-empty-state">
               <span className="empty-state-star">✦</span>
+
               <p>No events scheduled for this date.</p>
-              <span>Choose another date to explore our activities.</span>
+
+              <span>
+                Choose another date to explore our activities.
+              </span>
             </div>
           )}
         </aside>
