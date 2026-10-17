@@ -4327,7 +4327,7 @@ transform: none;
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 16px;
-  background: var(--paper);
+  background: var(fedbef);
   scroll-snap-align: start;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
 }
