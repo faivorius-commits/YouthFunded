@@ -15,7 +15,7 @@
 .event-calendar-eyebrow {
   display: inline-block;
   margin-bottom: 12px;
-  color: #d65e87;
+  color: #2e3d4a;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.18em;
@@ -50,9 +50,9 @@
 .selected-events-card {
   min-width: 0;
   padding: 28px;
-  border: 1px solid #ebf1bb ;
+  border: 1px solid #f1ffd6 ;
   border-radius: 24px;
-  background: #ebf1bb ;
+  background: #f1ffd6 ;
   box-shadow: 0 12px 40px rgba(54, 40, 84, 0.06);
 }
 
