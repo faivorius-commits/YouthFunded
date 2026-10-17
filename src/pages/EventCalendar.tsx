@@ -28,17 +28,15 @@ const events: CalendarEvent[] = [
       "A donation initiative to support WWF's environmental and wildlife conservation efforts.",
     status: "past",
   },
-  {
-    startDate: "2026-10-24",
-    endDate: "2026-10-24",
-    title: "Orphanage Visit 1",
-    description:
-      "An educational visit dedicated to introducing financial literacy to children through 
-      fun and interactive learning activities. Participants will learn the basics of money 
-  management, saving, and making wise financial decisions to build healthy financial habits
-    from an early age.",
-    status: "upcoming",
-  },
+  
+{
+  startDate: "2026-10-24",
+  endDate: "2026-10-24",
+  title: "Orphanage Visit 1",
+  description:
+    "An educational visit dedicated to introducing financial literacy to children through fun and interactive learning activities. Participants will learn the basics of money management, saving, and making wise financial decisions to build healthy financial habits from an early age.",
+  status: "upcoming",
+},
   {
     startDate: "2026-11-01",
     endDate: "2026-11-01",
