@@ -245,3 +245,4 @@ export default function EventCalendar() {
     </section>
   );
 }
+export default EventCalendar;
