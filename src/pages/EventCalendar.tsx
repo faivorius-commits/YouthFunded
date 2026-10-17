@@ -26,7 +26,7 @@ const events: CalendarEvent[] = [
     title: "WWF Donation Day",
     description:
       "A donation initiative to support WWF's environmental and wildlife conservation efforts.",
-    status: "Past",
+    status: "past",
   },
   {
     startDate: "2026-10-24",
