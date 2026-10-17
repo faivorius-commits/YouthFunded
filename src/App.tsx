@@ -581,20 +581,16 @@ function App() {
   };
 
   const path =
-    window.location.pathname.replace(/\/+$/, "") || "/";
+  window.location.pathname.replace(/\/+$/, "") || "/";
 
-  let page: React.ReactNode;
+let page: React.ReactNode;
 
-  const eventPrefix = "/events/";
-
-if (path.startsWith(eventPrefix) && path !== "/events") {
-  const slug = path.slice(eventPrefix.length);
-
+if (path.startsWith("/events/")) {
+  const slug = path.slice("/events/".length);
   page = <EventDetail slug={slug} />;
 } else {
   switch (path) {
-    // Pindahkan isi switch (path) yang lama ke sini.
-  }
+    
 }
   switch (path) {
     case "/":
