@@ -15,7 +15,7 @@
 .event-calendar-eyebrow {
   display: inline-block;
   margin-bottom: 12px;
-  color: #8b78b8;
+  color: #d65e87;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.18em;
@@ -91,7 +91,7 @@
   place-items: center;
   border: 1px solid #e8e1f1;
   border-radius: 50%;
-  background: #faf8ff;
+  background: #ffeafc;
   color: #a34264;
   font-family: inherit;
   font-size: 1.8rem;
@@ -105,7 +105,7 @@
 
 .calendar-nav-button:hover {
   transform: translateY(-2px);
-  background: #c8929e;
+  background: #e59fbb;
   color: white;
 }
 
@@ -150,7 +150,7 @@
 
 .calendar-day:not(.empty):hover {
   border-color: #ded3f2;
-  background: #fff0f9;
+  background: #d65e87;
 }
 
 .calendar-day.selected {
@@ -236,7 +236,7 @@
 
 .event-status.upcoming {
   background: #f1eafa;
-  color: #c8929e;
+  color: #f1abcf;
 }
 
 .event-status.past {
@@ -256,14 +256,14 @@
 .event-date-range,
 .event-time {
   margin: 0 0 8px;
-  color: #8875a9;
+  color: #f3bed8;
   font-size: 0.82rem;
   line-height: 1.6;
 }
 
 .event-description {
   margin: 0;
-  color: #777087;
+  color: #d99eb7;
   font-size: 0.9rem;
   line-height: 1.8;
 }
@@ -281,7 +281,7 @@
 
 .empty-state-star {
   margin-bottom: 14px;
-  color: #c5a5e8;
+  color: #e8a5c9;
   font-size: 2rem;
 }
 
@@ -293,7 +293,7 @@
 }
 
 .calendar-empty-state > span:last-child {
-  color: #93899f;
+  color: #d65e87;
   font-size: 0.85rem;
   line-height: 1.7;
 }
