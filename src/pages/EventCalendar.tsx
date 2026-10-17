@@ -40,8 +40,8 @@ const events: CalendarEvent[] = [
     status: "upcoming",
   },
   {
-    startDate: "2026-11-1",
-    endDate: "2026-11-1",
+    startDate: "2026-11-01",
+    endDate: "2026-11-01",
     title: "Orphanage Visit 2",
     description:
       "An educational visit dedicated to introducing financial literacy to children through 
@@ -51,8 +51,8 @@ const events: CalendarEvent[] = [
     status: "upcoming",
   },
   {
-    startDate: "2026-11-8",
-    endDate: "2026-11-8",
+    startDate: "2026-11-08",
+    endDate: "2026-11-08",
     title: "Orphanage Visit 3",
     description:
       "An educational visit combining financial literacy learning with an environmental 
