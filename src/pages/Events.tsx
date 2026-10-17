@@ -21,9 +21,10 @@ function Events() {
          Taman Nasional Way Kambas & WWF Jakarta Office
         </p>
         </div>
-        <a href="/events/wwf-youthfunded" className="event-read-more">
-       Read More <span aria-hidden="true">↗</span>
-       </a>
+        <a className="event-read-more"
+           href="/events/wwf-youthfunded">
+        Read More <span aria-hidden="true">↗</span>
+        </a>
       
     </div>
   </article>
