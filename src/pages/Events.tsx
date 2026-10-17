@@ -1,5 +1,7 @@
+
 import React from "react";
 import EventCalendar from "./EventCalendar";
+
 function Events() {
   return (
     <>
@@ -19,11 +21,16 @@ function Events() {
           meaningful causes, empower communities, and turn small
           contributions into lasting impact.
         </p>
+      </section>
 
+      <EventCalendar />
 
-      <div className="events-carousel">
+      <section className="events-carousel">
         <article className="event-card">
-          <img src="/event1-doc1.jpg" alt="WWF and YouthFunded event" />
+          <img
+            src="/event1-doc1.jpg"
+            alt="WWF and YouthFunded event"
+          />
 
           <div className="event-content">
             <h3>WWF X YouthFunded X Chicco Jericho</h3>
@@ -39,8 +46,8 @@ function Events() {
               </p>
 
               <p>
-                <strong>Place:</strong> Taman Nasional Way Kambas & WWF
-                Jakarta Office
+                <strong>Place:</strong> Taman Nasional Way Kambas
+                &amp; WWF Jakarta Office
               </p>
             </div>
 
@@ -52,7 +59,7 @@ function Events() {
             </a>
           </div>
         </article>
-      </div>
+      </section>
     </>
   );
 }
