@@ -4296,6 +4296,79 @@ transform: none;
 }
 }
 
+/* EVENTS HEADLINE */
+
+.events-hero {
+  text-align: center;
+  padding: 90px 24px 60px;
+  background: #f8f7f0;
+}
+
+.events-eyebrow {
+  color: #78947b;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.events-hero h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(64px, 10vw, 110px);
+  font-weight: 500;
+  line-height: 0.95;
+  letter-spacing: -3px;
+  color: #263e32;
+  margin: 0 0 30px;
+}
+
+.events-hero h1 span {
+  color: #c78391;
+  font-style: italic;
+}
+
+.events-description {
+  max-width: 650px;
+  margin: 0 auto 16px;
+  color: #435447;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.events-subdescription {
+  max-width: 580px;
+  margin: 0 auto;
+  color: #7c8178;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .events-hero {
+    padding: 65px 20px 45px;
+  }
+
+  .events-hero h1 {
+    font-size: clamp(56px, 14vw, 78px);
+    letter-spacing: -2px;
+  }
+
+  .events-eyebrow {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .events-description {
+    font-size: 15px;
+  }
+
+  .events-subdescription {
+    font-size: 13px;
+  }
+}
 
 /* ===== EVENTS SECTION ===== */
 
