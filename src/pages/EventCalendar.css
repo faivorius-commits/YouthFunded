@@ -2,7 +2,7 @@
 .event-calendar-section {
   width: 100%;
   padding: 72px 24px;
-  color: #29243b;
+  color: #c8929e;
   font-family: "Fredoka", sans-serif;
 }
 
@@ -23,7 +23,7 @@
 
 .event-calendar-heading h2 {
   margin: 0 0 12px;
-  color: #302648;
+  color: #c8929e;
   font-family: "Fredoka", sans-serif;
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 600;
@@ -79,7 +79,7 @@
 }
 
 .calendar-month-title span {
-  color: #9589ad;
+  color: #c8929e;
   font-size: 0.95rem;
 }
 
@@ -92,7 +92,7 @@
   border: 1px solid #e8e1f1;
   border-radius: 50%;
   background: #faf8ff;
-  color: #69558e;
+  color: #a34264;
   font-family: inherit;
   font-size: 1.8rem;
   line-height: 1;
@@ -105,7 +105,7 @@
 
 .calendar-nav-button:hover {
   transform: translateY(-2px);
-  background: #7864a8;
+  background: #c8929e;
   color: white;
 }
 
@@ -138,7 +138,7 @@
   border: 1px solid transparent;
   border-radius: 14px;
   background: transparent;
-  color: #514963;
+  color: #a34264;
   font-family: inherit;
   font-size: 0.95rem;
   cursor: pointer;
@@ -150,12 +150,12 @@
 
 .calendar-day:not(.empty):hover {
   border-color: #ded3f2;
-  background: #f5f0ff;
+  background: #fff0f9;
 }
 
 .calendar-day.selected {
-  border-color: #7864a8;
-  background: #7864a8;
+  border-color: #c8929e;
+  background: #a34264;
   color: #fff;
 }
 
@@ -185,7 +185,7 @@
 }
 
 .calendar-day.selected .calendar-event-dot {
-  background: #fff0c9;
+  background: #ffc9eb;
 }
 
 .calendar-legend {
@@ -193,7 +193,7 @@
   align-items: center;
   gap: 8px;
   margin-top: 24px;
-  color: #8c829c;
+  color: #f3e182;
   font-size: 0.8rem;
 }
 
@@ -204,7 +204,7 @@
 
 .selected-events-card > h3 {
   margin: 0 0 24px;
-  color: #302648;
+  color: #7f3b5c;
   font-family: "Fredoka", sans-serif;
   font-size: 1.45rem;
   font-weight: 600;
@@ -236,12 +236,12 @@
 
 .event-status.upcoming {
   background: #f1eafa;
-  color: #70569c;
+  color: #c8929e;
 }
 
 .event-status.past {
   background: #f1f0f3;
-  color: #77717f;
+  color: #cc9ab5;
 }
 
 .calendar-event-item h4 {
