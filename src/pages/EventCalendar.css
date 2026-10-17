@@ -50,9 +50,9 @@
 .selected-events-card {
   min-width: 0;
   padding: 28px;
-  border: 1px solid #dde77c ;
+  border: 1px solid #ebf1bb ;
   border-radius: 24px;
-  background: #dde780 ;
+  background: #ebf1bb ;
   box-shadow: 0 12px 40px rgba(54, 40, 84, 0.06);
 }
 
