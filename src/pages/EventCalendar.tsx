@@ -75,19 +75,6 @@ export default function EventCalendar() {
 
   return (
     <section className="event-calendar-section">
-      <div className="calendar-heading">
-        <span className="calendar-eyebrow">
-          PLAN · PARTICIPATE · GROW
-        </span>
-
-        <h2>Event Calendar</h2>
-
-        <p>
-          Every date holds a possibility. Find our past moments
-          and upcoming opportunities.
-        </p>
-      </div>
-
       <div className="calendar-layout">
         <div className="calendar-card">
           <div className="calendar-top">
