@@ -4619,3 +4619,74 @@ transform: none;
     font-size: 20px;
   }
 }
+.events-page {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 40px 24px 80px;
+
+  background:
+    radial-gradient(
+      ellipse at 10% 5%,
+      rgba(168, 190, 138, 0.4),
+      transparent 40%
+    ),
+    linear-gradient(
+      160deg,
+      #426b59 0%,
+      #304f55 45%,
+      #26364a 100%
+    );
+}
+
+/* Main heading (ini buattt judull)*/
+.events-heading h2 {
+  font-family: "Fredoka", sans-serif;
+  color: #fffaf0;
+}
+
+/* space*/
+.events-heading {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+/* Space after event card */
+.events-page > .events-carousel {
+  margin-bottom: 80px;
+}
+
+/* Calendar introduction */
+.events-calendar-intro {
+  text-align: center;
+  margin: 0 auto 32px;
+  padding: 0 20px;
+}
+
+.events-calendar-intro p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #d8e6c3;
+  margin: 0;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .events-page {
+    padding: 32px 20px 60px;
+  }
+
+  .events-heading {
+    margin-bottom: 56px;
+  }
+
+  .events-page > .events-carousel {
+    margin-bottom: 80px;
+  }
+
+  .events-calendar-intro p {
+    font-size: 20px;
+  }
+}
