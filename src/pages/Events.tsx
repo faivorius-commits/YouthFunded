@@ -6,7 +6,8 @@ return (
 <section className="events-page">
 {/* Main Heading */}
 <div className="events-heading">
-<h2>OUR EVENTS</h2>
+<h2>Our Events</h2>
+  <h4>Take a look at our past events</h4>
 </div>
 
   {/* Featured Event Card */}
