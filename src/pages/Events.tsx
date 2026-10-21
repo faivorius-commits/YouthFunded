@@ -27,71 +27,35 @@ return (
 
   {/* Featured Event Card */}
   <section className="events-carousel">
-    <article className="event-card">
-      <img
-        src="/event1-doc1.jpg"
-        alt="WWF and YouthFunded fundraising event"
-      />
-
-      <div className="event-content">
-        <h3>WWF X YouthFunded X Chicco Jericho</h3>
-
-        <p>
-          Collaborated with TUSK Force and WWF on a fundraising
-          initiative to support elephant conservation in Indonesia.
-        </p>
-
-        <div className="event-meta">
-          <p>
-            <strong>Date:</strong> November 2025 — December 2025
-          </p>
-
-          <p>
-            <strong>Place:</strong> Taman Nasional Way
-            Kambas & WWF Jakarta Office
-          </p>
-        </div>
-
-        <a
-          className="event-read-more"
-          href="/events/wwf-youthfunded"
-        >
-          Read More <span aria-hidden="true">↗</span>
-        </a>
+  {/* Kartu 1 */}
+  <article className="event-card">
+    <img src="/event1-doc1.jpg" alt="WWF and YouthFunded fundraising event" />
+    <div className="event-content">
+      <h3>WWF X YouthFunded X Chicco Jericho</h3>
+      <p>Collaborated with TUSK Force and WWF on a fundraising initiative to support elephant conservation in Indonesia.</p>
+      <div className="event-meta">
+        <p><strong>Date:</strong> November 2025 — December 2025</p>
+        <p><strong>Place:</strong> Taman Nasional Way Kambas & WWF Jakarta Office</p>
       </div>
-    </article>
-    <article className="event-card">
-      <img
-        src="/event2-doc1.jpg"
-        alt="Coming Soon!"
-      />
+      <a className="event-read-more" href="/events/wwf-youthfunded">Read More <span aria-hidden="true">↗</span></a>
+    </div>
+  </article>
 
-      <div className="event-content">
-        <h3>??</h3>
-
-        <p>
-          ??
-        </p>
-
-        <div className="event-meta">
-          <p>
-            <strong>Date:</strong> ??
-          </p>
-
-          <p>
-            <strong>Place:</strong> ??
-          </p>
-        </div>
-
-        <a
-          className="event-read-more"
-          href="/events/comingsoon-youthfunded"
-        >
-          Read More <span aria-hidden="true">↗</span>
-        </a>
+  {/* Kartu 2 atau template*/}
+  <article className="event-card">
+    <img src="/event2-doc1.jpg" alt="Coming Soon!" />
+    <div className="event-content">
+      <h3>??</h3>
+      <p>??</p>
+      <div className="event-meta">
+        <p><strong>Date:</strong> ??</p>
+        <p><strong>Place:</strong> ??</p>
       </div>
-    </article>
-  </section>
+      <a className="event-read-more" href="/events/comingsoon-youthfunded">Read More <span aria-hidden="true">↗</span></a>
+    </div>
+  </article>
+</section>
+
 
   {/* Calendar Introduction */}
   <div className="events-calendar-intro">
