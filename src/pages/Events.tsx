@@ -1,10 +1,18 @@
 import React from "react";
 import EventCalendar from "./EventCalendar";
 
+const eyebrow = {
+  fontSize: 10,
+  fontWeight: 800,
+  letterSpacing: "1.5px",
+  textTransform: "uppercase",
+  margin: "0 0 12px",
+};
+
+
 function Events() {
 return (
 <section className="events-page">
-  {/* Hiasan Latar — murni CSS, tidak pakai gambar */}
   <div className="decor-circle circle-1"></div>
   <div className="decor-circle circle-2"></div>
   <div className="decor-circle circle-3"></div>
@@ -17,7 +25,7 @@ return (
 
   {/* Main Heading */}
   <div className="events-heading">
-    <p className="events-eyebrow">YOUTHFUNDED • OUR EVENTS</p>
+    <p style={eyebrow}>YOUTHFUNDED · OUR EVENTS</p>
     <h2>Our Events</h2>
   </div>
 
