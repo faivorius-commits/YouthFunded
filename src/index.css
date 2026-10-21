@@ -4671,7 +4671,7 @@ transform: none;
 
 /* Take a look at our past events */
 .events-page-description {
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans", sans-serif !important;
   font-size: 15px;
   font-weight: 300;        
   line-height: 1.6;
