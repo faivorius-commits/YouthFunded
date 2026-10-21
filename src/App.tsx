@@ -79,7 +79,7 @@ function Home() {
         <div className="hero-copy">
           <div className="eyebrow">
             <span className="status-dot" />
-            YOUTH-LED · FINANCIAL LITERACY
+            WELCOME TO YOUTHFUNDED!
           </div>
 
           <h1>
@@ -148,8 +148,8 @@ function Home() {
 
 
           <div className="art-caption">
-            <span>01 / YOUR FINANCIAL JOURNEY</span>
-            <span>Start where you are ✦</span>
+            <span>© YOUTHFUNDED</span>
+            <span>Start your financial journey✦</span>
           </div>
         </div>
 
@@ -208,7 +208,7 @@ function Home() {
         </div>
 
         <div className="about-copy">
-          <SectionLabel>01 — WHO WE ARE</SectionLabel>
+          <SectionLabel>ABOUT US</SectionLabel>
 
           <h2>
             Meet <span>YouthFunded.</span>
