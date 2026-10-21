@@ -4873,14 +4873,7 @@ transform: none;
    KARTU ACARA
 ======================================== */
 
-.events-carousel {
-  position: relative;
-  z-index: 2;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 32px;
-  margin-bottom: 60px;
-}
+
 
 .event-card {
   position: relative;
