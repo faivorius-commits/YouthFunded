@@ -121,16 +121,6 @@ function EventCalendar() {
 
   return (
     <section className="event-calendar-section">
-      <div className="event-calendar-heading">
-        <span className="event-calendar-eyebrow">
-          ACTIVITY CALENDAR
-        </span>
-
-        <h2>OUR EVENTS</h2>
-
-        <p>Join our upcoming fundraising initiatives!</p>
-      </div>
-
       <div className="event-calendar-layout">
         <div className="calendar-card">
           <div className="calendar-header">
