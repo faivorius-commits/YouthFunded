@@ -4655,7 +4655,6 @@ transform: none;
     padding: 32px 20px 60px;
   }
 }
-
 /* Main Heading */
 .events-heading {
   text-align: center;
@@ -4670,24 +4669,22 @@ transform: none;
   margin: 0;
 }
 
-/* Subtitle — disesuaikan */
+/* Subtitle — Take a look at our past events */
 .events-page-description {
   font-family: "DM Sans", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #60745b;
-  
-  text-align: left;       /* ← rata  */
-  margin: 0 0 32px;       /* ← hilang jarak */
-  padding: 10px 24px;     /* ← kasih kiri kanan biar tidak nempel pinggir */
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #4a5568;
 
-  background: rgba(255, 255, 255, 0.4);
+  text-align: left;
+  margin: 0 0 32px;
+  padding: 0;
+
+  background: transparent;
   border: none;
-  border-radius: 24px;
+  border-radius: 0;
   box-shadow: none;
-
-  max-width: fit-content; /* ← lebar pas dengan teksnya */
 }
 
 @media (max-width: 600px) {
@@ -4696,7 +4693,8 @@ transform: none;
   }
 
   .events-page-description {
-    font-size: 15px;
-    padding: 8px 20px;
+    font-size: 14px;
+    margin-bottom: 24px;
   }
 }
+
