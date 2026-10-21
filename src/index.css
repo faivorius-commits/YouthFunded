@@ -4576,3 +4576,24 @@ transform: none;
 .event-detail-story p {
   margin-bottom: 18px;
 }
+.events-heading {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.events-heading h2 {
+  margin: 0;
+}
+
+.events-calendar-intro {
+  text-align: center;
+  margin: 0 0 28px;
+}
+
+.events-calendar-intro p {
+  margin: 0;
+}
+
+.events-page > .events-carousel {
+  margin-bottom: 48px;
+}
