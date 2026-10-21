@@ -7,8 +7,10 @@ return (
 {/* Main Heading */}
 <div className="events-heading">
 <h2>Our Events</h2>
-  <h4>Take a look at our past events</h4>
 </div>
+  <div className="events-page-description">
+  <h4>Take a look at our past events</h4>
+  </div>
 
   {/* Featured Event Card */}
   <section className="events-carousel">
