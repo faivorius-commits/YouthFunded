@@ -4711,3 +4711,32 @@ transform: none;
     font-size: 20px;
   }
 }
+/* Events Page Description */
+.events-page-description {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.3px;
+  color: #60745b;
+  text-align: center;
+
+  margin: 12px auto 0;
+  max-width: 500px;
+  padding: 8px 18px;
+
+  background: rgba(255, 250, 240, 0.35);
+  border-radius: 12px;
+
+  transition: background 0.3s ease;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .events-page-description {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 10px;
+    padding: 7px 14px;
+  }
+}
