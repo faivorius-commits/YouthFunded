@@ -4406,9 +4406,16 @@ transform: none;
 }
 
 .events-carousel .event-card {
-  flex: 0 0 340px;
+  flex: 0 0 80%; 
   scroll-snap-align: start;
 }
+
+@media (min-width: 768px) {
+  .events-carousel .event-card {
+    flex: 0 0 300px;
+  }
+}
+
 
 
 /* ===== EVENT CARD ===== */
