@@ -4619,7 +4619,8 @@ transform: none;
     font-size: 20px;
   }
 }
-/* Events Page */
+
+/* Events Page — Soft Pastel Gradient */
 .events-page {
   position: relative;
   isolation: isolate;
@@ -4628,89 +4629,36 @@ transform: none;
 
   background:
     radial-gradient(
-      ellipse at 95% 0%,
-      rgba(38, 54, 74, 0.12),
-      transparent 35%
-    ),
-    radial-gradient(
-      ellipse at 0% 10%,
-      rgba(220, 233, 184, 0.8),
+      ellipse at 10% 10%,
+      rgba(215, 237, 190, 0.65),
       transparent 45%
     ),
+    radial-gradient(
+      ellipse at 90% 25%,
+      rgba(250, 215, 229, 0.65),
+      transparent 45%
+    ),
+    radial-gradient(
+      ellipse at 50% 100%,
+      rgba(207, 226, 247, 0.7),
+      transparent 50%
+    ),
     linear-gradient(
-      160deg,
-      #e5efc9 0%,
-      #d4e5b8 55%,
-      #c2d9b8 100%
+      135deg,
+      #f4f8e9 0%,
+      #fbf0f4 50%,
+      #edf4fc 100%
     );
 }
 
-/* Main Heading */
-.events-heading {
-  text-align: center;
-  margin-bottom: 56px;
-}
-
-.events-heading h2 {
-  font-family: "Fredoka", sans-serif;
-  color: #26364a;
-  font-size: clamp(30px, 5vw, 42px);
-  font-weight: 600;
-  margin: 0;
-}
-
-/* Space After Event Card */
-.events-page > .events-carousel {
-  margin-bottom: 80px;
-}
-
-/* Calendar Introduction */
-.events-calendar-intro {
-  text-align: center;
-  margin: 0 auto 32px;
-  padding: 0 20px;
-}
-
-.events-calendar-intro p {
-  font-family: "DM Sans", sans-serif;
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 1.6;
-  color: #426b59;
-  margin: 0;
-}
-
-/* Calendar Section */
-.events-page .event-calendar-section {
-  background: transparent;
-}
-
-/* Mobile Adjustments */
+/* Mobile */
 @media (max-width: 600px) {
   .events-page {
     padding: 32px 20px 60px;
   }
-
-  .events-heading {
-    margin-bottom: 56px;
-  }
-
-  .events-heading h2 {
-    font-size: 32px;
-  }
-
-  .events-page > .events-carousel {
-    margin-bottom: 80px;
-  }
-
-  .events-calendar-intro {
-    margin-bottom: 28px;
-  }
-
-  .events-calendar-intro p {
-    font-size: 20px;
-  }
 }
+
+
 /* Events Page Description */
 .events-page-description {
   font-family: "DM Sans", sans-serif;
