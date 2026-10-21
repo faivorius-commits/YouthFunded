@@ -4987,3 +4987,12 @@ transform: none;
     gap: 24px;
   }
 }
+.events-eyebrow {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #263e32;
+  margin: 0 0 16px;
+}
