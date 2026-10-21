@@ -4,12 +4,25 @@ import EventCalendar from "./EventCalendar";
 function Events() {
 return (
 <section className="events-page">
-{/* Main Heading */}
-<div className="events-heading">
-<h2>Our Events</h2>
-</div>
+  {/* Hiasan Latar — murni CSS, tidak pakai gambar */}
+  <div className="decor-circle circle-1"></div>
+  <div className="decor-circle circle-2"></div>
+  <div className="decor-circle circle-3"></div>
+  <div className="decor-star star-1">✦</div>
+  <div className="decor-star star-2">✦</div>
+  <div className="decor-star star-3">✦</div>
+  <div className="decor-dot dot-1"></div>
+  <div className="decor-dot dot-2"></div>
+  <div className="decor-dot dot-3"></div>
+
+  {/* Main Heading */}
+  <div className="events-heading">
+    <p className="events-eyebrow">YOUTHFUNDED • OUR EVENTS</p>
+    <h2>Our Events</h2>
+  </div>
+
   <div className="events-page-description">
-  <h4>Take a look at our past events</h4>
+    <p>Take a look at our past events</p>
   </div>
 
   {/* Featured Event Card */}
@@ -35,7 +48,7 @@ return (
 
           <p>
             <strong>Place:</strong> Taman Nasional Way
-            Kambas &amp; WWF Jakarta Office
+            Kambas & WWF Jakarta Office
           </p>
         </div>
 
@@ -57,7 +70,7 @@ return (
         <h3>??</h3>
 
         <p>
-          ?? 
+          ??
         </p>
 
         <div className="event-meta">
