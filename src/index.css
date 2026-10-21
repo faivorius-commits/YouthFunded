@@ -4659,7 +4659,7 @@ transform: none;
 /* Main Heading */
 .events-heading {
   text-align: center;
-  margin-bottom: 56px;
+  margin-bottom: 0;
 }
 
 .events-heading h2 {
@@ -4670,36 +4670,34 @@ transform: none;
   margin: 0;
 }
 
-/* Events Description */
 .events-page-description {
   font-family: "DM Sans", sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 1.6;
-  letter-spacing: 0.2px;
+  line-height: 1.5;
   color: #60745b;
   text-align: center;
 
-  margin: 4px auto 0;
+  /* Dekatkan ke OUR EVENTS */
+  margin: 2px auto 0;
   padding: 0;
-  max-width: 500px;
 
+  /* Tanpa latar belakang */
   background: transparent;
+  border: none;
+  box-shadow: none;
   border-radius: 0;
+
+  max-width: 500px;
 }
 
-/* Mobile */
 @media (max-width: 600px) {
-  .events-heading {
-    margin-bottom: 48px;
-  }
-
   .events-heading h2 {
     font-size: 32px;
   }
 
   .events-page-description {
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 2px;
   }
 }
