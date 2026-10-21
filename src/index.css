@@ -4619,6 +4619,7 @@ transform: none;
     font-size: 20px;
   }
 }
+/* Events Page */
 .events-page {
   position: relative;
   isolation: isolate;
@@ -4627,36 +4628,43 @@ transform: none;
 
   background:
     radial-gradient(
-      ellipse at 10% 5%,
-      rgba(168, 190, 138, 0.4),
-      transparent 40%
+      ellipse at 95% 0%,
+      rgba(38, 54, 74, 0.12),
+      transparent 35%
+    ),
+    radial-gradient(
+      ellipse at 0% 10%,
+      rgba(220, 233, 184, 0.8),
+      transparent 45%
     ),
     linear-gradient(
       160deg,
-      #426b59 0%,
-      #304f55 45%,
-      #26364a 100%
+      #e5efc9 0%,
+      #d4e5b8 55%,
+      #c2d9b8 100%
     );
 }
 
-/* Main heading (ini buattt judull)*/
-.events-heading h2 {
-  font-family: "Fredoka", sans-serif;
-  color: #fffaf0;
-}
-
-/* space*/
+/* Main Heading */
 .events-heading {
   text-align: center;
   margin-bottom: 56px;
 }
 
-/* Space after event card */
+.events-heading h2 {
+  font-family: "Fredoka", sans-serif;
+  color: #26364a;
+  font-size: clamp(30px, 5vw, 42px);
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Space After Event Card */
 .events-page > .events-carousel {
   margin-bottom: 80px;
 }
 
-/* Calendar introduction */
+/* Calendar Introduction */
 .events-calendar-intro {
   text-align: center;
   margin: 0 auto 32px;
@@ -4668,11 +4676,16 @@ transform: none;
   font-size: 22px;
   font-weight: 500;
   line-height: 1.6;
-  color: #d8e6c3;
+  color: #426b59;
   margin: 0;
 }
 
-/* Mobile adjustments */
+/* Calendar Section */
+.events-page .event-calendar-section {
+  background: transparent;
+}
+
+/* Mobile Adjustments */
 @media (max-width: 600px) {
   .events-page {
     padding: 32px 20px 60px;
@@ -4682,8 +4695,16 @@ transform: none;
     margin-bottom: 56px;
   }
 
+  .events-heading h2 {
+    font-size: 32px;
+  }
+
   .events-page > .events-carousel {
     margin-bottom: 80px;
+  }
+
+  .events-calendar-intro {
+    margin-bottom: 28px;
   }
 
   .events-calendar-intro p {
