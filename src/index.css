@@ -4576,24 +4576,46 @@ transform: none;
 .event-detail-story p {
   margin-bottom: 18px;
 }
+
 .events-heading {
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 56px;
 }
 
 .events-heading h2 {
-  margin: 0;
+  font-family: "Fredoka", sans-serif;
+  color: #26364a;
+}
+
+.events-page > .events-carousel {
+  margin-bottom: 80px;
 }
 
 .events-calendar-intro {
   text-align: center;
-  margin: 0 0 28px;
+  margin: 0 auto 32px;
+  padding: 0 20px;
 }
 
 .events-calendar-intro p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #72804a;
   margin: 0;
 }
 
-.events-page > .events-carousel {
-  margin-bottom: 48px;
+@media (max-width: 600px) {
+  .events-heading {
+    margin-bottom: 56px;
+  }
+
+  .events-page > .events-carousel {
+    margin-bottom: 80px;
+  }
+
+  .events-calendar-intro p {
+    font-size: 20px;
+  }
 }
