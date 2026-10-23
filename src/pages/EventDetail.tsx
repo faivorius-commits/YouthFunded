@@ -180,9 +180,6 @@ function EventDetail({ slug }: EventDetailProps) {
           )}
         </section>
 
-        {/* ORIGINAL EVENT INFORMATION */}
-        <p className="section-label">YOUTHFUNDED · EVENT STORY</p>
-
         <h1>{event.title}</h1>
 
         <div className="event-detail-meta">
