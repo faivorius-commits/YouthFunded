@@ -28,19 +28,15 @@ const eventMedia: Record<string, EventMedia> = {
       (_, index) => `/event1doc${index + 1}.jpg`
     ),
     documents: [
-      {
-        title: "Certificate 01",
-        file: "/event1certificate1.pdf",
-      },
-      {
-        title: "Certificate 02",
-        file: "/event1certificate2.pdf",
-      },
-      {
-        title: "Letter of Appreciation",
-        file: "/event1letter.pdf",
-      },
-    ],
+  {
+    title: "YouthFunded Certificate",
+    file: "/youthfundedwwfcertificates.jpg",
+  },
+  {
+    title: "Nadine Certificate",
+    file: "/nadinewwfcertificates.jpg",
+  },
+],
   },
 
   /*
