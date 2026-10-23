@@ -5329,12 +5329,26 @@ transform: none;
   background: #f5f4f1;
 }
 
+
+.event-document-preview {
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f5f4f1;
+}
+
 .event-document-preview img {
   display: block;
-  width: 100%;
+  width: auto;
   height: auto;
+  max-width: 100%;
+  max-height: none;
   object-fit: contain;
 }
+
 
 .event-document-preview iframe {
   display: block;
