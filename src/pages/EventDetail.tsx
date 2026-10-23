@@ -213,12 +213,21 @@ function EventDetail({ slug }: EventDetailProps) {
                   className="event-document"
                   key={document.file}
                 >
-                  <iframe
-                    className="event-document-preview"
-                    src={`${document.file}#toolbar=0&navpanes=0`}
-                    title={document.title}
-                    loading="lazy"
-                  />
+                  <div className="event-document-preview">
+  {/\.(jpg|jpeg|png|webp|gif)$/i.test(document.file) ? (
+    <img
+      src={document.file}
+      alt={document.title}
+      loading="lazy"
+    />
+  ) : (
+    <iframe
+      src={`${document.file}#toolbar=0&navpanes=0`}
+      title={document.title}
+      loading="lazy"
+    />
+  )}
+</div>
 
                   <h3>{document.title}</h3>
                 </article>
