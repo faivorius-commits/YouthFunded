@@ -1,37 +1,84 @@
-import { useState, useRef, type TouchEvent } from "react";
+
+import { useState, useRef, useEffect, type TouchEvent } from "react";
 import { events } from "../data/events";
 
 type EventDetailProps = {
   slug: string;
 };
 
-const eventPhotos = Array.from(
-  { length: 12 },
-  (_, index) => `/event1doc${index + 1}.jpg`
-);
+type EventDocument = {
+  title: string;
+  file: string;
+};
 
-const eventDocuments = [
-  {
-    title: "Certificate 01",
-    description: "Event Certificate",
-    file: "/event1certificate1.pdf",
+type EventMedia = {
+  photos: string[];
+  documents?: EventDocument[];
+};
+
+/*
+ * Sesuaikan slug dengan src/data/events.ts.
+ * Event yang tidak dicantumkan akan menggunakan event.image
+ * dan tidak menampilkan Event Documents.
+ */
+const eventMedia: Record<string, EventMedia> = {
+  "SLUG-EVENT-WWF": {
+    photos: Array.from(
+      { length: 12 },
+      (_, index) => `/event1doc${index + 1}.jpg`
+    ),
+    documents: [
+      {
+        title: "Certificate 01",
+        file: "/event1certificate1.pdf",
+      },
+      {
+        title: "Certificate 02",
+        file: "/event1certificate2.pdf",
+      },
+      {
+        title: "Letter of Appreciation",
+        file: "/event1letter.pdf",
+      },
+    ],
   },
-  {
-    title: "Certificate 02",
-    description: "Event Certificate",
-    file: "/event1certificate2.pdf",
-  },
-  {
-    title: "Letter of Appreciation",
-    description: "Official Letter",
-    file: "/event1letter.pdf",
-  },
-];
+
+  /*
+   * Contoh event lain:
+   *
+   * "slug-event-lain": {
+   *   photos: [
+   *     "/event2doc1.jpg",
+   *     "/event2doc2.jpg",
+   *     "/event2doc3.jpg",
+   *   ],
+   *   documents: [
+   *     {
+   *       title: "Certificate",
+   *       file: "/event2certificate.pdf",
+   *     },
+   *   ],
+   * },
+   *
+   * Jika event tidak punya dokumen, hilangkan properti documents.
+   */
+};
 
 function EventDetail({ slug }: EventDetailProps) {
   const event = events.find((item) => item.slug === slug);
+  const media = eventMedia[slug];
+
+  const photos =
+    media?.photos?.length ? media.photos : event ? [event.image] : [];
+
+  const documents = media?.documents ?? [];
+
   const [currentPhoto, setCurrentPhoto] = useState(0);
   const touchStartX = useRef<number | null>(null);
+
+  useEffect(() => {
+    setCurrentPhoto(0);
+  }, [slug]);
 
   if (!event) {
     return (
@@ -45,13 +92,13 @@ function EventDetail({ slug }: EventDetailProps) {
 
   const previousPhoto = () => {
     setCurrentPhoto((current) =>
-      current === 0 ? eventPhotos.length - 1 : current - 1
+      current === 0 ? photos.length - 1 : current - 1
     );
   };
 
   const nextPhoto = () => {
     setCurrentPhoto((current) =>
-      current === eventPhotos.length - 1 ? 0 : current + 1
+      current === photos.length - 1 ? 0 : current + 1
     );
   };
 
@@ -65,8 +112,12 @@ function EventDetail({ slug }: EventDetailProps) {
     const difference =
       e.changedTouches[0].clientX - touchStartX.current;
 
-    if (Math.abs(difference) > 45) {
-      difference < 0 ? nextPhoto() : previousPhoto();
+    if (Math.abs(difference) > 45 && photos.length > 1) {
+      if (difference < 0) {
+        nextPhoto();
+      } else {
+        previousPhoto();
+      }
     }
 
     touchStartX.current = null;
@@ -80,7 +131,10 @@ function EventDetail({ slug }: EventDetailProps) {
 
       <article className="event-detail-content">
         {/* PHOTO CAROUSEL */}
-        <section className="event-gallery" aria-label="Event photo gallery">
+        <section
+          className="event-gallery"
+          aria-label="Event photo gallery"
+        >
           <div
             className="event-gallery-frame"
             onTouchStart={handleTouchStart}
@@ -88,39 +142,42 @@ function EventDetail({ slug }: EventDetailProps) {
           >
             <img
               className="event-detail-image"
-              src={eventPhotos[currentPhoto]}
+              src={photos[currentPhoto]}
               alt={`${event.title} — photo ${currentPhoto + 1}`}
-              onError={(e) => {
-                e.currentTarget.alt =
-                  `Upload event1doc${currentPhoto + 1}.jpg to the public folder`;
-              }}
             />
 
-            <button
-              className="event-gallery-arrow event-gallery-prev"
-              onClick={previousPhoto}
-              type="button"
-              aria-label="Previous photo"
-            >
-              ‹
-            </button>
+            {photos.length > 1 && (
+              <>
+                <button
+                  className="event-gallery-arrow event-gallery-prev"
+                  onClick={previousPhoto}
+                  type="button"
+                  aria-label="Previous photo"
+                >
+                  ‹
+                </button>
 
-            <button
-              className="event-gallery-arrow event-gallery-next"
-              onClick={nextPhoto}
-              type="button"
-              aria-label="Next photo"
-            >
-              ›
-            </button>
+                <button
+                  className="event-gallery-arrow event-gallery-next"
+                  onClick={nextPhoto}
+                  type="button"
+                  aria-label="Next photo"
+                >
+                  ›
+                </button>
+              </>
+            )}
           </div>
 
-          <div className="event-gallery-caption">
-            <span>EVENT DOCUMENTATION</span>
-            <span>
-              {String(currentPhoto + 1).padStart(2, "0")} / 12
-            </span>
-          </div>
+          {photos.length > 1 && (
+            <div className="event-gallery-caption">
+              <span>EVENT DOCUMENTATION</span>
+              <span>
+                {String(currentPhoto + 1).padStart(2, "0")} /{" "}
+                {String(photos.length).padStart(2, "0")}
+              </span>
+            </div>
+          )}
         </section>
 
         {/* ORIGINAL EVENT INFORMATION */}
@@ -147,41 +204,32 @@ function EventDetail({ slug }: EventDetailProps) {
           ))}
         </div>
 
-        {/* EVENT DOCUMENTS */}
-        <section className="event-documents">
-          <div className="event-documents-heading">
-            <p className="section-label">EVENT ARCHIVE</p>
-            <h2>Event Documents</h2>
-            <p>
-              Official certificates and appreciation from this event.
-            </p>
-          </div>
+        {/* OPTIONAL EVENT DOCUMENTS */}
+        {documents.length > 0 && (
+          <section className="event-documents">
+            <div className="event-documents-heading">
+              <p className="section-label">EVENT ARCHIVE</p>
+            </div>
 
-          <div className="event-documents-list">
-            {eventDocuments.map((document, index) => (
-              <a
-                className="event-document-item"
-                href={document.file}
-                target="_blank"
-                rel="noreferrer"
-                key={document.file}
-              >
-                <span className="event-document-number">
-                  {String(index + 1).padStart(2, "0")}
-                </span>
+            <div className="event-documents-grid">
+              {documents.map((document) => (
+                <article
+                  className="event-document"
+                  key={document.file}
+                >
+                  <iframe
+                    className="event-document-preview"
+                    src={`${document.file}#toolbar=0&navpanes=0`}
+                    title={document.title}
+                    loading="lazy"
+                  />
 
-                <span className="event-document-copy">
-                  <strong>{document.title}</strong>
-                  <small>{document.description} · PDF</small>
-                </span>
-
-                <span className="event-document-link">
-                  View ↗
-                </span>
-              </a>
-            ))}
-          </div>
-        </section>
+                  <h3>{document.title}</h3>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
       </article>
     </main>
   );
