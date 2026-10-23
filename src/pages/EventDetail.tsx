@@ -29,11 +29,11 @@ const eventMedia: Record<string, EventMedia> = {
     ),
     documents: [
   {
-    title: "YouthFunded Certificate",
+    title: "YouthFunded x TUSK FORCE Certificate",
     file: "/youthfundedwwfcertificates.jpg",
   },
   {
-    title: "Nadine Certificate",
+    title: "Certificate of Appreciation (Founder) "
     file: "/nadinewwfcertificates.jpg",
   },
 ],
