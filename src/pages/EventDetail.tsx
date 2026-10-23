@@ -33,8 +33,12 @@ const eventMedia: Record<string, EventMedia> = {
     file: "/youthfundedwwfcertificates.jpg",
   },
   {
-    title: "Certificate of Appreciation (Founder) "
+    title: "Certificate of Appreciation (Founder) ",
     file: "/nadinewwfcertificates.jpg",
+  },
+  {
+    title: "Letter of Appreciation",
+    file: "/letterofappreciationwwf.jpg",
   },
 ],
   },
