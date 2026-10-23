@@ -5317,29 +5317,6 @@ transform: none;
     gap: 24px;
   }
 
-  .event-document-preview {
-    height: 400px;
-  }
-}
-.event-document-preview {
-  width: 100%;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: #f5f4f1;
-}
-
-
-.event-document-preview {
-  width: fit-content;
-  max-width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: #f5f4f1;
-}
-
 .event-document-preview img {
   display: block;
   width: auto;
@@ -5356,4 +5333,60 @@ transform: none;
   height: 360px;
   border: 0;
   background: white;
+}
+
+/* CERTIFICATE — KEEP ORIGINAL IMAGE RATIO */
+.event-documents-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 28px;
+}
+
+.event-document {
+  min-width: 0;
+}
+
+.event-document-preview {
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  overflow: visible;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: transparent;
+}
+
+.event-document-preview img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: none;
+  object-fit: contain;
+}
+
+.event-document-preview iframe {
+  display: block;
+  width: min(100%, 800px);
+  height: 500px;
+  border: 0;
+  background: white;
+}
+
+@media (max-width: 600px) {
+  .event-documents-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .event-document-preview {
+    max-width: 100%;
+  }
+
+  .event-document-preview img {
+    max-width: 100%;
+    height: auto;
+  }
 }
