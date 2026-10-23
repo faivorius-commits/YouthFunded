@@ -5189,3 +5189,135 @@ transform: none;
     font-size: 0.7rem;
   }
 }
+
+/* EVENT PHOTO CAROUSEL */
+.event-gallery {
+  margin-bottom: 36px;
+}
+
+.event-gallery-frame {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #f4f2ef;
+  touch-action: pan-y;
+}
+
+.event-gallery-frame .event-detail-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 680px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.event-gallery-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  background: rgba(20, 20, 20, 0.45);
+  color: white;
+  font-size: 30px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.event-gallery-arrow:hover {
+  background: rgba(20, 20, 20, 0.75);
+}
+
+.event-gallery-prev {
+  left: 16px;
+}
+
+.event-gallery-next {
+  right: 16px;
+}
+
+.event-gallery-caption {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+}
+
+/* OPTIONAL EVENT DOCUMENTS */
+.event-documents {
+  margin-top: 64px;
+  padding-top: 32px;
+  border-top: 1px solid var(--line);
+}
+
+.event-documents-heading {
+  margin-bottom: 24px;
+}
+
+.event-documents-heading h2 {
+  margin-top: 8px;
+}
+
+.event-documents-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.event-document {
+  min-width: 0;
+}
+
+.event-document-preview {
+  display: block;
+  width: 100%;
+  height: 360px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f5f4f1;
+}
+
+.event-document h3 {
+  margin-top: 12px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .event-gallery-frame .event-detail-image {
+    aspect-ratio: 4 / 3;
+  }
+
+  .event-gallery-arrow {
+    width: 36px;
+    height: 36px;
+    font-size: 26px;
+  }
+
+  .event-gallery-prev {
+    left: 10px;
+  }
+
+  .event-gallery-next {
+    right: 10px;
+  }
+
+  .event-documents-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .event-document-preview {
+    height: 400px;
+  }
+}
