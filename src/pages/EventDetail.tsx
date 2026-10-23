@@ -22,7 +22,7 @@ type EventMedia = {
  * dan tidak menampilkan Event Documents.
  */
 const eventMedia: Record<string, EventMedia> = {
-  "SLUG-EVENT-WWF": {
+  "wwf-youthfunded": {
     photos: Array.from(
       { length: 12 },
       (_, index) => `/event1doc${index + 1}.jpg`
