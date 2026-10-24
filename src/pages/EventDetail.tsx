@@ -25,7 +25,7 @@ const eventMedia: Record<string, EventMedia> = {
   "wwf-youthfunded": {
     photos: Array.from(
       { length: 12 },
-      (_, index) => `/event1doc${index + 1}.jpg`
+      (_, index) => `/event1-doc${index + 1}.jpg`
     ),
     documents: [
   {
