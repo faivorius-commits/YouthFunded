@@ -3,6 +3,7 @@ import "./index.css";
 import Mission from "./pages/Mission";
 import Events from "./pages/Events";
 import EventDetail from "./pages/EventDetail";
+import Teams from ".pages/Team";
 import Media from "./pages/Media";
 
 /* ========================================
