@@ -12,7 +12,7 @@ type Article = {
   instagramUrl?: string;
 };
 
-// Add your published articles here.
+// Add published articles here.
 const articles: Article[] = [
   // Example:
   // {
@@ -352,7 +352,7 @@ export default function Articles({
         <style>{styles}</style>
         <div className="yf-articles-inner yf-article-not-found">
           <p className="yf-articles-eyebrow">
-            YOUTHFUNDED • OUR ARTICLES
+            YOUTHFUNDED · OUR ARTICLES
           </p>
           <h1>Article Not Found</h1>
           <a className="yf-article-back" href="/articles">
