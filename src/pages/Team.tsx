@@ -92,7 +92,7 @@ const divisions = [
   {
     name: "Fundraising",
     members: [
-      { name: "Member Name", role: "Head", image: "/images/fundraising-head.jpg" },
+      { name: "Member Name", role: "Head", image: "/images/kristy.jpg" },
       { name: "Member Name", role: "Member", image: "/images/creative-cohead.jpg" },
       { name: "Member Name", role: "Member", image: "/images/creative-cohead.jpg" },
       { name: "Member Name", role: "Member", image: "/images/creative-cohead.jpg" },
