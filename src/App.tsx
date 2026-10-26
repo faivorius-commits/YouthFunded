@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import "./index.css";
 import Mission from "./pages/Mission";
+import Articles from "./pages/Articles";
 import Events from "./pages/Events";
 import EventDetail from "./pages/EventDetail";
 import Teams from ".pages/Team";
@@ -601,14 +602,7 @@ function App() {
         break;
 
       case "/articles":
-        page = (
-          <PlaceholderPage
-            number="02"
-            label="THE MONEY NOTEBOOK"
-            title="Articles & Insights"
-            description="Coming soon"
-          />
-        );
+        page = <Articles />;
         break;
 
       case "/events":
