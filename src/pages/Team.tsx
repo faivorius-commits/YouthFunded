@@ -136,11 +136,8 @@ function Team() {
     <main className="yf-team-page">
       <section className="yf-team-heading">
         <p className="section-label">YOUTHFUNDED • OUR TEAMS</p>
-        <h1>Meet Our Teams</h1>
-        <p className="yf-team-subtitle">
-          The people working together to make financial literacy
-          accessible to young people.
-        </p>
+        <h1>Meet The Crew</h1>
+       <p className="yf-team-subtitle">  </p> 
       </section>
 
       <section className="yf-team-leadership">
