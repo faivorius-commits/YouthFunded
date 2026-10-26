@@ -84,7 +84,7 @@ const styles = `
   .yf-articles-heading {
     max-width: 700px;
     margin: 0 auto 44px;
-    text-align: center;
+    text-align: left;
   }
 
   .yf-articles-eyebrow {
