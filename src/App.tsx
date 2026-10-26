@@ -616,14 +616,7 @@ function App() {
         break;
 
       case "/team":
-        page = (
-          <PlaceholderPage
-            number="04"
-            label="THE PEOPLE BEHIND THE PURPOSE"
-            title="Meet Our Team"
-            description="Coming soon"
-          />
-        );
+        page = <Team />;
         break;
 
       case "/media":
