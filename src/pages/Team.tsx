@@ -10,7 +10,7 @@ type Member = {
 const founder: Member = {
   name: "Nadine Andini Wirawan",
   role: "Founder",
-  image: "/images/nadine.jpg",
+  image: "/images/founder.jpg",
 };
 
 const overallHeads: Member[] = [
