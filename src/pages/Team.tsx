@@ -81,12 +81,22 @@ const divisions = [
     name: "Events",
     members: [
       { name: "Member Name", role: "Head", image: "/images/events-head.jpg" },
+      { name: "Member Name", role: "Member", image: "/images/creative-cohead.jpg" },
+      { name: "Member Name", role: "Member", image: "/images/creative-cohead.jpg" },
+      { name: "Member Name", role: "Member", image: "/images/creative-cohead.jpg" },
+      { name: "Member Name", role: "Member", image: "/images/creative-cohead.jpg" },
+      { name: "Member Name", role: "Member", image: "/images/creative-cohead.jpg" },
+      { name: "Member Name", role: "Member", image: "/images/creative-cohead.jpg" },
     ],
   },
   {
     name: "Fundraising",
     members: [
       { name: "Member Name", role: "Head", image: "/images/fundraising-head.jpg" },
+      { name: "Member Name", role: "Member", image: "/images/creative-cohead.jpg" },
+      { name: "Member Name", role: "Member", image: "/images/creative-cohead.jpg" },
+      { name: "Member Name", role: "Member", image: "/images/creative-cohead.jpg" },
+      { name: "Member Name", role: "Member", image: "/images/creative-cohead.jpg" },
     ],
   },
   {
