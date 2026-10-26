@@ -5184,5 +5184,264 @@ transform: none;
   }
 }
 
+/* ========================================
+   YOUTHFUNDED — MEET OUR TEAMS
+======================================== */
+
+.yf-team-page {
+  --yf-navy: #26364a;
+  --yf-muted: #667487;
+  --yf-cream: #fffaf0;
+  --yf-lime: #d8e98a;
+  --yf-blue: #c8e8f6;
+
+  color: var(--yf-navy);
+  background: var(--yf-cream);
+  min-height: 70vh;
+  padding-bottom: 90px;
+}
+
+.yf-team-heading {
+  width: min(1080px, 88%);
+  margin: 0 auto;
+  padding: 76px 0 45px;
+  text-align: center;
+}
+
+.yf-team-heading h1 {
+  font-family: "Fredoka", sans-serif;
+  font-size: clamp(36px, 6vw, 64px);
+  line-height: 1.1;
+  margin: 12px 0;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+.yf-team-subtitle {
+  color: var(--yf-muted);
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.yf-team-leadership,
+.yf-team-divisions {
+  width: min(1080px, 88%);
+  margin: 0 auto;
+}
+
+.yf-team-leadership > .section-label,
+.yf-division-heading > .section-label {
+  text-align: center;
+}
+
+.yf-founder-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 28px 0 65px;
+}
+
+.yf-member-card {
+  width: 100%;
+  max-width: 260px;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid rgba(38, 54, 74, 0.12);
+  border-radius: 18px;
+  background: #ffffff;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.yf-member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 32px rgba(38, 54, 74, 0.1);
+}
+
+.yf-member-photo {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 4.4;
+  overflow: hidden;
+  background: linear-gradient(145deg, #dcecf0, #f2e7d5);
+}
+
+.yf-member-photo img {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.yf-photo-placeholder {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--yf-navy);
+  font-family: "Fredoka", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.yf-member-info {
+  padding: 17px 15px 20px;
+  text-align: center;
+}
+
+.yf-member-info h3 {
+  font-family: "Fredoka", sans-serif;
+  font-size: 18px;
+  line-height: 1.35;
+  margin: 0 0 7px;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.yf-member-info p {
+  display: inline-block;
+  margin: 0;
+  padding: 6px 12px;
+  border-radius: 30px;
+  background: #edf3d8;
+  color: var(--yf-navy);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.yf-overall-heading,
+.yf-division-heading {
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.yf-overall-heading h2,
+.yf-division-heading h2 {
+  font-family: "Fredoka", sans-serif;
+  font-size: clamp(27px, 4vw, 38px);
+  margin: 8px 0 0;
+}
+
+.yf-overall-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 260px));
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+
+.yf-team-divisions {
+  padding-top: 15px;
+}
+
+.yf-division-heading {
+  margin-bottom: 38px;
+}
+
+.yf-division {
+  padding: 30px 0;
+  border-top: 1px solid rgba(38, 54, 74, 0.16);
+}
+
+.yf-division-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.yf-division-title > span {
+  display: grid;
+  place-items: center;
+  flex: 0 0 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--yf-lime);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.yf-division-title h3 {
+  font-family: "Fredoka", sans-serif;
+  font-size: clamp(22px, 3vw, 29px);
+  margin: 0;
+}
+
+.yf-member-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 760px) {
+  .yf-team-heading {
+    padding-top: 48px;
+    padding-bottom: 32px;
+  }
+
+  .yf-team-subtitle {
+    font-size: 14px;
+  }
+
+  .yf-member-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .yf-member-card {
+    max-width: none;
+  }
+
+  .yf-member-info {
+    padding: 14px 9px 17px;
+  }
+
+  .yf-member-info h3 {
+    font-size: 15px;
+  }
+
+  .yf-member-info p {
+    font-size: 10px;
+  }
+
+  .yf-overall-grid {
+    gap: 14px;
+  }
+
+  .yf-founder-wrap {
+    margin-bottom: 50px;
+  }
+
+  .yf-overall-grid {
+    margin-bottom: 58px;
+  }
+
+  .yf-division {
+    padding: 24px 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .yf-team-heading,
+  .yf-team-leadership,
+  .yf-team-divisions {
+    width: 90%;
+  }
+
+  .yf-member-grid {
+    gap: 10px;
+  }
+
+  .yf-member-info h3 {
+    font-size: 13px;
+  }
+}
+
 
 
