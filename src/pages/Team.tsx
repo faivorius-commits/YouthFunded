@@ -50,8 +50,8 @@ const divisions = [
   {
     name: "Academics",
     members: [
-      { name: "Alliyah Paelongan", role: "Member", image: "/images/alliyah.jpg" },
-      { name: "Franzeska Dominique Gresia Srikandi" , role: "Member", image: "/images/franzeska.jpg" },
+      { name: "Alliyah Paelongan", role: "Head", image: "/images/alliyah.jpg" },
+      { name: "Franzeska Dominique Gresia Srikandi" , role: "Co-Head", image: "/images/franzeska.jpg" },
       { name: "Vanessa Priyono", role: "Member", image: "/images/vanessa.jpg" },
       { name: "Bianca Hendrata", role: "Member", image: "/images/bianca.jpg" },
       { name: "Nadeline Sutandjati", role: "Member", image: "/images/nadeline.jpg" },
