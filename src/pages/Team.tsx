@@ -46,8 +46,7 @@ const divisions = [
       { name: "Naureen Aisha Rinaldi", role: "Member", image: "/images/naureen.jpg" },
     ],
   },
-    ],
-  },
+
   {
     name: "Academics",
     members: [
