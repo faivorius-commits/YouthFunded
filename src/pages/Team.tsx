@@ -72,7 +72,7 @@ const divisions = [
       { name: "Grace Thalia Avalee", role: "Member", image: "/images/grace.jpg" },
       { name: "Jessica Colleen Indradjajae", role: "Member", image: "/images/jessica.jpg" },
       { name: "Elizaebeth Sarah Albina Fernandez Lamury", role: "Member", image: "/images/elizaebeth.jpg" },
-      { name: "Nadine Tanu Utomo", role: "Member", image: "/images/nadineu.jpg" },
+      { name: "Nadine Tanu Utomo", role: "Member", image: "/images/nadine.jpg" },
       { name: "Faira Raissa Atheefa", role: "Member", image: "/images/faira.jpg" },
       { name: "Chen Zhi Xuan (Emilia)", role: "Member", image: "/images/chen.jpg" },
       { name: "Louise Tiffany Hartanto", role: "Member", image: "/images/louise.jpg" },
