@@ -425,7 +425,7 @@ export default function Articles({
       <div className="yf-articles-inner">
         <header className="yf-articles-heading">
           <p className="yf-articles-eyebrow">
-            YOUTHFUNDED • OUR ARTICLES
+            YOUTHFUNDED · OUR ARTICLES
           </p>
 
           <h1>
