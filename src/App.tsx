@@ -4,7 +4,7 @@ import Mission from "./pages/Mission";
 import Articles from "./pages/Articles";
 import Events from "./pages/Events";
 import EventDetail from "./pages/EventDetail";
-import Teams from ".pages/Team";
+import Teams from "./pages/Team";
 import Media from "./pages/Media";
 
 /* ========================================
