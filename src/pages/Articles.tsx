@@ -154,18 +154,18 @@ const articles: Article[] = [
 
   {
     slug: "preparing-for-the-future-of-work",
-    title: "Preparing for the Future of Work",
+    title: "The Importance of Preparing Yourself to Avoid Unemployment",
     subtitle:
       "Why Young People Need to Prepare for a Changing Job Market",
     category: "Youth & Career",
     contributors: ["Alliyah", "Kenneth"],
-    publishedAt: "2026",
+    publishedAt: "August, 2026",
     excerpt:
       "Youth unemployment remains a challenge. Building useful skills, gaining experience, and learning to adapt can help young people prepare for the future of work.",
     coverImage: "",
     sections: [
       {
-        heading: "Title & Opening Hook",
+        heading: "What does "Unemployment" refers to?",
         paragraphs: [
           "Unemployment refers to someone who is jobless but is actively looking for a job and available for work.",
           "Recently, youth struggle to secure a job, especially a job with a steady position. Only 40.58% of them are in the formal sector, and unfortunately, the majority of them are trapped in informal employment facing unsteady incomes and zero safety nets.",
@@ -173,7 +173,7 @@ const articles: Article[] = [
         ]
       },
       {
-        heading: "Background / Context",
+        heading: "Introduction",
         paragraphs: [
           "The job market is changing faster than ever. In 2026, global unemployment is expected to remain around 4.9%, with about 186 million people unemployed. For young people, the situation is even tougher: youth unemployment will reach 12.4% in 2025, meaning millions of young people are struggling to get their first job.",
           "At the same time, AI and technology are changing the skills employers want. The World Economic Forum predicts that around 40% of the skills needed for jobs will change by 2030, while 59 out of every 100 workers may need to learn new skills. This means having good grades alone may not be enough. Communication, creativity, critical thinking, digital skills, and the ability to adapt are becoming just as important.",
