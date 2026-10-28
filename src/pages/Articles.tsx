@@ -1,33 +1,69 @@
-
 import React from "react";
+
+type ArticleSection = {
+  heading?: string;
+  paragraphs: string[];
+};
 
 type Article = {
   slug: string;
   title: string;
+  subtitle?: string;
+  category?: string;
   contributors: string[];
   publishedAt: string;
   excerpt: string;
   coverImage: string;
   content: string[];
+  sections?: ArticleSection[];
   instagramUrl?: string;
 };
 
-// Add published articles here.
 const articles: Article[] = [
+  // Add your articles here.
   // Example:
-  // {
-  //   slug: "nichel",
-  //   title: "Tittle",
-  //   contributors: ["Contributor Name"],
-  //   publishedAt: "October 26, 2026",
-  //   excerpt: "Discover why financial knowledge matters...",
-  //   coverImage: "/images/financial-literacy-post.jpg",
-  //   content: [
-  //     "First paragraph of your article here.",
-  //     "Continue the article."
-  //   ],
-  //   instagramUrl: "https://www.instagram.com/p/YOUR_POST_ID/"
-  // }
+  /*
+  {
+    slug: "financial-literacy-among-youth",
+    title: "The Importance of Financial Literacy Among Youth",
+    subtitle: "Understanding money today to build a more secure future.",
+    category: "Financial Literacy",
+    contributors: ["Author Name"],
+    publishedAt: "October 28, 2026",
+    excerpt:
+      "Discover why financial literacy matters and how young people can develop healthier financial habits.",
+    coverImage: "/images/financial-literacy-post.jpg",
+    content: [],
+    sections: [
+      {
+        heading: "Introduction",
+        paragraphs: [
+          "Write your opening paragraph here.",
+          "Continue with another introductory paragraph."
+        ]
+      },
+      {
+        heading: "Why Financial Literacy Matters",
+        paragraphs: [
+          "Explain why financial literacy is important for young people."
+        ]
+      },
+      {
+        heading: "Building Better Financial Habits",
+        paragraphs: [
+          "Discuss practical ways young people can improve their financial habits."
+        ]
+      },
+      {
+        heading: "Conclusion",
+        paragraphs: [
+          "Summarize the main ideas and close the article."
+        ]
+      }
+    ],
+    instagramUrl: "https://www.instagram.com/"
+  }
+  */
 ];
 
 const styles = `
@@ -111,7 +147,7 @@ const styles = `
 
   .yf-articles-subtitle {
     max-width: 560px;
-    margin: 16px auto 0;
+    margin: 16px 0 0;
     color: var(--muted);
     font-size: 13px;
     line-height: 1.9;
@@ -204,6 +240,14 @@ const styles = `
     line-height: 1.9;
   }
 
+  .yf-article-card .yf-article-card-subtitle {
+    margin: -3px 0 11px;
+    color: var(--ink);
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.7;
+  }
+
   .yf-article-contributors {
     margin-top: 14px !important;
     font-size: 11px !important;
@@ -268,8 +312,27 @@ const styles = `
   }
 
   .yf-article-detail h1 {
-    margin-bottom: 18px;
+    margin-bottom: 14px;
     font-size: clamp(32px, 5vw, 48px);
+  }
+
+  .yf-article-category {
+    display: inline-flex;
+    margin: 0 0 14px;
+    padding: 6px 11px;
+    border-radius: 999px;
+    background: #e6edbd;
+    color: var(--ink);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .5px;
+  }
+
+  .yf-article-subtitle {
+    margin: 0 0 18px;
+    color: var(--muted);
+    font-size: clamp(16px, 2.4vw, 20px);
+    line-height: 1.75;
   }
 
   .yf-article-detail-cover {
@@ -289,6 +352,13 @@ const styles = `
 
   .yf-article-body p {
     margin: 0 0 22px;
+  }
+
+  .yf-article-body h2 {
+    margin: 34px 0 14px;
+    color: var(--ink);
+    font-size: clamp(22px, 3.5vw, 28px);
+    line-height: 1.4;
   }
 
   .yf-article-not-found {
@@ -367,16 +437,29 @@ export default function Articles({
     return (
       <main className="yf-articles">
         <style>{styles}</style>
+
         <article className="yf-articles-inner yf-article-detail">
           <a className="yf-article-back" href="/articles">
             ← Back to Our Articles
           </a>
 
           <p className="yf-articles-eyebrow">
-            YOUTHFUNDED • OUR ARTICLES
+            YOUTHFUNDED · OUR ARTICLES
           </p>
 
+          {article.category && (
+            <p className="yf-article-category">
+              {article.category}
+            </p>
+          )}
+
           <h1>{article.title}</h1>
+
+          {article.subtitle && (
+            <p className="yf-article-subtitle">
+              {article.subtitle}
+            </p>
+          )}
 
           <div className="yf-article-meta">
             <span>{article.publishedAt}</span>
@@ -395,9 +478,25 @@ export default function Articles({
           )}
 
           <div className="yf-article-body">
-            {article.content.map((paragraph, index) => (
-              <p key={index}>{paragraph}</p>
-            ))}
+            {article.sections && article.sections.length > 0 ? (
+              article.sections.map((section, sectionIndex) => (
+                <section key={sectionIndex}>
+                  {section.heading && (
+                    <h2>{section.heading}</h2>
+                  )}
+
+                  {section.paragraphs.map(
+                    (paragraph, paragraphIndex) => (
+                      <p key={paragraphIndex}>{paragraph}</p>
+                    )
+                  )}
+                </section>
+              ))
+            ) : (
+              article.content.map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))
+            )}
           </div>
 
           {article.instagramUrl && (
@@ -419,8 +518,14 @@ export default function Articles({
     <main className="yf-articles">
       <style>{styles}</style>
 
-      <span className="yf-articles-orb one" aria-hidden="true" />
-      <span className="yf-articles-orb two" aria-hidden="true" />
+      <span
+        className="yf-articles-orb one"
+        aria-hidden="true"
+      />
+      <span
+        className="yf-articles-orb two"
+        aria-hidden="true"
+      />
 
       <div className="yf-articles-inner">
         <header className="yf-articles-heading">
@@ -442,7 +547,10 @@ export default function Articles({
         {articles.length > 0 ? (
           <div className="yf-articles-grid">
             {articles.map((item) => (
-              <article className="yf-article-card" key={item.slug}>
+              <article
+                className="yf-article-card"
+                key={item.slug}
+              >
                 <a
                   className="yf-article-cover"
                   href={`/articles/${item.slug}`}
@@ -472,6 +580,13 @@ export default function Articles({
                   </div>
 
                   <h2>{item.title}</h2>
+
+                  {item.subtitle && (
+                    <p className="yf-article-card-subtitle">
+                      {item.subtitle}
+                    </p>
+                  )}
+
                   <p>{item.excerpt}</p>
 
                   <p className="yf-article-contributors">
@@ -491,7 +606,10 @@ export default function Articles({
           </div>
         ) : (
           <section className="yf-articles-empty">
-            <div className="yf-articles-empty-icon" aria-hidden="true">
+            <div
+              className="yf-articles-empty-icon"
+              aria-hidden="true"
+            >
               ✳
             </div>
 
