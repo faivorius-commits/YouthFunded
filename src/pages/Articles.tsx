@@ -282,7 +282,7 @@ const Articles: React.FC = () => {
           <>
             <header className="yf-articles-header">
               <p className="yf-articles-eyebrow">
-                YOUTHFUNDED JOURNAL
+                YOUTHFUNDED · ARTICLES
               </p>
 
               <h1 className="yf-articles-heading">
