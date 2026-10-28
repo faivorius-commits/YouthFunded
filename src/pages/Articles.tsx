@@ -165,7 +165,7 @@ const articles: Article[] = [
     coverImage: "",
     sections: [
       {
-        heading: "What does "Unemployment" refers to?",
+        heading: "What does Unemployment refers to?",
         paragraphs: [
           "Unemployment refers to someone who is jobless but is actively looking for a job and available for work.",
           "Recently, youth struggle to secure a job, especially a job with a steady position. Only 40.58% of them are in the formal sector, and unfortunately, the majority of them are trapped in informal employment facing unsteady incomes and zero safety nets.",
