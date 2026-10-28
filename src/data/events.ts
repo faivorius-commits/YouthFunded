@@ -25,5 +25,19 @@ export const events: YouthFundedEvent[] = [
     ],
   },
 
+  {
+    slug: "maria-imaculata-orphanage-visit-1",
+    title: "Orphanage Visit 1 - Maria Imaculata Orphanage",
+    image: "/event2-doc1.jpg",
+    date: "October 24, 2026",
+    place: "Maria Imaculata Orphanage, Bekasi",
+    description:
+      "Orphanage Visit 1 description.",
+    details: [
+      "Detail 1.",
+      "Detail 2.",
+      "Detail 3.",
+    ],
+  },
   // Template event baru event baru di bawah ini.
 ];
