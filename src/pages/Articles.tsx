@@ -24,47 +24,48 @@ type Article = {
 };
 
 const articles: Article[] = [
-  // Add your articles here.
-  // Example:
-  /*
   {
-    slug: "financial-literacy",
-    title: "The Importance of Financial Literacy",
+    slug: "indonesia's-nickel-industry",
+    title: "Indonesia's Nickel Industry",
     subtitle: "Building Better Financial Habits for Young People",
     category: "Education",
-    contributors: ["Your Name"],
-    publishedAt: "October 28, 2026",
+    contributors: ["Bianca H., Neca"],
+    publishedAt: "August, 2026",
     excerpt:
-      "Discover why financial literacy matters and how young people can develop better money management skills.",
-    coverImage: "/images/financial-literacy.jpg",
+      "Nickel supports job opportunities, economic growth, and EV battery development.
+However, mining also brings challenges like deforestation, water pollution, and
+impacts on local communities.",
+    coverImage: "/images/nickel-industry.jpg",
     sections: [
       {
-        heading: "Why Financial Literacy Matters",
+        heading: "What is the nickel Industry?",
         paragraphs: [
-          "Financial literacy helps young people make informed financial decisions."
+          "Globally, Indonesia is known for lots of things, such as our culture, our nature, and our food.
+Over the past years, Indonesia has slowly developed its industry, specifically their very own
+nickel industry. As of now, Indonesia’s nickel industry is considered the biggest sector for the
+mining, processing, and refining of nickel, responsible for more than 1.8 million tonnes of
+nickel in 2023-2024 alone. These mines are usually located in Sulawesi and Maluku,
+controlling about 65% of the global mined output."
         ],
-        bullets: [
-          "Understanding budgeting and saving.",
-          "Learning to manage personal expenses.",
-          "Making informed financial decisions."
-        ],
-        closingParagraphs: [
-          "By developing these skills early, young people can build healthier financial habits and prepare for the future."
-        ]
       },
       {
-        heading: "Building Financial Habits",
-        paragraphs: [
-          "Good financial habits can be developed through consistent practice."
+        heading: "The Good Side of Nickel Mining",
+        bullets: [
+          "Open up many job vacancies",
+        ],
+        paragraphs: ["Nickel mining and processing opens up many job vacancies opportunities for
+Indonesians, especially in areas where nickel is being produced. These jobs
+help improve people’s income, support local business and increase the quality
+of life for many families."] 
         ],
         bullets: [
-          "Set realistic financial goals.",
-          "Track income and expenses.",
-          "Save regularly whenever possible."
+          "Boost the economy",
         ],
-        closingParagraphs: [
-          "Small, consistent actions can help young people become more confident in managing their finances."
-        ]
+       paragraphs: ["Indonesia is one of the world’s largest nickel producers. Which means making
+nickel is an important contributor to the county’s economy. This industry
+attracts foreign investment, increases export revenues and helps fund
+infrastructure and public development projects."] 
+        ],
       }
     ],
     instagramUrl: "https://www.instagram.com/"
