@@ -1,5 +1,5 @@
+
 import React, { useState } from "react";
-import "./style.css";
 
 type ArticleBullet = {
   title: string;
@@ -39,15 +39,13 @@ const articles: Article[] = [
     excerpt:
       "Nickel supports job opportunities, economic growth, and EV battery development. However, mining also brings challenges such as deforestation, water pollution, and impacts on local communities.",
     coverImage: "/images/nickel-industry.jpg",
-
     sections: [
       {
         heading: "What is the Nickel Industry?",
         paragraphs: [
           "Globally, Indonesia is known for many things, including its culture, nature, and food. Over the past years, Indonesia has continued to develop its industries, including the nickel industry. Nickel mining, processing, and refining have become important parts of the country's economy. Nickel mines and processing facilities are concentrated in regions such as Sulawesi and Maluku, making the industry an important part of Indonesia's role in the global nickel supply chain."
-        ],
+        ]
       },
-
       {
         heading: "The Good Side of Nickel Mining",
         bullets: [
@@ -65,10 +63,9 @@ const articles: Article[] = [
             title: "Encourage Industrial Downstreaming",
             paragraph:
               "Instead of exporting raw nickel, Indonesia can process it into higher-value products such as battery materials, stainless steel, and electric vehicle components. This can create more value for the country, encourage technological development, and provide more skilled job opportunities for Indonesians."
-          },
-        ],
+          }
+        ]
       },
-
       {
         heading: "The Bad Side of Nickel Mining",
         bullets: [
@@ -86,10 +83,9 @@ const articles: Article[] = [
             title: "Impacts on Local Communities",
             paragraph:
               "Although the nickel industry creates jobs, some local communities also face environmental and social challenges. Mining activities can affect their health, reduce access to clean water, change traditional livelihoods, and sometimes create conflicts over land use."
-          },
-        ],
+          }
+        ]
       },
-
       {
         heading: "Ways to Solve These Problems",
         paragraphs: [
@@ -110,18 +106,16 @@ const articles: Article[] = [
             title: "3. Practice Responsible Mining",
             paragraph:
               "Mining companies should follow environmental regulations by reducing pollution, treating mining waste safely, protecting nearby rivers, and replanting trees after mining activities are completed. Responsible mining can help balance economic growth with environmental protection."
-          },
-        ],
+          }
+        ]
       },
-
       {
         heading: "Save Money = Save Resources",
         paragraphs: [
           "Fun fact: Saving money can also help save the planet.",
           "Instead of buying a new phone or laptop every time, try repairing your device and using it for longer. Only buy what you truly need. This helps reduce electronic waste and the demand for new batteries, which can decrease the need for additional nickel mining."
-        ],
+        ]
       },
-
       {
         heading: "Sources",
         paragraphs: [
@@ -130,12 +124,11 @@ const articles: Article[] = [
           "Jurnal Sylva Lestari: https://sylvalestari.fp.unila.ac.id/index.php/JHT/article/view/847",
           "IMA API — Nickel Supply in 2026: https://ima-api.org/capacity-additions-to-lift-indonesias-nickel-supply-in-2026",
           "TMS Consulting — Nickel Oversupply in Indonesia: https://tms-consulting.co.id/nickel-oversupply-2025-indonesia/"
-        ],
-      },
+        ]
+      }
     ],
-
-    instagramUrl: "https://www.instagram.com/",
-  },
+    instagramUrl: "https://www.instagram.com/"
+  }
 ];
 
 const Articles: React.FC = () => {
@@ -161,17 +154,16 @@ const Articles: React.FC = () => {
             </p>
           ))}
 
-          {section.bullets &&
-            section.bullets.length > 0 && (
-              <ul className="yf-article-bullets">
-                {section.bullets.map((bullet, bulletIndex) => (
-                  <li key={`bullet-${bulletIndex}`}>
-                    <strong>{bullet.title}</strong>
-                    <p>{bullet.paragraph}</p>
-                  </li>
-                ))}
-              </ul>
-            )}
+          {section.bullets && section.bullets.length > 0 && (
+            <ul className="yf-article-bullets">
+              {section.bullets.map((bullet, bulletIndex) => (
+                <li key={`bullet-${bulletIndex}`}>
+                  <strong>{bullet.title}</strong>
+                  <p>{bullet.paragraph}</p>
+                </li>
+              ))}
+            </ul>
+          )}
 
           {section.closingParagraphs?.map(
             (paragraph, paragraphIndex) => (
