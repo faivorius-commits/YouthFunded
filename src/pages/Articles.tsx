@@ -252,7 +252,7 @@ const articles: Article[] = [
           }
         ]
       }
-    ]
+    ],
     instagramUrl: "https://www.instagram.com/p/DcqPHoFgf2X/?mdxt=MW81azU4M3JtMjFjNg=="
   }
 ];
