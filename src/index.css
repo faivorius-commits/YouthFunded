@@ -5839,3 +5839,19 @@ transform: none;
 }
 
 
+/* Separate the back button and article category */
+.yf-article-detail .yf-article-back {
+  display: table;
+  margin: 0 0 24px;
+}
+
+.yf-article-detail > .yf-article-category {
+  display: table;
+  margin: 0 0 18px;
+  line-height: 1.6;
+}
+
+.yf-article-title {
+  margin-top: 0;
+}
+
