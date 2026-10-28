@@ -1,11 +1,15 @@
-
 import React, { useState } from "react";
 import "./style.css";
+
+type ArticleBullet = {
+  title: string;
+  paragraph: string;
+};
 
 type ArticleSection = {
   heading?: string;
   paragraphs?: string[];
-  bullets?: string[];
+  bullets?: ArticleBullet[];
   closingParagraphs?: string[];
 };
 
@@ -25,52 +29,113 @@ type Article = {
 
 const articles: Article[] = [
   {
-    slug: "indonesia's-nickel-industry",
+    slug: "indonesias-nickel-industry",
     title: "Indonesia's Nickel Industry",
-    subtitle: "Building Better Financial Habits for Young People",
-    category: "Education",
-    contributors: ["Bianca H., Neca"],
+    subtitle:
+      "Understanding the Benefits and Challenges of Nickel Mining",
+    category: "Economy & Environment",
+    contributors: ["Bianca H.", "Neca"],
     publishedAt: "August, 2026",
     excerpt:
-      "Nickel supports job opportunities, economic growth, and EV battery development.
-However, mining also brings challenges like deforestation, water pollution, and
-impacts on local communities.",
+      "Nickel supports job opportunities, economic growth, and EV battery development. However, mining also brings challenges such as deforestation, water pollution, and impacts on local communities.",
     coverImage: "/images/nickel-industry.jpg",
+
     sections: [
       {
-        heading: "What is the nickel Industry?",
+        heading: "What is the Nickel Industry?",
         paragraphs: [
-          "Globally, Indonesia is known for lots of things, such as our culture, our nature, and our food.
-Over the past years, Indonesia has slowly developed its industry, specifically their very own
-nickel industry. As of now, Indonesia’s nickel industry is considered the biggest sector for the
-mining, processing, and refining of nickel, responsible for more than 1.8 million tonnes of
-nickel in 2023-2024 alone. These mines are usually located in Sulawesi and Maluku,
-controlling about 65% of the global mined output."
+          "Globally, Indonesia is known for many things, including its culture, nature, and food. Over the past years, Indonesia has continued to develop its industries, including the nickel industry. Nickel mining, processing, and refining have become important parts of the country's economy. Nickel mines and processing facilities are concentrated in regions such as Sulawesi and Maluku, making the industry an important part of Indonesia's role in the global nickel supply chain."
         ],
       },
+
       {
         heading: "The Good Side of Nickel Mining",
         bullets: [
-          "Open up many job vacancies",
+          {
+            title: "Open Up Job Opportunities",
+            paragraph:
+              "Nickel mining and processing create job opportunities for Indonesians, especially in areas where nickel is produced. These jobs can improve people's incomes, support local businesses, and contribute to the quality of life for many families."
+          },
+          {
+            title: "Boost the Economy",
+            paragraph:
+              "Indonesia is one of the world's largest nickel producers, making the industry an important contributor to the country's economy. It attracts foreign investment, increases export revenues, and can help support infrastructure and public development projects."
+          },
+          {
+            title: "Encourage Industrial Downstreaming",
+            paragraph:
+              "Instead of exporting raw nickel, Indonesia can process it into higher-value products such as battery materials, stainless steel, and electric vehicle components. This can create more value for the country, encourage technological development, and provide more skilled job opportunities for Indonesians."
+          },
         ],
-        paragraphs: ["Nickel mining and processing opens up many job vacancies opportunities for
-Indonesians, especially in areas where nickel is being produced. These jobs
-help improve people’s income, support local business and increase the quality
-of life for many families."] 
+      },
+
+      {
+        heading: "The Bad Side of Nickel Mining",
+        bullets: [
+          {
+            title: "Deforestation",
+            paragraph:
+              "Nickel mining can lead to the loss of forests because it may require clearing land to access mineral deposits. This can destroy wildlife habitats, reduce biodiversity, and contribute to climate change by reducing the number of trees that absorb carbon dioxide."
+          },
+          {
+            title: "Water Pollution",
+            paragraph:
+              "Mining activities can produce waste that contaminates rivers, lakes, and other water sources. Polluted water can harm fish and other aquatic life, reduce water quality, and affect communities that depend on these sources for drinking, farming, and fishing."
+          },
+          {
+            title: "Impacts on Local Communities",
+            paragraph:
+              "Although the nickel industry creates jobs, some local communities also face environmental and social challenges. Mining activities can affect their health, reduce access to clean water, change traditional livelihoods, and sometimes create conflicts over land use."
+          },
+        ],
+      },
+
+      {
+        heading: "Ways to Solve These Problems",
+        paragraphs: [
+          "The benefits of the nickel industry should be balanced with environmental protection and the well-being of local communities. The following approaches can help make nickel production more responsible and sustainable."
         ],
         bullets: [
-          "Boost the economy",
+          {
+            title: "1. Support Industrial Downstreaming",
+            paragraph:
+              "Instead of exporting raw nickel, Indonesia can process it into products such as batteries and electric vehicle (EV) components. This can help the country generate more economic value, create jobs, and develop better technology. Environmental impacts should also be addressed through improved waste management and the restoration of mining areas."
+          },
+          {
+            title: "2. Recycle Used Batteries",
+            paragraph:
+              "Many used batteries contain valuable materials, including nickel, that can be recovered and reused. Recycling batteries properly can reduce the need for newly mined materials, lower waste, and support a more sustainable circular economy."
+          },
+          {
+            title: "3. Practice Responsible Mining",
+            paragraph:
+              "Mining companies should follow environmental regulations by reducing pollution, treating mining waste safely, protecting nearby rivers, and replanting trees after mining activities are completed. Responsible mining can help balance economic growth with environmental protection."
+          },
         ],
-       paragraphs: ["Indonesia is one of the world’s largest nickel producers. Which means making
-nickel is an important contributor to the county’s economy. This industry
-attracts foreign investment, increases export revenues and helps fund
-infrastructure and public development projects."] 
+      },
+
+      {
+        heading: "Save Money = Save Resources",
+        paragraphs: [
+          "Fun fact: Saving money can also help save the planet.",
+          "Instead of buying a new phone or laptop every time, try repairing your device and using it for longer. Only buy what you truly need. This helps reduce electronic waste and the demand for new batteries, which can decrease the need for additional nickel mining."
         ],
-      }
+      },
+
+      {
+        heading: "Sources",
+        paragraphs: [
+          "World Bank — Indonesia Economic Prospects: https://www.worldbank.org/en/country/indonesia/publication/indonesia-economic-prospects",
+          "United Nations Environment Programme — Minerals and Metals: https://www.unep.org/explore-topics/resource-efficiency/what-we-do/minerals-and-metals",
+          "Jurnal Sylva Lestari: https://sylvalestari.fp.unila.ac.id/index.php/JHT/article/view/847",
+          "IMA API — Nickel Supply in 2026: https://ima-api.org/capacity-additions-to-lift-indonesias-nickel-supply-in-2026",
+          "TMS Consulting — Nickel Oversupply in Indonesia: https://tms-consulting.co.id/nickel-oversupply-2025-indonesia/"
+        ],
+      },
     ],
-    instagramUrl: "https://www.instagram.com/"
-  }
-  */
+
+    instagramUrl: "https://www.instagram.com/",
+  },
 ];
 
 const Articles: React.FC = () => {
@@ -96,15 +161,17 @@ const Articles: React.FC = () => {
             </p>
           ))}
 
-          {section.bullets && section.bullets.length > 0 && (
-            <ul className="yf-article-bullets">
-              {section.bullets.map((bullet, bulletIndex) => (
-                <li key={`bullet-${bulletIndex}`}>
-                  {bullet}
-                </li>
-              ))}
-            </ul>
-          )}
+          {section.bullets &&
+            section.bullets.length > 0 && (
+              <ul className="yf-article-bullets">
+                {section.bullets.map((bullet, bulletIndex) => (
+                  <li key={`bullet-${bulletIndex}`}>
+                    <strong>{bullet.title}</strong>
+                    <p>{bullet.paragraph}</p>
+                  </li>
+                ))}
+              </ul>
+            )}
 
           {section.closingParagraphs?.map(
             (paragraph, paragraphIndex) => (
@@ -154,7 +221,7 @@ const Articles: React.FC = () => {
             <div className="yf-article-meta">
               <span>{selectedArticle.publishedAt}</span>
               <span>
-                By {selectedArticle.contributors.join(", ")}
+                By {selectedArticle.contributors.join(" and ")}
               </span>
             </div>
 
