@@ -33,7 +33,6 @@ const divisions = [
       { name: "Marcia Amberlyn", role: "Head", image: "/images/marcia.jpg" },
       { name: "Taneisha Kaniel Ang", role: "Co-Head", image: "/images/taneisha.jpg" },
       { name: "Sarah Juliette Sie Tjandra", role: "Member", image: "/images/sarah.jpg" },
-      { name: "Nikita Susanto", role: "Member", image: "/images/nikita.jpg" },
       { name: "Gwynne", role: "Member", image: "/images/gwynne.jpg" },
       { name: "Lauryn Suganda", role: "Member", image: "/images/lauryn.jpg" },
       { name: "Andrea Aiko Annabelle", role: "Member", image: "/images/andrea.jpg" },
