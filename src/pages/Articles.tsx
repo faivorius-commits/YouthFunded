@@ -181,13 +181,26 @@ const Articles: React.FC = () => {
 
           {section.bullets && section.bullets.length > 0 && (
             <ul className="yf-article-bullets">
-              {section.bullets.map((bullet, bulletIndex) => (
-                <li key={`bullet-${bulletIndex}`}>
-                  <strong>{bullet.title}</strong>
-                  <p>{bullet.paragraph}</p>
-                </li>
-              ))}
-            </ul>
+            {section.bullets.map((bullet, bulletIndex) => (
+            <li key={`bullet-${bulletIndex}`}>
+            <strong>{bullet.title}</strong>
+
+      {section.heading === "Sources" ? (
+        <p>
+          <a
+            href={bullet.paragraph}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {bullet.paragraph}
+          </a>
+        </p>
+      ) : (
+        <p>{bullet.paragraph}</p>
+      )}
+    </li>
+  ))}
+</ul>
           )}
 
           {section.closingParagraphs?.map(
