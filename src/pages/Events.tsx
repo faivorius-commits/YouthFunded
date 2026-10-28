@@ -56,10 +56,10 @@ return (
       <h3>??</h3>
       <p>??</p>
       <div className="event-meta">
-        <p><strong>Date:</strong> ??</p>
-        <p><strong>Place:</strong> ??</p>
+        <p><strong>Date:</strong>October 24, 2026</p>
+        <p><strong>Place:</strong>Maria Imaculata Orphanage, Bekasi</p>
       </div>
-      <a className="event-read-more" href="/events/comingsoon-youthfunded">Read More <span aria-hidden="true">↗</span></a>
+      <a className="event-read-more" href="/events/maria-imaculata-orphanage-visit-1">Read More <span aria-hidden="true">↗</span></a>
     </div>
   </article>
 </section>
