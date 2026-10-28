@@ -149,7 +149,7 @@ const articles: Article[] = [
         ]
       }
     ],
-    instagramUrl: "https://www.instagram.com/"
+    instagramUrl: "https://www.instagram.com/p/DbQKT5aAY9i/?rpxt=MXFhNm5wM3pmcXVobA=="
   },
 
   {
@@ -253,6 +253,7 @@ const articles: Article[] = [
         ]
       }
     ]
+    instagramUrl: "https://www.instagram.com/p/DcqPHoFgf2X/?mdxt=MW81azU4M3JtMjFjNg=="
   }
 ];
 
