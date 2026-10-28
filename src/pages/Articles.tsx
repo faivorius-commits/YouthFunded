@@ -116,16 +116,41 @@ const articles: Article[] = [
           "Instead of buying a new phone or laptop every time, try repairing your device and using it for longer. Only buy what you truly need. This helps reduce electronic waste and the demand for new batteries, which can decrease the need for additional nickel mining."
         ]
       },
-      {
-        heading: "Sources",
-        paragraphs: [
-          "World Bank — Indonesia Economic Prospects: https://www.worldbank.org/en/country/indonesia/publication/indonesia-economic-prospects",
-          "United Nations Environment Programme — Minerals and Metals: https://www.unep.org/explore-topics/resource-efficiency/what-we-do/minerals-and-metals",
-          "Jurnal Sylva Lestari: https://sylvalestari.fp.unila.ac.id/index.php/JHT/article/view/847",
-          "IMA API — Nickel Supply in 2026: https://ima-api.org/capacity-additions-to-lift-indonesias-nickel-supply-in-2026",
-          "TMS Consulting — Nickel Oversupply in Indonesia: https://tms-consulting.co.id/nickel-oversupply-2025-indonesia/"
-        ]
-      }
+      
+{
+  heading: "Sources",
+  paragraphs: [
+    "The following sources provide further information about Indonesia's nickel industry and resource sustainability."
+  ],
+  bullets: [
+    {
+      title: "World Bank — Indonesia Economic Prospects",
+      paragraph:
+        "https://www.worldbank.org/en/country/indonesia/publication/indonesia-economic-prospects"
+    },
+    {
+      title: "United Nations Environment Programme — Minerals and Metals",
+      paragraph:
+        "https://www.unep.org/explore-topics/resource-efficiency/what-we-do/minerals-and-metals"
+    },
+    {
+      title: "Jurnal Sylva Lestari",
+      paragraph:
+        "https://sylvalestari.fp.unila.ac.id/index.php/JHT/article/view/847"
+    },
+    {
+      title: "IMA API — Nickel Supply in 2026",
+      paragraph:
+        "https://ima-api.org/capacity-additions-to-lift-indonesias-nickel-supply-in-2026"
+    },
+    {
+      title: "TMS Consulting — Nickel Oversupply in Indonesia",
+      paragraph:
+        "https://tms-consulting.co.id/nickel-oversupply-2025-indonesia/"
+    }
+  ]
+}
+
     ],
     instagramUrl: "https://www.instagram.com/p/DbQKT5aAY9i/?psln=MXFhNm5wM3pmcXVobA=="
   }
