@@ -162,7 +162,7 @@ const articles: Article[] = [
     publishedAt: "August, 2026",
     excerpt:
       "Youth unemployment remains a challenge. Building useful skills, gaining experience, and learning to adapt can help young people prepare for the future of work.",
-    coverImage: "avoiding-unemployment.jpg",
+    coverImage: "/images/avoiding-unemployment.jpg",
     sections: [
       {
         heading: "What does Unemployment refers to?",
