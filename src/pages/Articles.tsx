@@ -36,6 +36,7 @@ const articles: Article[] = [
     contributors: ["YouthFunded Team"],
     publishedAt: "September, 2026",
     excerpt: "Learn how tracking your spending can help you make more deliberate financial decisions.",
+    coverImage: "/images/dompetkosong.jpg",
     sections: [
       {
         heading: "",
