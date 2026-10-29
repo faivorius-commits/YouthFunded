@@ -35,7 +35,7 @@ const articles: Article[] = [
       "Why Starting Small Today Can Help You Build a More Secure Tomorrow",
     category: "Finance & Lifestyle",
     contributors: ["YouthFunded Team"],
-    publishedAt: "October, 2026",
+    publishedAt: "September, 2026",
     excerpt:
       "Saving is more than putting money aside. It builds discipline, helps us reach our goals, prepares us for unexpected expenses, and creates financial security for the future.",
     coverImage: "/images/saving-habit.jpg",
@@ -205,7 +205,7 @@ const articles: Article[] = [
       "A Simple Guide to Managing Your Money and Building Healthy Financial Habits",
     category: "Finance & Lifestyle",
     contributors: ["YouthFunded Team"],
-    publishedAt: "October, 2026",
+    publishedAt: "September, 2026",
     excerpt:
       "Learn how the 50/30/20 budgeting rule can help you balance essential expenses, personal wants, and savings while building healthier financial habits for the future.",
     coverImage: "/images/50-30-20.jpg",
