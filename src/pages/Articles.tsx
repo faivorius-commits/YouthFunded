@@ -27,6 +27,159 @@ type Article = {
 };
 
 const articles: Article[] = [
+  
+  {
+    slug: "the-50-30-20-rule",
+    title: "The 50/30/20 Rule for Budgeting",
+    subtitle:
+      "A Simple Guide to Managing Your Money and Building Healthy Financial Habits",
+    category: "Finance & Lifestyle",
+    contributors: ["YouthFunded Team"],
+    publishedAt: "October, 2026",
+    excerpt:
+      "Learn how the 50/30/20 budgeting rule can help you balance essential expenses, personal wants, and savings while building healthier financial habits for the future.",
+    coverImage: "/images/50-30-20.jpg",
+    sections: [
+      {
+        heading: "What Is the 50/30/20 Rule?",
+        paragraphs: [
+          "Managing money doesn't have to be complicated. The 50/30/20 rule is a simple budgeting method that helps you become more aware of your spending habits, avoid overspending, and save for your future.",
+          "The idea is to divide your after-tax income into three categories: 50% for needs, 30% for wants, and 20% for savings and financial goals. This approach gives you a clearer picture of where your money goes and helps you make more intentional financial decisions."
+        ]
+      },
+      {
+        heading: "50% for Needs",
+        paragraphs: [
+          "Needs are essential expenses that support your health, safety, and everyday life. These are things you generally cannot avoid paying for."
+        ],
+        bullets: [
+          {
+            title: "Housing",
+            paragraph:
+              "Rent or mortgage payments that provide you with a place to live."
+          },
+          {
+            title: "Utilities",
+            paragraph:
+              "Essential bills such as electricity, water, and other basic household services."
+          },
+          {
+            title: "Healthcare",
+            paragraph:
+              "Necessary medical expenses, healthcare services, and essential medication."
+          },
+          {
+            title: "Groceries",
+            paragraph:
+              "Food and other basic household necessities that you need for daily living."
+          }
+        ],
+        closingParagraphs: [
+          "Ideally, these expenses should take up around 50% of your after-tax income. If your needs exceed this amount, review your spending and see whether there are practical ways to reduce costs. However, essential needs should not be neglected just to meet a percentage.",
+          "If your essential expenses are below 50%, you can consider putting the extra money toward savings, financial goals, or other budget categories."
+        ]
+      },
+      {
+        heading: "30% for Wants",
+        paragraphs: [
+          "Wants are things that make life more enjoyable but are not essential for everyday living. Unlike needs, these are expenses you can usually adjust or postpone when necessary."
+        ],
+        bullets: [
+          {
+            title: "Entertainment and Hobbies",
+            paragraph:
+              "Activities such as gaming, reading for fun, or pursuing personal interests."
+          },
+          {
+            title: "Holidays and Travel",
+            paragraph:
+              "Trips and vacations that allow you to explore new places and enjoy your free time."
+          },
+          {
+            title: "Dining Out",
+            paragraph:
+              "Eating at restaurants, ordering food, or visiting cafés for enjoyment."
+          },
+          {
+            title: "Digital Subscriptions",
+            paragraph:
+              "Optional services such as Netflix, Amazon subscriptions, and other streaming platforms."
+          }
+        ],
+        closingParagraphs: [
+          "Keeping wants within your budget doesn't mean you have to stop enjoying life. Instead, look for ways to spend more thoughtfully. For example, cooking at home can often cost less than eating out regularly. Planning your meals ahead of time may help you save money without giving up enjoyable experiences."
+        ]
+      },
+      {
+        heading: "20% for Savings and Financial Goals",
+        paragraphs: [
+          "Savings are the money you set aside for your future. Allocating around 20% of your after-tax income to savings and financial goals can help you prepare for unexpected expenses and work toward long-term plans.",
+          "One important goal is building an emergency fund. Unexpected situations, such as a car repair or medical bill, can happen at any time. Having savings available may reduce the need to rely on borrowed money or credit cards."
+        ],
+        bullets: [
+          {
+            title: "Build an Emergency Fund",
+            paragraph:
+              "Set aside money for unexpected expenses so that you have a financial cushion when life does not go according to plan."
+          },
+          {
+            title: "Prepare for Future Goals",
+            paragraph:
+              "Save gradually for important milestones, such as further education, buying a home, or starting a business."
+          },
+          {
+            title: "Explore Long-Term Saving and Investing",
+            paragraph:
+              "Once your immediate needs and financial circumstances are considered, learn about suitable saving and investment options. Understand the risks before making investment decisions."
+          }
+        ],
+        closingParagraphs: [
+          "Remember that saving consistently is more important than following a percentage perfectly. If your current income is limited, start with an amount you can realistically set aside and adjust as your circumstances change."
+        ]
+      },
+      {
+        heading: "Make the Rule Work for You",
+        paragraphs: [
+          "The 50/30/20 rule shows that budgeting does not need to be overly complicated. It provides a simple starting point for enjoying your money today while preparing for tomorrow.",
+          "However, everyone's financial situation is different. Housing costs, family responsibilities, income, and personal goals can affect how much you need to spend. Treat these percentages as a guide rather than a strict requirement, and adjust them to fit your circumstances.",
+          "Being on a budget is not about restricting yourself from everything you enjoy. It is about understanding your priorities, making thoughtful choices, and developing habits that support your future."
+        ],
+        closingParagraphs: [
+          "Start small, stay consistent, and give your future self something to thank you for. :)"
+        ]
+      },
+      {
+        heading: "Sources",
+        paragraphs: [
+          "Explore these resources to learn more about the 50/30/20 budgeting rule and the difference between needs and wants."
+        ],
+        bullets: [
+          {
+            title: "UNFCU — The 50/30/20 Rule",
+            paragraph:
+              "https://www.unfcu.org/financial-wellness/50-30-20-rule/"
+          },
+          {
+            title: "Zurich Ireland — What Is the 50/30/20 Rule in Budgeting?",
+            paragraph:
+              "https://www.zurich.ie/blog/what-is-50-30-20-rule-in-budgeting-rule/"
+          },
+          {
+            title: "Academia.edu — What Is a Need?",
+            paragraph:
+              "https://www.academia.edu/28281144/What_is_a_need"
+          },
+          {
+            title: "ICICI Prudential Life Insurance — The 50/30/20 Budgeting Rule",
+            paragraph:
+              "https://www.iciciprulife.com/protection-saving-plans/what-is-the-50-30-20-rule-for-budgeting.html"
+          }
+        ]
+      }
+    ],
+    instagramUrl:
+      "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MTI1NTQ0Nzc4NzA2MjQ5?story_media_id=3954528930601483337_74820423310&rpxt=czF1dnBoY3U1OHBk"
+  },
   {
     slug: "indonesias-nickel-industry",
     title: "Indonesia's Nickel Industry",
