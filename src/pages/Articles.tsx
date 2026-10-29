@@ -29,6 +29,176 @@ type Article = {
 const articles: Article[] = [
   
   {
+    slug: "building-a-saving-habit",
+    title: "Building a Saving Habit Early Creates Financial Security in the Future",
+    subtitle:
+      "Why Starting Small Today Can Help You Build a More Secure Tomorrow",
+    category: "Finance & Lifestyle",
+    contributors: ["YouthFunded Team"],
+    publishedAt: "October, 2026",
+    excerpt:
+      "Saving is more than putting money aside. It builds discipline, helps us reach our goals, prepares us for unexpected expenses, and creates financial security for the future.",
+    coverImage: "/images/saving-habit.jpg",
+    sections: [
+      {
+        heading: "Introduction: A Small Habit with a Big Impact",
+        paragraphs: [
+          "Have you ever put your spare allowance into a pig-shaped piggy bank? That small habit many of us practised during childhood is an example of saving.",
+          "Saving simply means setting aside a portion of our income and reserving it for future use. Although it may seem like a small action, consistently saving money can help us develop healthier financial habits and become better prepared for the future.",
+          "So, why is saving important, what challenges can make it difficult, and how can we start building this habit from an early age?"
+        ]
+      },
+      {
+        heading: "The Benefits of Saving",
+        bullets: [
+          {
+            title: "1. Building Financial Discipline",
+            paragraph:
+              "Regularly setting aside part of our allowance teaches us consistency and self-control. Over time, this discipline can support other financial habits, including budgeting and learning about investing. Saving also helps us practise delayed gratification: the ability to resist an immediate reward in favour of a more meaningful future benefit (Ungvarsky & Janine, 2021). Instead of making decisions based only on our feelings, we learn to consider our future needs and priorities."
+          },
+          {
+            title: "2. Making Our Goals Easier to Achieve",
+            paragraph:
+              "Everyone has personal goals, from buying something online to planning for further education. Rather than borrowing money or going into debt to fulfil these goals, we can save gradually and consistently. Setting aside a portion of our money for specific purposes helps us work towards our goals while developing patience and avoiding unnecessary spending (PermataBank, 2024)."
+          },
+          {
+            title: "3. Preparing for Emergencies",
+            paragraph:
+              "An emergency fund is money reserved specifically for unexpected expenses or financial emergencies (Consumer Financial Protection Bureau, 2025). These situations may include losing a job, a car breakdown, an illness, or an unexpected expense involving a family member or pet (Rutgers Cooperative Extension, 2009). Regular saving helps us prepare for unforeseen events and may reduce our need to rely on credit cards or loans that could lead to debt."
+          }
+        ]
+      },
+      {
+        heading: "The Challenges of Saving",
+        bullets: [
+          {
+            title: "1. Lack of Budgeting Can Lead to Overspending",
+            paragraph:
+              "Budgeting involves planning and tracking how we spend our money and how much we intend to save over a particular period. Without a budget, it can be easy to spend too much on non-essential items, leaving less money available for savings. One way to organise our finances is the 50/30/20 rule, which divides after-tax income into three categories: 50% for needs, 30% for wants, and 20% for savings and financial goals."
+          },
+          {
+            title: "2. FOMO (Fear of Missing Out)",
+            paragraph:
+              "FOMO is the fear of missing out on something exciting, important, or valuable if we do not act immediately. It can encourage impulsive purchases, especially when we see trending products, online promotions, or what other people are buying. As spending increases, the money we planned to save may gradually disappear. Learning to pause before making a purchase and asking whether it is truly necessary can help us stay focused on our financial goals."
+          },
+          {
+            title: "3. Lack of Financial Literacy",
+            paragraph:
+              "Financial literacy means having the knowledge, skills, and attitudes needed to understand financial concepts and risks and make informed decisions in different financial situations (OECD, 2022). Research on student financial literacy highlights the importance of financial knowledge and positive financial behaviour, including saving. However, access to financial education can vary depending on factors such as socioeconomic background and family environment. Schools and governments can help by ensuring that students from different backgrounds have opportunities to learn essential financial skills."
+          }
+        ]
+      },
+      {
+        heading: "Why Saving Creates Financial Security",
+        paragraphs: [
+          "Financial security means being able to meet our financial obligations, manage debt responsibly, and feel more confident about our financial future (Zell, 2025). Building a saving habit early can help us move towards this goal because even small amounts can accumulate over time.",
+          "More importantly, regular savings provide a financial cushion when unexpected expenses arise. This can reduce our reliance on borrowing and help us manage difficult situations with greater confidence.",
+          "Saving early also gives us more time to prepare for bigger goals, such as pursuing higher education, starting a business, or making other important life decisions.",
+          "Ultimately, financial security does not depend only on earning a large income. It also depends on how effectively we manage the money we already have."
+        ]
+      },
+      {
+        heading: "Practical Ways to Start Saving",
+        paragraphs: [
+          "According to Bank of America (2022), one of the first steps towards saving is understanding where our money goes. Tracking daily expenses helps us identify which costs are necessary and which ones we may be able to reduce."
+        ],
+        bullets: [
+          {
+            title: "1. Track Your Spending",
+            paragraph:
+              "Write down your daily expenses or use a budgeting app or spreadsheet. Reviewing your spending helps you recognise patterns and identify opportunities to save."
+          },
+          {
+            title: "2. Set a Realistic Savings Target",
+            paragraph:
+              "Decide how much you can comfortably save from your allowance or income. Start with an achievable amount and adjust it as your financial situation changes."
+          },
+          {
+            title: "3. Give Your Savings a Purpose",
+            paragraph:
+              "Set a clear goal, such as saving for a book, an educational course, or another important purchase. Having a specific target and timeframe can make saving feel more meaningful and help you stay motivated."
+          },
+          {
+            title: "4. Review Your Progress Regularly",
+            paragraph:
+              "Check your budget and savings at the end of each week or month. This helps you see whether you are making progress and whether you need to adjust your spending."
+          }
+        ],
+        closingParagraphs: [
+          "Remember, saving does not have to be perfect from the beginning. What matters most is starting with a realistic plan and staying consistent."
+        ]
+      },
+      {
+        heading: "Conclusion: Start Small, Think Long-Term",
+        paragraphs: [
+          "Building a saving habit is about developing better financial habits today to support greater stability in the future. Saving teaches us discipline, helps us set and achieve our goals, and prepares us for unexpected situations.",
+          "Although challenges such as overspending, FOMO, and limited financial literacy can make saving more difficult, small and consistent steps can make the habit easier to maintain.",
+          "Financial security is built over time. The earlier we learn to manage our money and set some of it aside, the more prepared we can become for the opportunities and challenges ahead."
+        ]
+      },
+      {
+        heading: "Bibliography",
+        paragraphs: [
+          "The following resources provide further information about saving, financial literacy, budgeting, and financial security."
+        ],
+        bullets: [
+          {
+            title: "Bank of America (2022) — 8 Simple Ways to Save Money",
+            paragraph:
+              "https://bettermoneyhabits.bankofamerica.com/en/saving-budgeting/ways-to-save-money"
+          },
+          {
+            title: "Citizens Bank — Barriers to Saving Money",
+            paragraph:
+              "https://www.citizensbank.com/learning/barriers-to-saving-money.aspx"
+          },
+          {
+            title: "Consumer Financial Protection Bureau (2025) — An Essential Guide to Building an Emergency Fund",
+            paragraph:
+              "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/"
+          },
+          {
+            title: "Investopedia (2026) — Savings",
+            paragraph:
+              "https://www.investopedia.com/terms/s/savings.asp"
+          },
+          {
+            title: "Jim Rohn International (2026) — The Discipline of Saving",
+            paragraph:
+              "https://www.jimrohn.com/wisdom/articles/discipline-of-saving"
+          },
+          {
+            title: "OECD (2022) — Student Financial Literacy",
+            paragraph:
+              "https://www.oecd.org/en/topics/student-financial-literacy.html"
+          },
+          {
+            title: "PermataBank (2024) — 6 Benefits of Saving Money at a Young Age",
+            paragraph:
+              "https://www.permatabank.com"
+          },
+          {
+            title: "Partner Bank (2026) — FOMO and FOBO: Saving and Wealth Building",
+            paragraph:
+              "https://www.partnerbank.at/en/fomo-and-fobo-saving-and-wealth-building"
+          },
+          {
+            title: "Rutgers Cooperative Extension (2009) — Finance",
+            paragraph:
+              "https://njaes.rutgers.edu/sshw/message/message.php?p=Finance&m=122"
+          },
+          {
+            title: "SoFi — Zell (2025), Guide to Financial Security and Achieving It",
+            paragraph:
+              "https://www.sofi.com/learn/content/achieving-financial-security/"
+          }
+        ]
+      }
+    ],
+    instagramUrl: ""
+  },
+  
+  {
     slug: "the-50-30-20-rule",
     title: "The 50/30/20 Rule for Budgeting",
     subtitle:
