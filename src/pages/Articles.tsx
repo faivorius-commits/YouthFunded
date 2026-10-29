@@ -265,7 +265,7 @@ const articles: Article[] = [
     publishedAt: "October, 2026",
     excerpt:
       "Understanding the difference between needs and wants can help us make smarter financial decisions in a world full of trends, advertisements, and social media influence.",
-    coverImage: "/images/your-cover-image.jpg",
+    coverImage: "/images/need-vs-want.jpg",
     sections: [
       {
         heading: "I NEED that",
