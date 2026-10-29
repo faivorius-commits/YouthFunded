@@ -255,55 +255,6 @@ const articles: Article[] = [
     ],
     instagramUrl: "https://www.instagram.com/p/DcqPHoFgf2X/?mdxt=MW81azU4M3JtMjFjNg=="
   }
-                "Internships, projects, freelancing, competitions, and organisations can turn your skills into practical experience. Start with opportunities that match your interests and current abilities."
-          },
-          {
-            title: "Build Your Personal Brand",
-            paragraph:
-              "Make your CV, LinkedIn profile, and portfolio show employers what makes you stand out. Highlight your skills, projects, achievements, and experiences clearly and honestly."
-          },
-          {
-            title: "Get Financially Prepared",
-            paragraph:
-              "Learn to manage your money and build an emergency fund when possible. Developing healthy financial habits can help you stay more secure when things don't go as planned."
-          }
-        ],
-        closingParagraphs: [
-          "Don't just prepare for your first job. Prepare to stay employable."
-        ]
-      },
-      {
-        heading: "Practical Tips / Actionable Steps",
-        paragraphs: [
-          "Start Preparing This Week",
-          "Don't wait until you need a job to start preparing for one."
-        ],
-        bullets: [
-          {
-            title: "Update Your CV",
-            paragraph:
-              "Keep your CV clear, relevant, and up to date. Include your education, skills, projects, and experiences that are relevant to the opportunities you want."
-          },
-          {
-            title: "Learn One New Skill",
-            paragraph:
-              "Take a short course, watch tutorials, or practise a skill related to your career interests. Small, consistent steps can help you build knowledge over time."
-          },
-          {
-            title: "Look for Practical Experience",
-            paragraph:
-              "Explore competitions, volunteer activities, school projects, and other opportunities that let you apply what you learn."
-          },
-          {
-            title: "Build a Learning Habit",
-            paragraph:
-              "Set aside regular time to learn, review your progress, and identify skills you want to improve next."
-          }
-        ]
-      }
-    ],
-    instagramUrl: "https://www.instagram.com/p/DcqPHoFgf2X/?mdxt=MW81azU4M3JtMjFjNg=="
-  }
   
 ];
 
