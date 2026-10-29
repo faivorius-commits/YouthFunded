@@ -34,7 +34,7 @@ const articles: Article[] = [
       "Understanding the Benefits and Challenges of Nickel Mining",
     category: "Economy & Environment",
     contributors: ["Bianca H.", "Neca"],
-    publishedAt: "August, 2026",
+    publishedAt: "July, 2026",
     excerpt:
       "Nickel supports job opportunities, economic growth, and EV battery development. However, mining also brings challenges such as deforestation, water pollution, and impacts on local communities.",
     coverImage: "/images/nickel-industry.jpg",
@@ -262,7 +262,7 @@ const articles: Article[] = [
     subtitle: "Understanding the difference between what we need and what we want",
     category: "Youth & Career",
     contributors: ["Neca", "Bianca"],
-    publishedAt: "October, 2026",
+    publishedAt: "August, 2026",
     excerpt:
       "Understanding the difference between needs and wants can help us make smarter financial decisions in a world full of trends, advertisements, and social media influence.",
     coverImage: "/images/need-vs-want.jpg",
