@@ -146,7 +146,7 @@ const articles: Article[] = [
             paragraph:
               "https://tms-consulting.co.id/nickel-oversupply-2025-indonesia/"
           }
-        ]
+        ],
       }
     ],
     instagramUrl: "https://www.instagram.com/p/DbQKT5aAY9i/?rpxt=MXFhNm5wM3pmcXVobA=="
