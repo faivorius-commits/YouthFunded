@@ -27,6 +27,36 @@ type Article = {
 };
 
 const articles: Article[] = [
+  {
+    slug: "where-does-your-money",
+    title: "Where Does Your Money Really Go?",
+    subtitle:
+      "Understanding the Habits Behind Your Spending",
+    category: "Finance & Lifestyle",
+    contributors: ["YouthFunded Team"],
+    publishedAt: "September, 2026",
+    excerpt: "Learn how tracking your spending can help you make more deliberate financial decisions.",
+    sections: [
+      {
+        heading: "",
+        paragraphs: [
+          "Have you ever checked your bank balance and wondered where all your money went? It seems to disappear, even though you cannot recall making any big purchases that month. If someone asked where your money goes, you might list school supplies, transportation, skincare, food, and other daily necessities. But after adding them all up, you might still wonder where the rest went",
+          "Well, a few small purchases each day can add up to a considerable amount over several weeks. Money that could have gone toward savings, an emergency fund, or a future plan gradually disappears without us noticing. Understanding our spending habits is the first step toward making better use of what we have.",
+        ]
+      },
+      {
+        heading: "The Cost of Small Expenses",
+        paragraphs: [
+          "Managing personal finances often feels like trying to hold water in your hands. If you aren't paying close attention, it quickly slips through your fingers. The classic advice, `Tracking where your money goes stops you from wondering where it went,` hits the heart of good financial health. Most people do not lose their savings on huge, single purchases. Instead, their hard-earned paycheck slowly leaks away through small, daily spending. Bringing focus to your cash flow turns money from a mystery into a tool you control.",
+          "When you do not track your daily choices, you fall victim to hidden costs. Small expenses like forgotten streaming subscriptions, daily coffee runs, and quick takeout orders feel tiny at the time. However, added up over a month, these small purchases quietly eat away at hundreds of dollars. That is money that could have built a safety net or paid for a trip. Tracking your spending shines a light on these habits, showing you exactly where your money vanishes.",
+          "Tracking your money gives you clear facts to make better choices. Knowing your numbers is not about feeling guilty for buying things you enjoy. It is about making sure your spending matches your real goals. Once you see where your cash goes each week, you can make smart adjustments without feeling stressed. You stop worrying about a low bank balance at the end of the month because you are actively guiding your funds.",
+          "Tracking your money moves you from constant stress to real confidence. The uneasy feeling of wondering where your paycheck went disappears when you take control. By taking a few minutes each week to review your receipts or check your banking app, you trade guesswork for stability. You ensure every dollar you earn helps build the life you actually want.",
+        ]
+      }
+    ],
+    instagramUrlm: 
+      "https://www.instagram.com/p/Ddlr4W1AT8D/?utm_source=ig_web_copy_link&obrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA=="
+  },
   
   {
     slug: "building-a-saving-habit",
@@ -639,7 +669,6 @@ const articles: Article[] = [
     ],
     instagramUrl: "https://www.instagram.com/p/DbQKT5aAY9i/?rpxt=MXFhNm5wM3pmcXVobA=="
   },
-
 
 ];
 
