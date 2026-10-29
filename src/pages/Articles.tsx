@@ -256,6 +256,68 @@ const articles: Article[] = [
     instagramUrl: "https://www.instagram.com/p/DcqPHoFgf2X/?mdxt=MW81azU4M3JtMjFjNg=="
   }
   
+  {
+    slug: "need-vs-want",
+    title: "Need vs Want: Which Is More Important?",
+    subtitle: "Understanding the difference between what we need and what we want",
+    category: "Youth & Career",
+    contributors: ["Neca", "Bianca"],
+    publishedAt: "October, 2026",
+    excerpt:
+      "Understanding the difference between needs and wants can help us make smarter financial decisions in a world full of trends, advertisements, and social media influence.",
+    coverImage: "/images/your-cover-image.jpg",
+    sections: [
+      {
+        heading: "I NEED that",
+        paragraphs: [
+          "We all know the feeling when you’re scrolling through Instagram or TikTok and suddenly see a pair of shoes, a new gadget, or something you didn’t even know existed before. And somehow, you immediately say, “I NEED that.”",
+          "But do you actually need it? Understanding the difference between needs and wants might sound simple, but it can be surprisingly difficult in everyday life. We live in a world where ads, trends, influencers, and social media constantly encourage us to buy more things. Sometimes it’s something we want; sometimes it’s something we need.",
+          "What’s the actual difference?"
+        ]
+      },
+      {
+        heading: "What Is a Need?",
+        paragraphs: [
+          "Needs are things that are essential to our everyday lives, such as food, health care, safety, and other basic necessities.",
+          "Needs usually come before wants because they are necessary for us to live and function properly. For example, if you need a notebook for school, buying one is a need because it helps you complete something important.",
+          "However, not everybody’s needs are the same. For one person, transportation might mean paying for a bus, while for another, it might mean maintaining a car because they need it to get to work."
+        ]
+      },
+      {
+        heading: "What Is a Want?",
+        paragraphs: [
+          "Wants are things we would like to have but can live without. Maybe you want the newest phone even though your current one works perfectly. Maybe you want to order your favorite food instead of eating what you already have at home. Or maybe you want a new pair of shoes even though you already own several pairs.",
+          "Here’s the thing: there’s nothing wrong with wanting these things. Wants can make life more enjoyable. They give us opportunities to have fun, express ourselves, and enjoy the money we’ve earned."
+        ]
+      },
+      {
+        heading: "Why Does the Difference Matter?",
+        paragraphs: [
+          "Knowing the difference between needs and wants can help you make better choices with your money. It doesn’t mean you should never buy things you want. Wants are okay! You’re allowed to enjoy your money and treat yourself.",
+          "The important thing is making sure your needs come first and your wants fit into what you can actually afford.",
+          "So, before you buy something, ask yourself:",
+          "“Do I need it, or do I just really, really want it?”"
+        ]
+      },
+      {
+        heading: "Sources",
+        bullets: [
+          {
+            title: "Investopedia",
+            paragraph:
+              "https://www.investopedia.com/difference-between-needs-and-wants-8612333"
+          },
+          {
+            title: "MABS Ireland",
+            paragraph:
+              "https://www.mabs.ie/en/blog/needs-vs-wants-what-is-the-difference/"
+          }
+        ]
+      }
+    ],
+    instagramUrl: "https://www.instagram.com/p/DcYDraPgWWE/?mdxt=ZTJmOGFjMXIxajBo"
+  },
+
 ];
 
 const Articles: React.FC = () => {
