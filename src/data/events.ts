@@ -32,17 +32,17 @@ export const events: YouthFundedEvent[] = [
     date: "October 24, 2026",
     place: "Maria Imaculata Orphanage, Bekasi",
     description:
-      "We recently visited Panti Asuhan Maria Imaculata Bekasi, for a fun and meaningful day of learning & sharing! 💡✨.",
+      "We recently visited Panti Asuhan Maria Imaculata Bekasi for a fun and meaningful day of learning and sharing! 💡✨",
     details: [
-      "During our workshop, we introduced the children to basic financial concepts including:",
+      "During our workshop, we introduced the children to basic financial concepts, including:",
       "💳 Understanding debt and how it works",
-"⚠️ Learning about the risks of Buy Now, Pay Later (BNPL) services",
-"🧠 Making smarter and more responsible financial decisions",
+      "⚠️ Learning about the risks of Buy Now, Pay Later (BNPL) services",
+      "🧠 Making smarter and more responsible financial decisions",
       "We also spent time playing games, sharing gifts, and distributing meals 🎮🎁🍱",
-      "A big thank you to our partners, Evermos, Inifa, and PT Sinar Inti Maju, for supporting this visit!
- 
-"Through initiatives like this, we hope to spread financial awareness and help build a more financially literate generation 🌱".
+      "A big thank you to our partners, Evermos, Inifa, and PT Sinar Inti Maju, for supporting this visit!",
+      "Through initiatives like this, we hope to spread financial awareness and help build a more financially literate generation 🌱",
     ],
   },
-  // Template event baru event baru di bawah ini.
+
+  // Add new events below this line.
 ];
