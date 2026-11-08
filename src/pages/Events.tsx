@@ -48,7 +48,6 @@ return (
       <a className="event-read-more" href="/events/workshop-visit-maria-imaculata-orphanage">Read More <span aria-hidden="true">↗</span></a>
     </div>
   </article>
-</section>
   {/* Kartu 1 */}
   <article className="event-card">
     <img src="/event1-doc1.jpg" alt="WWF and YouthFunded fundraising event" />
