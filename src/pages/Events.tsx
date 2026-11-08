@@ -35,6 +35,20 @@ return (
 
   {/* Featured Event Card */}
   <section className="events-carousel">
+
+  <article className="event-card">
+    <img src="/event2-doc1.jpg" alt="Workshop Visit: Panti Asuhan Maria Imaculata Bekasi" />
+    <div className="event-content">
+      <h3>??</h3>
+      <p>??</p>
+      <div className="event-meta">
+        <p><strong>Date:</strong>October 24, 2026</p>
+        <p><strong>Place:</strong>Maria Imaculata Orphanage, Bekasi</p>
+      </div>
+      <a className="event-read-more" href="/events/workshop-visit-maria-imaculata-orphanage">Read More <span aria-hidden="true">↗</span></a>
+    </div>
+  </article>
+</section>
   {/* Kartu 1 */}
   <article className="event-card">
     <img src="/event1-doc1.jpg" alt="WWF and YouthFunded fundraising event" />
@@ -51,13 +65,13 @@ return (
 
   {/* Kartu 2 atau template*/}
   <article className="event-card">
-    <img src="/event2-doc1.jpg" alt="Coming Soon!" />
+    <img src="/comingsoon.jpg" alt="Coming Soon!" />
     <div className="event-content">
       <h3>??</h3>
       <p>??</p>
       <div className="event-meta">
-        <p><strong>Date:</strong>October 24, 2026</p>
-        <p><strong>Place:</strong>Maria Imaculata Orphanage, Bekasi</p>
+        <p><strong>Date:</strong>??</p>
+        <p><strong>Place:</strong>Discover soon</p>
       </div>
       <a className="event-read-more" href="/events/maria-imaculata-orphanage-visit-1">Read More <span aria-hidden="true">↗</span></a>
     </div>
