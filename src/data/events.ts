@@ -26,17 +26,22 @@ export const events: YouthFundedEvent[] = [
   },
 
   {
-    slug: "maria-imaculata-orphanage-visit-1",
-    title: "Orphanage Visit 1 - Maria Imaculata Orphanage",
+    slug: "workshop-visit-maria-imaculata-orphanage",
+    title: "Workshop Visit: Maria Imaculata Orphanage",
     image: "/event2-doc1.jpg",
     date: "October 24, 2026",
     place: "Maria Imaculata Orphanage, Bekasi",
     description:
-      "Orphanage Visit 1 description.",
+      "We recently visited Panti Asuhan Maria Imaculata Bekasi, for a fun and meaningful day of learning & sharing! 💡✨.",
     details: [
-      "Detail 1.",
-      "Detail 2.",
-      "Detail 3.",
+      "During our workshop, we introduced the children to basic financial concepts including:",
+      "💳 Understanding debt and how it works",
+"⚠️ Learning about the risks of Buy Now, Pay Later (BNPL) services",
+"🧠 Making smarter and more responsible financial decisions",
+      "We also spent time playing games, sharing gifts, and distributing meals 🎮🎁🍱",
+      "A big thank you to our partners, Evermos, Inifa, and PT Sinar Inti Maju, for supporting this visit!
+ 
+"Through initiatives like this, we hope to spread financial awareness and help build a more financially literate generation 🌱".
     ],
   },
   // Template event baru event baru di bawah ini.
