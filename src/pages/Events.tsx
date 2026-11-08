@@ -39,8 +39,8 @@ return (
   <article className="event-card">
     <img src="/event2-doc1.jpg" alt="Workshop Visit: Panti Asuhan Maria Imaculata Bekasi" />
     <div className="event-content">
-      <h3>??</h3>
-      <p>??</p>
+      <h3>Workshop Visit: Maria Imaculata Orphanage</h3>
+      <p>An educational visit dedicated to introducing children to essential financial literacy. Through interactive learning and fun activities, we encouraged smarter and more responsible financial decisions.</p>
       <div className="event-meta">
         <p><strong>Date:</strong>October 24, 2026</p>
         <p><strong>Place:</strong>Maria Imaculata Orphanage, Bekasi</p>
