@@ -73,7 +73,7 @@ return (
       <span className="media-bottom-star" aria-hidden="true">✳</span>
       <p>Youth Lead, Economies Grow.</p>
       <span className="media-bottom-note">
-        Let's make a difference together.
+        The Future of Economy Starts With Us.
       </span>
     </div>
   </div>
