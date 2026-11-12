@@ -71,7 +71,7 @@ return (
 
     <div className="media-bottom">
       <span className="media-bottom-star" aria-hidden="true">✳</span>
-      <p>Small Steps, Big Impact.</p>
+      <p>Youth Lead, Economies Grow.</p>
       <span className="media-bottom-note">
         Let's make a difference together.
       </span>
