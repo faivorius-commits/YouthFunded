@@ -85,9 +85,9 @@ function Home() {
           </div>
 
           <h1>
-            Small Steps,
+            Empowering Youth,
             <br />
-            <span>Big Impact.</span>
+            <span>Shaping Economies.</span>
           </h1>
 
           <p className="hero-description">
