@@ -25,7 +25,7 @@ return (
 
   {/* Main Heading */}
   <div className="events-heading">
-    <p style={eyebrow}>YOUTHFUNDED · OUR EVENTS</p>
+    <p className="section-label">YOUTHFUNDED · OUR EVENTS</p>
     <h2>Our Events</h2>
   </div>
 
