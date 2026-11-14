@@ -5205,7 +5205,7 @@ transform: none;
   width: min(1080px, 88%);
   margin: 0 auto;
   padding: 76px 0 45px;
-  text-align: center;
+  text-align: left;
 }
 
 .yf-team-heading h1 {
@@ -5233,7 +5233,7 @@ transform: none;
 
 .yf-team-leadership > .section-label,
 .yf-division-heading > .section-label {
-  text-align: left;
+  text-align: center;
 }
 
 .yf-founder-wrap {
