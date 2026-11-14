@@ -5205,7 +5205,7 @@ transform: none;
   --yf-blue: #c8e8f6;
 
   color: var(--yf-navy);
-  background: var(--yf-cream);
+  background: #c8f0ff;
   min-height: 70vh;
   padding-bottom: 90px;
 }
