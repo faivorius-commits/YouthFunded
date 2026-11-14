@@ -717,7 +717,7 @@ export default function Mission() {
              icon="/images/youthcollaboration.png"
              title="Youth Collaboration"
              description="Empower young people to learn, create, and grow together through community-led initiatives"
-             color="#FDDEE3"
+             color="#fddee3"
             />
             
           </div>
