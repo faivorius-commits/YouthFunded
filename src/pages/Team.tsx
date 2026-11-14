@@ -133,7 +133,7 @@ function Team() {
   return (
     <main className="yf-team-page">
       <section className="yf-team-heading">
-        <p className="section-label">YOUTHFUNDED · OUR TEAMS</p>
+        <p className="section-label">YOUTHFUNDED · OUR TEAMS </p>
         <h1>Meet The Crew</h1>
        <p className="yf-team-subtitle">  </p> 
       </section>
