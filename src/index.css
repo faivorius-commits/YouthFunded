@@ -4378,6 +4378,50 @@ transform: none;
   background: var(--mint);
 }
 
+
+/* FULL-WIDTH EVENTS GRADIENT */
+.events-page {
+  position: relative;
+  isolation: isolate;
+  background: transparent;
+}
+
+.events-page::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      ellipse at 10% 10%,
+      rgba(215, 237, 190, 0.65),
+      transparent 45%
+    ),
+    radial-gradient(
+      ellipse at 90% 25%,
+      rgba(250, 215, 229, 0.65),
+      transparent 45%
+    ),
+    radial-gradient(
+      ellipse at 50% 100%,
+      rgba(207, 226, 247, 0.7),
+      transparent 50%
+    ),
+    linear-gradient(
+      135deg,
+      #f4f8e9 0%,
+      #fbf0f4 50%,
+      #edf4fc 100%
+    );
+}
+
+
 /* ========================================
    KARTU ACARA — BISA DI-SWIPE
 ======================================== */
