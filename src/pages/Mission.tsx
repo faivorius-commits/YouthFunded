@@ -714,11 +714,10 @@ export default function Mission() {
             />
 
             <MissionCard
-              icon="images/youthcollaboration.png"
-              title="Youth Collaboration"
-              description="Empower young people to learn, create, 
-              and grow together through community-led initiatives"
-              color="f2c6de"
+             icon="/images/youthcollaboration.png"
+             title="Youth Collaboration"
+             description="Empower young people to learn, create, and grow together through community-led initiatives"
+             color="#FDDEE3"
             />
             
           </div>
