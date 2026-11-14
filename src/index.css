@@ -4644,6 +4644,7 @@ transform: none;
   }
 }
 
+
 /* Events Page — Soft Pastel Gradient */
 .events-page {
   position: relative;
@@ -4653,7 +4654,6 @@ transform: none;
   margin-left: auto;
   margin-right: auto;
   padding: 60px 0 80px;
-}
 
   background:
     radial-gradient(
@@ -4677,7 +4677,7 @@ transform: none;
       #fbf0f4 50%,
       #edf4fc 100%
     );
-
+}
 
 /* Mobile */
 @media (max-width: 768px) {
@@ -4685,6 +4685,8 @@ transform: none;
     padding: 32px 6% 60px;
   }
 }
+
+
 /* Main Heading */
 .events-heading {
   text-align: left;
