@@ -55,7 +55,7 @@ const articles: Article[] = [
         ]
       }
     ],
-    instagramUrlm: 
+    instagramUrl: 
       "https://www.instagram.com/p/Ddlr4W1AT8D/?utm_source=ig_web_copy_link&obrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA=="
   },
   
