@@ -677,6 +677,14 @@ const Articles: React.FC = () => {
   const [selectedArticle, setSelectedArticle] =
     useState<Article | null>(null);
 
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "instant",
+    });
+  }, [selectedArticle]);
+  
+
   const renderArticleBody = (article: Article) => (
     <>
       {article.sections.map((section, index) => (
