@@ -678,7 +678,7 @@ export default function Mission() {
             <p style={eyebrow}>OUR MISSION</p>
 
             <h2 style={heading}>
-              Small steps, meaningful impact.
+              Youth Lead, Economic Grow.
             </h2>
 
             <p className="yf-section-description">
@@ -739,7 +739,7 @@ export default function Mission() {
           </p>
 
           <div className="yf-belief-pill">
-            Small Steps, Big Impact <span>✳</span>
+            Youth Lead, Economies Grow. <span>✳</span>
           </div>
         </div>
       </section>
