@@ -5984,3 +5984,8 @@ transform: none;
     width: 88%;
   }
 }
+
+/* FIX: Allow full-screen Events gradient */
+.events-page {
+  overflow: visible !important;
+}
