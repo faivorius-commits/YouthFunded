@@ -4680,9 +4680,9 @@ transform: none;
 
 
 /* Mobile */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .events-page {
-    padding: 32px 20px 60px;
+    padding: 32px 6% 60px;
   }
 }
 /* Main Heading */
@@ -4736,7 +4736,10 @@ transform: none;
 .events-page {
   position: relative;
   overflow: hidden;
-  padding: 60px 24px;
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 60px 9% 80px;
 }
 
 /* Lingkaran dekoratif */
