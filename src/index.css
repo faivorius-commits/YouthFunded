@@ -4486,6 +4486,7 @@ transform: none;
   color: var(--ink);
 }
 
+
 /* ===== TABLET AND DESKTOP ===== */
 
 @media (min-width: 768px) {
@@ -4493,9 +4494,8 @@ transform: none;
     padding-left: 0;
     padding-right: 0;
   }
-}
 
-  .event-card {
+  .events-carousel .event-card {
     flex-basis: 280px;
   }
 
@@ -4503,6 +4503,7 @@ transform: none;
     height: 155px;
   }
 }
+
 .event-read-more {
   display: inline-flex;
   align-items: center;
