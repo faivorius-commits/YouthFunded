@@ -27,6 +27,129 @@ type Article = {
 };
 
 const articles: Article[] = [
+  
+  {
+    slug: "understanding-supply-chains-grocery-bills",
+    title: "Understanding Supply Chains Explains Your Rising Grocery Bills",
+    subtitle: "How Supply-Chain Costs Can Affect the Prices Consumers Pay",
+    category: "Economy & Everyday Life",
+    contributors: ["Zeska", "Nady"],
+    publishedAt: "November, 2026",
+    excerpt:
+      "From fuel and raw materials to transportation and distribution, discover how supply-chain disruptions can contribute to higher grocery prices.",
+    coverImage: "images/supply-chains-grocery-bills.jpg",
+    sections: [
+      {
+        heading: "What Are Supply Chains?",
+        paragraphs: [
+          "A supply chain is the entire network of people, organizations, activities, and resources involved in creating and moving a product or service from its origin as raw materials to the final customers."
+        ],
+        bullets: [
+          {
+            title: "Manufacturers",
+            paragraph:
+              "Manufacturers transform raw materials into finished products. This can involve several stages, such as processing, assembly, packaging, and quality testing."
+          },
+          {
+            title: "Logistics Providers",
+            paragraph:
+              "Logistics providers — including transportation companies, freight forwarders, and third-party logistics providers — move products between suppliers, factories, warehouses, distribution centers, and retailers."
+          },
+          {
+            title: "Distribution Centers",
+            paragraph:
+              "Distribution centers receive and consolidate products before sending them to stores, regional warehouses, or e-commerce fulfillment centers."
+          },
+          {
+            title: "Retailers",
+            paragraph:
+              "Retailers sell the final products to consumers through physical stores, online marketplaces, or direct-to-consumer channels."
+          }
+        ]
+      },
+      {
+        heading: "How Can Supply Chains Increase Prices?",
+        paragraphs: [
+          "Supply-chain problems can contribute to higher consumer prices because a product usually passes through multiple stages before reaching the customer. When the cost of one stage increases, businesses may absorb some of the additional expense, while some of it can be reflected in the price paid by consumers."
+        ]
+      },
+      {
+        heading: "1. Fuel Price Increases",
+        paragraphs: [
+          "Transportation is an important part of the food supply chain. Trucks, ships, and other forms of transport are needed to move food from farms and processing facilities to warehouses and supermarkets. When fuel prices increase, transportation becomes more expensive.",
+          "Higher transportation costs can increase the cost of moving food through the supply chain. The additional costs can eventually contribute to higher wholesale and retail prices. The OECD-FAO Agricultural Outlook explains that higher energy and transportation costs can contribute to higher food prices. It also notes that maritime transportation costs affect the prices of imported food products."
+        ],
+        bullets: [
+          {
+            title: "A Simple Supply-Chain Example",
+            paragraph:
+              "Farm → Processing facility → Truck → Distribution center → Supermarket → Consumer. If fuel becomes more expensive, the cost of transporting the product from the farm to the processing facility and then to the supermarket increases. If other costs also rise, the final price consumers pay may increase."
+          }
+        ]
+      },
+      {
+        heading: "2. Shortages of Raw Materials",
+        paragraphs: [
+          "A supply chain can also become more expensive when there is a shortage of an important raw material. For example, if a poor harvest reduces the supply of a particular agricultural commodity, there may be less of that commodity available for food manufacturers. If demand remains strong, the limited supply can put upward pressure on prices.",
+          "The FAO explains that disruptions to food production, transportation, and markets can affect food availability and prices. During COVID-19, for example, restrictions and labor and transportation problems disrupted food supply chains in many countries."
+        ]
+      },
+      {
+        heading: "3. Transportation Delays and Bottlenecks",
+        paragraphs: [
+          "Supply chains depend on products moving smoothly between different locations. A shortage of trucks, shipping capacity, workers, or warehouse space can create bottlenecks.",
+          "When products are delayed, companies may face additional costs for storage, labor, transportation, or finding alternative suppliers and routes. These additional costs can contribute to higher prices."
+        ]
+      },
+      {
+        heading: "4. Higher Labor and Operating Costs",
+        paragraphs: [
+          "Factories, warehouses, transportation companies, and supermarkets all have operating costs. These include wages, electricity, fuel, rent, equipment, and maintenance. If these costs increase significantly, businesses may adjust their prices to cover some of the additional expenses."
+        ]
+      },
+      {
+        heading: "Real-Life Example: The Price of Cooking Oil",
+        paragraphs: [
+          "During the COVID-19 pandemic and the disruptions that followed, transportation costs, labor shortages, and shortages of certain raw materials increased costs throughout supply chains. For cooking oil, higher costs of producing, transporting, and distributing the product could be passed from suppliers to manufacturers, distributors, retailers, and eventually consumers.",
+          "Raw materials → Processing → Transportation → Distribution center → Supermarket → Consumer.",
+          "If fuel prices rise, the cost of transporting palm oil from plantations or processing facilities to factories and then to supermarkets also rises. If there are transportation delays or shortages, businesses may face additional storage and operating costs. Retailers may then increase the selling price to cover some of these higher costs.",
+          "For example, if transporting a bottle of cooking oil becomes more expensive because fuel and shipping costs increase, the final supermarket price may rise even though the bottle itself has not changed. This demonstrates that a grocery price is influenced not only by the cost of the product itself, but also by the many stages involved in getting it from its source to the consumer."
+        ]
+      },
+      {
+        heading: "Sources",
+        paragraphs: [
+          "The following publications provide further information about agricultural markets, food supply-chain disruptions, and transportation bottlenecks."
+        ],
+        bullets: [
+          {
+            title: "Food and Agriculture Organization of the United Nations (FAO)",
+            paragraph:
+              "https://openknowledge.fao.org/items/30870338-f114-4923-b241-9dd8225a37e7"
+          },
+          {
+            title: "OECD-FAO Agricultural Outlook 2022–2031",
+            paragraph:
+              "https://www.oecd.org/en/publications/2022/06/oecd-fao-agricultural-outlook-2022-2031_e00c413c.html"
+          },
+          {
+            title: "OECD-FAO Agricultural Outlook 2026–2035",
+            paragraph:
+              "https://www.oecd.org/en/publications/2026/06/oecd-fao-agricultural-outlook-2026-2035_5610f218.html"
+          },
+          {
+            title: "Federal Reserve — Measurement and Effects of Supply Chain Bottlenecks Using Natural Language Processing (2023)",
+            paragraph:
+              "https://www.federalreserve.gov/econres/notes/feds-notes/measurement-and-effects-of-supply-chain-bottlenecks-using-natural-language-processing-20230206.html"
+          }
+        ]
+      }
+    ],
+    instagramUrl: "https://www.instagram.com/p/DeHKPbIge3e/?srtk=MWttOHgwbGE1Y25uaA=="
+  },
+
+
+  
   {
     slug: "where-does-your-money",
     title: "Where Does Your Money Really Go?",
