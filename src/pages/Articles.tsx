@@ -231,6 +231,405 @@ const articles: Article[] = [
     instagramUrl: "https://www.instagram.com/p/DeHKPbIge3e/?srtk=MWttOHgwbGE1Y25uaA=="
   },
 
+  
+{
+  slug: "scarcity-and-choice",
+  title: "Scarcity & Choice",
+  subtitle: "Understanding limited resources, decision-making, and opportunity costs",
+  category: "Economics & Everyday Life",
+  contributors: ["YouthFunded Team"],
+  publishedAt: "October, 2026",
+  excerpt: "Time, energy, and money are limited resources. Learn how scarcity shapes everyday decisions and why every choice comes with an opportunity cost.",
+  coverImage: "",
+  sections: [
+    {
+      heading: "Fun Fact",
+      paragraphs: [
+        "Did you know that time is one of the most limited resources? You only get 24 hours a day, so deciding to spend two hours practicing with the varsity team means actively choosing not to spend those two hours studying or hanging out with friends!"
+      ]
+    },
+    {
+      heading: "What Are Scarcity and Choice?",
+      paragraphs: [
+        "Scarcity happens when people want more things than there are available resources to provide. Human wants — like wanting good grades, high athletic performance, and social time — are endless, but resources like time, energy, and money are strictly limited.",
+        "Because you cannot have or do everything at once, scarcity forces you to make a choice. Making a choice simply means deciding which needs or goals to prioritize first and which ones to set aside."
+      ],
+      bullets: [
+        {
+          title: "Limited Resources",
+          paragraph: "Things like daily hours, physical energy, and personal budgets have strict limits."
+        },
+        {
+          title: "Unlimited Wants",
+          paragraph: "Students and athletes naturally want to excel in academics, sports, and social lives all at once."
+        }
+      ]
+    },
+    {
+      heading: "Then Comes Opportunity Cost",
+      paragraphs: [
+        "Scarcity forces choices, and every choice comes with an opportunity cost. Opportunity cost is the value of the best alternative you give up when making a choice.",
+        "Imagine you are given three different scholarship offers: Rp500 million, Rp350 million, and Rp400 million. If you choose the Rp500 million scholarship, your opportunity cost is the next-best alternative: the Rp400 million scholarship."
+      ]
+    },
+    {
+      heading: "Opportunity Costs in Everyday Life",
+      paragraphs: [
+        "Opportunity cost can be considered in many situations, including how we manage our time and make decisions about school."
+      ],
+      bullets: [
+        {
+          title: "Student-Athlete Dilemma",
+          paragraph: "Choosing whether to dedicate your evening to extra varsity team drills or use that time to complete a major research paper."
+        },
+        {
+          title: "College Course Choice",
+          paragraph: "Deciding whether to register for an advanced academic seminar or an elective that fits your training schedule better."
+        },
+        {
+          title: "School Budgeting",
+          paragraph: "A school district deciding whether to allocate its limited funding toward upgrading sports facilities or expanding academic equipment."
+        }
+      ]
+    },
+    {
+      heading: "What Can We Do? Real-Life Actions",
+      bullets: [
+        {
+          title: "Create a Time Budget",
+          paragraph: "Map out your 24 hours each day to balance entertainment, study sessions, and rest."
+        },
+        {
+          title: "Establish Priority Lists",
+          paragraph: "Rank your tasks based on your priorities and what you consider most important."
+        },
+        {
+          title: "Evaluate Opportunity Costs",
+          paragraph: "Before committing to a new extracurricular activity, pause and consider what you will have to give up to make room for it."
+        }
+      ]
+    },
+    {
+      heading: "Resources",
+      bullets: [
+        {
+          title: "Scientific Research Publishing",
+          paragraph: "https://www.scirp.org/reference/referencespapers?referenceid=3387658"
+        },
+        {
+          title: "INOMICS — Scarcity and Choice",
+          paragraph: "https://inomics.com/terms/scarcity-and-choice-1428501"
+        },
+        {
+          title: "Ruangguru — Pengertian Biaya Peluang (Opportunity Cost)",
+          paragraph: "https://www.ruangguru.com/blog/pengertian-biaya-peluang-opportunity-cost"
+        }
+      ]
+    }
+  ]
+},
+{
+  slug: "smart-spending-habits-consumerism-social-media",
+  title: "Developing Smart Spending Habits in a World of Consumerism and Social Media",
+  subtitle: "How to make thoughtful spending decisions in a trend-driven digital world",
+  category: "Financial Literacy",
+  contributors: ["YouthFunded Team"],
+  publishedAt: "October, 2026",
+  excerpt: "Social media trends and online recommendations can influence what we buy. Explore practical ways to manage spending and make more informed choices.",
+  coverImage: "",
+  sections: [
+    {
+      heading: "Have You Ever Bought Something You Barely Used?",
+      paragraphs: [
+        "Have you ever bought something you barely used after purchasing it? This can happen because of social media influence and consumerism. So, what should we do?",
+        "Let's learn about smart spending habits in a world of consumerism and social media."
+      ]
+    },
+    {
+      heading: "What Are Smart Spending Habits?",
+      paragraphs: [
+        "Having smart spending habits means learning how to manage money more wisely, think before buying, and resist the temptations created by influencers, online trends, and advertising.",
+        "Financial literacy helps people make informed financial decisions and improve their financial well-being. We do not have to stop shopping or stop using social media; instead, we need to become more aware of and manage our spending habits."
+      ]
+    },
+    {
+      heading: "Unhealthy vs. Smart Spending Habits",
+      bullets: [
+        {
+          title: "Unhealthy: Impulsive Buying",
+          paragraph: "Buying things immediately without taking time to think the purchase through."
+        },
+        {
+          title: "Unhealthy: Following Trends",
+          paragraph: "Buying something just because it is trendy or because you are afraid of missing out (FOMO)."
+        },
+        {
+          title: "Smart: Prioritizing Needs Over Wants",
+          paragraph: "Paying for things you need before spending money on things you simply like or want."
+        },
+        {
+          title: "Smart: Planning a Budget",
+          paragraph: "Deciding in advance how your money should be spent."
+        }
+      ]
+    },
+    {
+      heading: "Fun Fact",
+      paragraphs: [
+        "Online shops can use your browsing and purchase history to recommend products that match your interests and encourage you to shop more."
+      ]
+    },
+    {
+      heading: "How Can We Spend More Wisely?",
+      bullets: [
+        {
+          title: "Use a Priority List",
+          paragraph: "Separate your wants and needs, then list which products or items you should prioritize buying first."
+        },
+        {
+          title: "Create a Simple Budget",
+          paragraph: "Record your allowance and spending, then review them regularly to make more informed decisions."
+        },
+        {
+          title: "Wait Before Buying",
+          paragraph: "Try waiting 24–48 hours before making a non-urgent purchase. This can help you decide whether you genuinely need or want the item, rather than buying impulsively."
+        }
+      ]
+    },
+    {
+      heading: "References",
+      bullets: [
+        {
+          title: "OECD — Student Financial Literacy",
+          paragraph: "https://www.oecd.org/en/topics/student-financial-literacy.html"
+        },
+        {
+          title: "OECD — Financial Education",
+          paragraph: "https://www.oecd.org/en/topics/sub-issues/financial-education.html"
+        }
+      ]
+    }
+  ]
+},
+{
+  slug: "same-price-less-filling-shrinkflation",
+  title: "Same Price, Less Filling? What Happened to My Snacks?",
+  subtitle: "Understanding inflation, shrinkflation, and the real price of everyday products",
+  category: "Economy & Everyday Life",
+  contributors: ["YouthFunded Team"],
+  publishedAt: "October, 2026",
+  excerpt: "Have your favorite snacks become smaller while their prices stay the same? Discover how shrinkflation changes the amount consumers receive for their money.",
+  coverImage: "",
+  sections: [
+    {
+      heading: "What Happened to My Snacks?",
+      paragraphs: [
+        "Have you ever bought your favorite chocolate bar and noticed that it seems smaller than before? You might be experiencing shrinkflation!"
+      ]
+    },
+    {
+      heading: "What Is Inflation?",
+      paragraphs: [
+        "Inflation is a general increase in the prices of goods and services over time. When the costs of ingredients, packaging, electricity, and transportation increase, chocolate manufacturers may face higher production costs.",
+        "Businesses may respond by increasing prices or reducing the amount of chocolate in each package."
+      ]
+    },
+    {
+      heading: "What Is Shrinkflation?",
+      paragraphs: [
+        "Shrinkflation happens when a product's quantity decreases while its price stays the same or sometimes increases.",
+        "For example, imagine a chocolate bar changes from 100 grams to 85 grams, but its price remains Rp15,000. You pay the same amount but receive 15% less chocolate."
+      ]
+    },
+    {
+      heading: "How Does It Affect Consumers?",
+      paragraphs: [
+        "Imagine a chocolate bar originally contained 100 grams and cost Rp15,000. Its original price was Rp150 per gram. If the bar later contains only 85 grams at the same price, you pay approximately Rp176.47 per gram.",
+        "That means the price per gram increases by about 17.6%, even though the price printed on the package has not changed."
+      ]
+    },
+    {
+      heading: "How Can We Be Smarter Consumers?",
+      bullets: [
+        {
+          title: "Check the Product's Weight",
+          paragraph: "Look at the weight or net contents printed on the package."
+        },
+        {
+          title: "Compare Unit Prices",
+          paragraph: "Compare the price per gram instead of looking only at the package price."
+        },
+        {
+          title: "Read the Packaging Carefully",
+          paragraph: "Pay attention to the product's size and quantity, as they may change over time."
+        }
+      ],
+      closingParagraphs: [
+        "The takeaway: Inflation can increase production costs, and shrinkflation is one way companies may respond. Always check how much product you are actually getting for your money!"
+      ]
+    }
+  ]
+},
+{
+  slug: "building-a-resilient-investment-portfolio",
+  title: "Building a Resilient Investment Portfolio: Diversification and Risk Management",
+  subtitle: "Understanding financial security, diversification, and the relationship between risk and return",
+  category: "Financial Literacy",
+  contributors: ["YouthFunded Team"],
+  publishedAt: "October, 2026",
+  excerpt: "Why does diversification matter? Explore how spreading risk, maintaining emergency savings, and reviewing financial goals can contribute to a more resilient financial plan.",
+  coverImage: "",
+  sections: [
+    {
+      heading: "A Thought-Provoking Question",
+      paragraphs: [
+        "Imagine you put all your money into one company's stock. If that stock loses much of its value, what could happen to your savings?",
+        "The saying 'Don't put all your eggs in one basket' captures an important idea in finance: relying on a single investment can expose a portfolio to concentrated risk. Diversification is one approach to managing that risk."
+      ]
+    },
+    {
+      heading: "What Is Financial Security?",
+      paragraphs: [
+        "Financial security means having sufficient resources and a stable financial position to cover living expenses, respond to unexpected financial shocks, and work toward long-term goals without severe financial stress."
+      ]
+    },
+    {
+      heading: "What Is a Diversified Investment Portfolio?",
+      paragraphs: [
+        "Diversification means spreading investments across different asset classes — such as stocks, bonds, real estate, and cash equivalents — and across sectors. The goal is to avoid depending too heavily on one investment or one part of the market.",
+        "Diversification does not eliminate investment risk or guarantee that a portfolio will avoid losses. It is a way to manage concentration risk."
+      ]
+    },
+    {
+      heading: "What Is Risk Management?",
+      paragraphs: [
+        "Risk management is the process of identifying, assessing, and responding to potential financial losses. Strategies can include maintaining emergency savings, balancing investments, and choosing financial products that are appropriate for a person's circumstances and risk tolerance."
+      ]
+    },
+    {
+      heading: "What Can Make a Portfolio More Resilient?",
+      bullets: [
+        {
+          title: "Mix Different Types of Assets",
+          paragraph: "A portfolio may combine growth-oriented assets, such as stocks, with assets that have different risk and return characteristics, such as bonds. The appropriate mix depends on an individual's goals, time horizon, and ability to handle risk."
+        },
+        {
+          title: "Avoid Concentrating Everything in One Investment",
+          paragraph: "Different investments may respond differently to market conditions. Holding a variety of assets can reduce the impact of poor performance in a single company, sector, or asset class, although losses are still possible."
+        },
+        {
+          title: "Maintain Emergency Savings",
+          paragraph: "Keeping accessible savings for unexpected expenses can reduce the need to sell long-term investments at an inconvenient time."
+        },
+        {
+          title: "Review Your Financial Plan Periodically",
+          paragraph: "Reviewing a portfolio from time to time can help determine whether its allocation still matches the original goals and risk tolerance. Rebalancing may be considered when the mix changes significantly."
+        }
+      ]
+    },
+    {
+      heading: "Understanding Risk and Return Across Asset Classes",
+      paragraphs: [
+        "Risk and returns vary by product, market, currency, time period, and economic conditions. No asset class guarantees a particular return."
+      ],
+      bullets: [
+        {
+          title: "Cash and Money Market Instruments",
+          paragraph: "Generally lower volatility and greater liquidity, often used for short-term needs and emergency reserves. Returns are usually more limited and may not keep pace with inflation."
+        },
+        {
+          title: "Bonds and Fixed Income",
+          paragraph: "May provide interest income and can have different risk levels depending on the issuer, maturity, and market conditions. Bond values can still fall."
+        },
+        {
+          title: "Exchange-Traded Funds (ETFs)",
+          paragraph: "An ETF is a fund traded on an exchange. Its risk depends on the assets it holds; an ETF can invest in shares, bonds, or other instruments and is not automatically low-risk."
+        },
+        {
+          title: "Individual Stocks",
+          paragraph: "Shares in a single company can have higher company-specific risk. Their value can rise or fall substantially, and investors may lose money."
+        }
+      ]
+    },
+    {
+      heading: "A Hypothetical Example: Alex and Sarah",
+      paragraphs: [
+        "The following scenarios are simplified illustrations, not predictions of investment performance or recommendations."
+      ],
+      bullets: [
+        {
+          title: "Scenario A: Alex — Concentrated in One Investment",
+          paragraph: "Alex puts all of his hypothetical investment savings into one technology company's stock. If that company's share price falls sharply, Alex's portfolio is heavily affected. If he also has no separate emergency savings, he may feel pressure to sell his investment to cover unexpected expenses."
+        },
+        {
+          title: "Scenario B: Sarah — A More Diversified Mix",
+          paragraph: "Sarah's hypothetical portfolio is spread across broad index funds, government bonds, and cash savings. If stock prices fall, other parts of her finances may respond differently. Her accessible savings may also help cover immediate expenses without requiring her to sell long-term investments."
+        }
+      ]
+    },
+    {
+      heading: "A Financial Resilience Checklist",
+      bullets: [
+        {
+          title: "Build a Safety Net",
+          paragraph: "Learn about emergency savings and consider what level of accessible savings may be appropriate for your circumstances."
+        },
+        {
+          title: "Understand Diversified Funds",
+          paragraph: "Learn how broad index funds and ETFs work, what they hold, and what fees and risks they involve before making any financial decisions."
+        },
+        {
+          title: "Be Careful with Automated Investing",
+          paragraph: "Automated investing services and recurring contributions are financial tools that involve risk and may not be suitable for everyone. Understand the service, fees, and local rules before using them."
+        },
+        {
+          title: "Review Your Goals",
+          paragraph: "Revisit your financial goals and risk tolerance periodically. Consider seeking guidance from a qualified financial professional when appropriate."
+        }
+      ],
+      closingParagraphs: [
+        "Financial education is about understanding choices, risks, and long-term goals. Diversification and emergency savings are concepts worth learning, but no investment strategy can guarantee profits or prevent all losses. This article is for educational purposes only and is not personal investment advice."
+      ]
+    },
+    {
+      heading: "References",
+      bullets: [
+        {
+          title: "Bodie, Kane, and Marcus (2021) — Investments, 12th Edition",
+          paragraph: "McGraw-Hill Education."
+        },
+        {
+          title: "Bogle (2017) — The Little Book of Common Sense Investing",
+          paragraph: "John Wiley & Sons."
+        },
+        {
+          title: "Consumer Financial Protection Bureau (2015) — Financial Well-Being: The Goal of Financial Education",
+          paragraph: "CFPB Research Report."
+        },
+        {
+          title: "Fabozzi and Markowitz (2011) — Equity Valuation and Portfolio Management",
+          paragraph: "John Wiley & Sons."
+        },
+        {
+          title: "Lander and Seay (2017) — Emergency Savings and Financial Stress: The Buffer Effect",
+          paragraph: "Journal of Financial Counseling and Planning, 28(2), 214–227."
+        },
+        {
+          title: "Malkiel (2020) — A Random Walk Down Wall Street, 12th Edition",
+          paragraph: "W. W. Norton & Company."
+        },
+        {
+          title: "Markowitz (1952) — Portfolio Selection",
+          paragraph: "The Journal of Finance, 7(1), 77–91."
+        },
+        {
+          title: "Vanguard Research (2021) — Getting Back on Track: The Imperative of Portfolio Rebalancing",
+          paragraph: "Vanguard Investment Strategy Group."
+        }
+      ]
+    }
+  ]
+}
 
   
   {
