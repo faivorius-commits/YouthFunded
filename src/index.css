@@ -5985,9 +5985,10 @@ transform: none;
   }
 }
 
-/* FIX: Allow full-screen Events gradient */
+/* Prevent the Events page from expanding horizontally */
 .events-page {
-  overflow: visible !important;
+  overflow-x: clip !important;
+  overflow-y: hidden;
 }
 
 /* ========================================
