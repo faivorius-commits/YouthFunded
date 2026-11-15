@@ -342,7 +342,7 @@ function Home() {
         {/* Heading */}
 
         <div className="founder-heading">
-          <SectionLabel>A WORDS FROM OUR FOUNDER</SectionLabel>
+          <SectionLabel>WORDS FROM OUR FOUNDER</SectionLabel>
 
           <h2>
             Nadine Andini Wirawan
@@ -367,7 +367,7 @@ function Home() {
 
             <div className="founder-photo-caption">
               <span>THE PERSON BEHIND THE PURPOSE</span>
-              <span>YOUTHFUNDED ✳</span>
+              <span> © YOUTHFUNDED ✳</span>
             </div>
           </div>
 
