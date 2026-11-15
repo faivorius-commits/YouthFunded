@@ -25,7 +25,7 @@ return (
 
   {/* Main Heading */}
   <div className="events-heading">
-    <p> className="section-label">YOUTHFUNDED · OUR EVENTS</p>
+    <p className="section-label">YOUTHFUNDED · OUR EVENTS</p>
     <h2>Our Events</h2>
   </div>
 
@@ -83,8 +83,8 @@ return (
       </div>
       <a className="event-read-more" href="/events/wwf-youthfunded">Read More <span aria-hidden="true">↗</span></a>
     </div>
-  </article>
-
+    </article>
+  </section>
 
   {/* Calendar Introduction */}
   <div className="events-calendar-intro">
@@ -94,7 +94,6 @@ return (
   {/* Calendar */}
   <EventCalendar />
 </section>
-
 );
 }
 
