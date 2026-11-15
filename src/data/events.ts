@@ -66,9 +66,6 @@ export const events: YouthFundedEvent[] = [
       "Here's to empowering young people, building meaningful connections, and creating a more impactful future together!"
     ],
   },
-
-  // Add new events below this line.
-];
   
   // Add new events below this line.
 ];
