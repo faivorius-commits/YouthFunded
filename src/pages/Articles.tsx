@@ -629,8 +629,7 @@ const articles: Article[] = [
       ]
     }
   ]
-}
-
+},
   
   {
     slug: "where-does-your-money",
