@@ -25,7 +25,7 @@ return (
 
   {/* Main Heading */}
   <div className="events-heading">
-    <p className="section-label">YOUTHFUNDED · OUR EVENTS</p>
+    <p> className="section-label">YOUTHFUNDED · OUR EVENTS</p>
     <h2>Our Events</h2>
   </div>
 
@@ -35,6 +35,29 @@ return (
 
   {/* Featured Event Card */}
   <section className="events-carousel">
+
+  <article className="event-card">
+    <img src="/images/event3-doc1.jpg"
+      alt="YouthFunded visit to National Global School"
+    /> <div className="event-content">
+      <h3>YouthFunded Visit to National Global School</h3>
+      <p>  A meaningful day of shared learning, inspiring
+        conversations, and new connections with students.
+        Together, we celebrated the power of knowledge,
+        collaboration, and youth empowerment  </p>
+      <div className="event-meta">
+        <p> <strong>Date:</strong> November 7, 2026 </p>
+        <p>
+          <strong>Place:</strong> National Global School
+        </p>
+      </div>
+      <a
+        className="event-read-more"
+        href="/events/national-global-school-visit"  >
+        Read More <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </article>
 
   <article className="event-card">
     <img src="/event2-doc1.jpg" alt="Workshop Visit: Panti Asuhan Maria Imaculata Bekasi" />
@@ -61,21 +84,6 @@ return (
       <a className="event-read-more" href="/events/wwf-youthfunded">Read More <span aria-hidden="true">↗</span></a>
     </div>
   </article>
-
-  {/* Kartu 2 atau template*/}
-  <article className="event-card">
-    <img src="/comingsoon.jpg" alt="Coming Soon!" />
-    <div className="event-content">
-      <h3>??</h3>
-      <p>??</p>
-      <div className="event-meta">
-        <p><strong>Date:</strong>??</p>
-        <p><strong>Place:</strong>Discover soon</p>
-      </div>
-      <a className="event-read-more" href="/events/maria-imaculata-orphanage-visit-1">Read More <span aria-hidden="true">↗</span></a>
-    </div>
-  </article>
-</section>
 
 
   {/* Calendar Introduction */}
