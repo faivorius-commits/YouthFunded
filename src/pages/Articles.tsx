@@ -107,7 +107,7 @@ const articles: Article[] = [
         ]
       }
     ],
-    instagramUrl: "https://www.instagram.com/p/DfucOg8gYTG/?vrfl=NnF6eTVwa3V6YTl1"
+    instagramUrl: "https://www.instagram.com/p/DeZNInCgXUI/?mdxt=NzB0dTljaHBvbXM="
   },
 
   
