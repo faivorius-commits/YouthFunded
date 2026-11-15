@@ -47,15 +47,15 @@ export const events: YouthFundedEvent[] = [
     {
     slug: "national-global-school-visit",
     title: "YouthFunded Visit to National Global School",
-    image: "/comingsoon.jpg",
+    image: "/event3-doc1.jpg",
     date: "November 7, 2026",
     place: "National Global School",
     description:
       "A meaningful day of shared learning, inspiring conversations, and new connections with the students of National Global School.",
     details: [
-      "On November 7, 2026, YouthFunded had the pleasure of visiting National Global School for a day dedicated to learning, exchanging perspectives, and building meaningful connections.",
+      "On November 7, 2026, YouthFunded had the pleasure of visiting National Global School for a day dedicated to learning, exchanging perspectives, and building meaningful connections.📚💚",
 
-      "Beyond the sessions and activities, this experience provided an opportunity to interact with students, share ideas, and discover the enthusiasm of young minds eager to learn, grow, and make a difference.",
+      "Beyond the sessions and activities, this experience provided an opportunity to interact with students, share ideas, and discover the enthusiasm of young minds eager to learn, grow, and make a difference.🌱",
 
       "The experience reminded us that meaningful collaboration is not only about sharing knowledge, but also about learning from one another and creating opportunities for young people to grow.",
 
@@ -63,7 +63,7 @@ export const events: YouthFundedEvent[] = [
 
       "We came together to share knowledge and inspire change, but left with new perspectives, renewed inspiration, and a stronger belief in the power of youth collaboration.",
 
-      "Here's to empowering young people, building meaningful connections, and creating a more impactful future together!"
+      "Here's to empowering young people, building meaningful connections, and creating a more impactful future together!✨"
     ],
   },
   
