@@ -5989,3 +5989,80 @@ transform: none;
 .events-page {
   overflow: visible !important;
 }
+
+/* ========================================
+   EVENTS PAGE — (( FIX ))
+======================================== */
+
+.events-page {
+  width: 100%;
+  max-width: none;
+  margin-inline: 0;
+  padding: 60px max(6%, calc((100% - 1080px) / 2)) 80px;
+  box-sizing: border-box;
+}
+
+.events-page > .events-heading,
+.events-page > .events-page-description,
+.events-page > .events-calendar-intro {
+  width: 100%;
+  min-width: 0;
+}
+
+.events-page > .events-carousel {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  margin-inline: 0;
+  padding-right: 2px;
+}
+
+.events-carousel .event-card {
+  min-width: 0;
+}
+
+@media (max-width: 768px) {
+  .events-page {
+    width: 100%;
+    padding: 32px 6% 60px;
+  }
+
+  .events-heading,
+  .events-page-description {
+    text-align: left;
+  }
+
+  .events-carousel {
+    width: 100%;
+    gap: 16px;
+    padding-bottom: 14px;
+  }
+
+  .events-carousel .event-card {
+    flex: 0 0 86%;
+    max-width: 420px;
+  }
+
+  .event-card > img,
+  .event-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+  }
+
+  .event-content {
+    padding: 20px;
+  }
+
+  .event-content h3,
+  .event-content p {
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (min-width: 769px) {
+  .events-carousel .event-card {
+    flex: 0 0 300px;
+  }
+}
