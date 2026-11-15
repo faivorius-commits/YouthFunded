@@ -34,7 +34,7 @@ const articles: Article[] = [
     subtitle: "How Supply-Chain Costs Can Affect the Prices Consumers Pay",
     category: "Economy & Everyday Life",
     contributors: ["Zeska", "Nady"],
-    publishedAt: "November, 2026",
+    publishedAt: "October, 2026",
     excerpt:
       "From fuel and raw materials to transportation and distribution, discover how supply-chain disruptions can contribute to higher grocery prices.",
     coverImage: "images/supply-chains-grocery-bills.jpg",
