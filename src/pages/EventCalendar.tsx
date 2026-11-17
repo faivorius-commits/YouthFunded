@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import "./EventCalendar.css";
 
@@ -71,6 +70,14 @@ const monthNames = [
 
 const weekdays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
+function getDateKey(date: Date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+
+  return `${year}-${month}-${day}`;
+}
+
 function formatDate(dateString: string) {
   const [year, month, day] = dateString.split("-").map(Number);
 
@@ -82,14 +89,20 @@ function formatDate(dateString: string) {
 }
 
 function EventCalendar() {
+  const today = new Date();
+
   const [currentMonth, setCurrentMonth] = useState(
-    new Date(2026, 9, 1)
+    new Date(today.getFullYear(), today.getMonth(), 1)
   );
 
-  const [selectedDate, setSelectedDate] = useState("2026-10-17");
+  const [selectedDate, setSelectedDate] = useState(
+    getDateKey(today)
+  );
 
   const year = currentMonth.getFullYear();
   const month = currentMonth.getMonth();
+
+  const todayKey = getDateKey(new Date());
 
   const firstDay = new Date(year, month, 1).getDay();
   const daysInMonth = new Date(year, month + 1, 0).getDate();
@@ -115,6 +128,16 @@ function EventCalendar() {
 
       return dateKey >= event.startDate && dateKey <= endDate;
     });
+  }
+
+  function goToToday() {
+    const now = new Date();
+
+    setCurrentMonth(
+      new Date(now.getFullYear(), now.getMonth(), 1)
+    );
+
+    setSelectedDate(getDateKey(now));
   }
 
   const selectedEvents = getEventsForDate(selectedDate);
@@ -148,6 +171,14 @@ function EventCalendar() {
             </button>
           </div>
 
+          <button
+            type="button"
+            className="calendar-today-button"
+            onClick={goToToday}
+          >
+            Today
+          </button>
+
           <div className="calendar-weekdays">
             {weekdays.map((day) => (
               <div key={day}>{day}</div>
@@ -168,6 +199,7 @@ function EventCalendar() {
               const dateKey = formatKey(day);
               const dayEvents = getEventsForDate(dateKey);
               const isSelected = selectedDate === dateKey;
+              const isToday = todayKey === dateKey;
 
               return (
                 <button
@@ -175,11 +207,14 @@ function EventCalendar() {
                   key={dateKey}
                   className={`calendar-day ${
                     isSelected ? "selected" : ""
-                  } ${dayEvents.length > 0 ? "has-event" : ""}`}
+                  } ${dayEvents.length > 0 ? "has-event" : ""} ${
+                    isToday ? "today" : ""
+                  }`}
                   onClick={() => setSelectedDate(dateKey)}
                   aria-label={`${formatDate(dateKey)}${
                     dayEvents.length > 0 ? ", has events" : ""
-                  }`}
+                  }${isToday ? ", today" : ""}`}
+                  aria-current={isToday ? "date" : undefined}
                 >
                   <span className="calendar-day-number">
                     {day}
