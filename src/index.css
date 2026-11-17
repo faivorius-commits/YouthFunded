@@ -5148,25 +5148,27 @@ transform: none;
   min-width: 0;
 }
 
+
 .event-document-preview {
   display: block;
-  width: fit-content;
+  width: 100%;
   max-width: 100%;
   height: auto;
   overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: #f5f4f1;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
 }
 
-/* Gambar sertifikat mengikuti rasio aslinya */
+/* Gambar mengikuti rasio aslinya */
 .event-document-preview img {
   display: block;
-  width: auto;
+  width: 100%;
   height: auto;
   max-width: 100%;
   object-fit: contain;
 }
+
 
 /* Dokumen PDF */
 .event-document-preview iframe {
