@@ -42,6 +42,13 @@ const eventMedia: Record<string, EventMedia> = {
 ],
   },
 
+  "workshop-visit-maria-imaculata-orphanage": {
+    photos: Array.from(
+      { length: 2 },
+      (_, index) => `/event2-doc${index + 1}.jpg`
+    ),
+  },
+  
   "workshop-visit-aisyiyah-tahfidz-quran-orphanage": {
     photos: Array.from(
       { length: 3 },
