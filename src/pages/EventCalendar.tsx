@@ -31,10 +31,10 @@ const events: CalendarEvent[] = [
   {
     startDate: "2026-10-24",
     endDate: "2026-10-24",
-    title: "Orphanage Visit 1",
+    title: "Workshop Visit: Maria Imaculata Orphanage",
     description:
-      "An educational visit dedicated to introducing financial literacy to children through fun and interactive learning activities. Participants will learn the basics of money management, saving, and making wise financial decisions to build healthy financial habits from an early age.",
-    status: "upcoming",
+      "An educational visit dedicated to introducing children to essential financial literacy. Through interactive learning and fun activities, we encouraged smarter and more responsible financial decisions.",
+    status: "past",
   },
   {
     startDate: "2026-11-01",
@@ -42,15 +42,15 @@ const events: CalendarEvent[] = [
     title: "Orphanage Visit 2",
     description:
       "An educational visit dedicated to introducing financial literacy to children through fun and interactive learning activities. Participants will learn the basics of money management, saving, and making wise financial decisions to build healthy financial habits from an early age.",
-    status: "upcoming",
+    status: "past",
   },
   {
-    startDate: "2026-11-08",
-    endDate: "2026-11-08",
+    startDate: "2026-11-07",
+    endDate: "2026-11-07",
     title: "Orphanage Visit 3",
     description:
       "An educational visit combining financial literacy learning with an environmental awareness seminar in collaboration with WWF Indonesia. Through interactive teaching sessions, children will learn the fundamentals of money management, saving, and wise financial decisions while exploring the importance of environmental conservation, biodiversity, and sustainable living.",
-    status: "upcoming",
+    status: "past",
   },
 ];
 
