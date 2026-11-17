@@ -26,6 +26,24 @@ export const events: YouthFundedEvent[] = [
   },
 
   {
+  slug: "aisyiyah-tahfidz-quran-orphanage",
+  title: "Aisyiyah Tahfidz Quran Orphanage",
+  image: "/event3-doc1.jpg",
+  date: "November 1, 2026",
+  place: "Aisyiyah Tahfidz Quran Orphanage",
+  description:
+    "A meaningful visit to Aisyiyah Tahfidz Quran Orphanage on November 1, 2026, as part of YouthFunded's commitment to creating positive social impact. This event highlights the importance of compassion, community engagement, and supporting children through meaningful connections and shared experiences.",
+  details: [
+    "On November 1, 2026, YouthFunded visited Aisyiyah Tahfidz Quran Orphanage as part of its community engagement initiative. The visit focused on creating a welcoming environment where the children could participate, interact, and enjoy meaningful activities together. 🧩✨",
+    "Before the visit, the Events Division prepared several ice-breaking activities and collected materials needed for the games, including A4 paper and ping-pong balls. These preparations helped ensure that each activity could be carried out smoothly.",
+    "One of the main activities was a ball relay game, where participants were divided into three groups. The game encouraged teamwork, communication, and active participation. 🎈",
+    "Another activity was a word-based guessing game featuring prompts such as sewing, dancing, praying, riding a horse, eating, and other everyday actions. Participants had the opportunity to express themselves through gestures, creativity, and collaboration.",
+    "Beyond the games themselves, the visit was an opportunity to build connections, share laughter, and create positive memories. It reflected the importance of community involvement through simple yet meaningful interactions.",
+    "YouthFunded extends its appreciation to everyone who contributed their time, effort, and resources to make this visit possible. 🤍"
+  ],
+},
+
+  {
     slug: "workshop-visit-maria-imaculata-orphanage",
     title: "Workshop Visit: Maria Imaculata Orphanage",
     image: "/event2-doc1.jpg",
