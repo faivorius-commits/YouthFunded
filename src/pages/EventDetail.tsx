@@ -1,4 +1,3 @@
-
 import { useState, useRef, useEffect, type TouchEvent } from "react";
 import { events } from "../data/events";
 
@@ -44,7 +43,7 @@ const eventMedia: Record<string, EventMedia> = {
   },
 
   "workshop-visit-aisyiyah-tahfidz-quran-orphanage": {
-    photos: Array, from(
+    photos: Array.from(
       { length: 3 },
       (_, index) => `/event3-doc${index + 1}.jpg`
     ),
