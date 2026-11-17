@@ -43,12 +43,20 @@ const eventMedia: Record<string, EventMedia> = {
 ],
   },
 
+  "workshop-visit-aisyiyah-tahfidz-quran-orphanage": {
+    photos: Array, from(
+      { length: 3 },
+      (_, index) => `/event3-doc${index + 1}.jpg`
+    ),
+  },
+       
   "national-global-school-visit": {
     photos: Array.from(
       { length: 5 },
       (_, index) => `/event4-doc${index + 1}.jpg`
     ),
   },
+
   /*
    * Contoh event lain:
    *
