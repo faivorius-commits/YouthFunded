@@ -60,6 +60,26 @@ return (
   </article>
 
   <article className="event-card">
+    <img src="/event3-doc1.jpg"
+      alt="Workshop Visit: Panti Asuhan Aisyiyah Tahfidz Quran"
+    /> <div className="event-content">
+      <h3>Workshop Visit: Aisyiyah Tahfidz Quran Orphanage</h3>
+      <p>  A meaningful visit to Aisyiyah Tahfidz Quran Orphanage, bringing compassion, connection, and positive experiences to the community.  </p>
+      <div className="event-meta">
+        <p> <strong>Date:</strong> November 1, 2026 </p>
+        <p>
+          <strong>Place:</strong>Aisyiyah Tahfidz Quran Orphanage
+        </p>
+      </div>
+      <a
+        className="event-read-more"
+        href="/events/workshop-visit-aisyiyah-tahfidz-quran-orphanage"  >
+        Read More <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </article>  
+
+  <article className="event-card">
     <img src="/event2-doc1.jpg" alt="Workshop Visit: Panti Asuhan Maria Imaculata Bekasi" />
     <div className="event-content">
       <h3>Workshop Visit: Maria Imaculata Orphanage</h3>
