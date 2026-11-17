@@ -39,9 +39,9 @@ const events: CalendarEvent[] = [
   {
     startDate: "2026-11-01",
     endDate: "2026-11-01",
-    title: "Orphanage Visit 2",
+    title: "Workshop Visit: Aisyiyah Tahfidz Quran Orphanage",
     description:
-      "An educational visit dedicated to introducing financial literacy to children through fun and interactive learning activities. Participants will learn the basics of money management, saving, and making wise financial decisions to build healthy financial habits from an early age.",
+      "A meaningful visit to Aisyiyah Tahfidz Quran Orphanage, bringing compassion, connection, and positive experiences to the community.",
     status: "past",
   },
   {
