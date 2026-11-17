@@ -30,7 +30,7 @@ return (
   </div>
 
   <div className="events-page-description">
-    <p>Take a look at our past events</p>
+    <p>Take a look at our past events👀</p>
   </div>
 
   {/* Featured Event Card */}
