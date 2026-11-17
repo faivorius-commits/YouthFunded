@@ -37,7 +37,7 @@ return (
   <section className="events-carousel">
 
   <article className="event-card">
-    <img src="/event3-doc1.jpg"
+    <img src="/event4-doc1.jpg"
       alt="YouthFunded visit to National Global School"
     /> <div className="event-content">
       <h3>YouthFunded Visit to National Global School</h3>
