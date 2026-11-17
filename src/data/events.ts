@@ -26,8 +26,8 @@ export const events: YouthFundedEvent[] = [
   },
 
   {
-  slug: "aisyiyah-tahfidz-quran-orphanage",
-  title: "Aisyiyah Tahfidz Quran Orphanage",
+  slug: "workshop-visit-aisyiyah-tahfidz-quran-orphanage",
+  title: "Workshop Visit: Aisyiyah Tahfidz Quran Orphanage",
   image: "/event3-doc1.jpg",
   date: "November 1, 2026",
   place: "Aisyiyah Tahfidz Quran Orphanage",
