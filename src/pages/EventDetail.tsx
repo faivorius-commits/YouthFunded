@@ -45,8 +45,8 @@ const eventMedia: Record<string, EventMedia> = {
 
   "national-global-school-visit": {
     photos: Array.from(
-      { length: 4 },
-      (_, index) => `/event3-doc${index + 1}.jpg`
+      { length: 5 },
+      (_, index) => `/event4-doc${index + 1}.jpg`
     ),
   },
   /*
