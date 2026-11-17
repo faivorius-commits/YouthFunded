@@ -341,3 +341,36 @@
     transition: none;
   }
 }
+
+
+/* Today's date */
+.calendar-day.today {
+  border: 1px solid #f7aac4;
+  color: #e58aaa;
+  font-weight: 700;
+}
+
+.calendar-day.today.selected {
+  background: #f7aac4;
+  color: white;
+}
+
+/* Back to today's date */
+.calendar-today-button {
+  display: block;
+  margin: 0 auto 16px;
+  padding: 6px 18px;
+  border: 1px solid #f7aac4;
+  border-radius: 20px;
+  background: transparent;
+  color: #e58aaa;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.calendar-today-button:hover {
+  background: #f7aac4;
+  color: white;
+}
