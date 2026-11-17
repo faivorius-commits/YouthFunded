@@ -47,9 +47,9 @@ const events: CalendarEvent[] = [
   {
     startDate: "2026-11-07",
     endDate: "2026-11-07",
-    title: "Orphanage Visit 3",
+    title: "YouthFunded Visit to National Global School",
     description:
-      "An educational visit combining financial literacy learning with an environmental awareness seminar in collaboration with WWF Indonesia. Through interactive teaching sessions, children will learn the fundamentals of money management, saving, and wise financial decisions while exploring the importance of environmental conservation, biodiversity, and sustainable living.",
+      "A meaningful day of shared learning, inspiring conversations, and new connections with students. Together, we celebrated the power of knowledge, collaboration, and youth empowerment.",
     status: "past",
   },
 ];
