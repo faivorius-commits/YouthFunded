@@ -5061,11 +5061,13 @@ transform: none;
   margin-bottom: 36px;
 }
 
+
+
 .event-gallery-frame {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  background: #f4f2ef;
+  background: transparent;
   touch-action: pan-y;
 }
 
@@ -5074,6 +5076,7 @@ transform: none;
   width: 100%;
   height: auto;
   max-height: 680px;
+  margin: 0;
   aspect-ratio: 16 / 9;
   object-fit: cover;
 }
